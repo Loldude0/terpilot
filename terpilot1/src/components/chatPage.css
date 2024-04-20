@@ -1,0 +1,82 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 45px);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .messages {
+    flex-grow: 1;
+    width: 90%;
+    overflow-y: auto;
+    margin-top: 80px;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: var(--modal-bg-color);
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+  }
+  
+  .input-container input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    background-color: var(--modal-bg-color);
+    color: var(--text-color);
+    font-size: 1.2rem;
+  }
+  
+  .send-button-icon {
+    width: 40px; /* Set appropriate size */
+    height: 40px; /* Set appropriate size */
+    cursor: pointer;
+  }
+  .send-button {
+    background-color: transparent; /* or use 'background-color: var(--background-color);' to match */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .send-button:hover {
+    background-color: #d3d1d1; /* This will be the color on hover, adjust as needed */
+  }
+  
+  .send-button-icon {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;  /* Increased size */
+    width: 100%;
+    height: 100px; /* Ensure enough space for the animation */
+    color: var(--accent-color); /* Adjust color to fit the theme */
+    animation: bounce 2s infinite alternate ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
