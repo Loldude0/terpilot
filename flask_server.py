@@ -43,4 +43,14 @@ def get_probable():
     
     return jsonify({"response": response})
 
+@app.route("/getresponse", methods=["POST"])
+def get_probable_get():
+    data = request.args.get("data")
+    assert type(data) == list
+    
+    # get list of sections from database
+    # format it
+    # return
+    pass
+
 app.run(debug=True)

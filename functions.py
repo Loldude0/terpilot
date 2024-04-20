@@ -1,3 +1,5 @@
+import requests
+
 tmp_time_data = {
     "CMSC330": {"0101":["1130050", None, "1130050", None, None], "0102": ["1130050", None, "0930050", None, None]},
     "CMSC351": {"0101":["0830050", None, "1330050", None, None], "0102": ["1130050", None," 0930050", None, None]},
@@ -37,6 +39,7 @@ def generate_schedule_aux(class_lst, time_table, idx, lst, res):
                     
 
 def generate_schedule(lst):
+    # post request to get section time data    
     class_lst = tmp_time_data
     res = []
     time_table = [False] * 5 * 24 * 6
