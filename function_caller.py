@@ -5,12 +5,13 @@ from gemini_context_manager import GeminiContextManager
 import re
 from functions import *
 import ast
+import re
 
 load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
         
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-1.5-pro-latest")
 
 function_list = {
     "generate_schedule": {"description": """this function generates a schedule based on the input list of classes.
@@ -22,29 +23,34 @@ function_list = {
                     "function": general_chat}
 }
 
+def clean_response(response):
+    response = re.search(r"(```(json)?\n)?(\{.+\})(\n```)?", response).group(3)
+    return response
+
+
 class FunctionCaller:
     def __init__(self):
         self.context_manager = GeminiContextManager()
         self.systemprompt = f"""
 
-[SYSTEM PRPMPT]
-You are a function caller that parses natural language queries and calls the appropriate function to help the user.
-Your job is to call the function, and each function will do the rest of the work.
+            [SYSTEM PRPMPT]
+            You are a function caller that parses natural language queries and calls the appropriate function to help the user.
+            Your job is to call the function, and each function will do the rest of the work.
 
-The available functions are: {function_list.keys()}
+            The available functions are: {function_list.keys()}
 
-The description of the functions are: {[f"{func}: {function_list[func]['description']}" for func in function_list.keys()]}
+            The description of the functions are: {[f"{func}: {function_list[func]['description']}" for func in function_list.keys()]}
 
-RESPONSE FORMAT:
-{{ "function": ~name of the function~, "args": [~list of arguments for the function here separated by comma~] }}
+            RESPONSE FORMAT:
+            {{ "function": ~name of the function~, "args": [~list of arguments for the function here separated by comma~] }}
 
-example:
-{{ "function": "generate_schedule", "args": [["CMSC330", "CMSC351", "ENGL101"]] }}
+            example:
+            {{ "function": "generate_schedule", "args": [["CMSC330", "CMSC351", "ENGL101"]] }}
 
-!!IMPORTANT!! MAKE SURE TO FOLLOW THE FORMAT EXACTLY AS SHOWN ABOVE
-!!YOU MUST USE THE RESPONSE FORMAT ABOVE TO CALL THE FUNCTION. DO NOT RESPOND WITH NATURAL LANGUAGE!
-!!IMPORTANT!! DO NOT RESPOND SAYING YOU CANNOT HELP. JUST RESPOND WITH THE FUNCTION CALL.
-"""
+            !!IMPORTANT!! MAKE SURE TO FOLLOW THE FORMAT EXACTLY AS SHOWN ABOVE
+            !!YOU MUST USE THE RESPONSE FORMAT ABOVE TO CALL THE FUNCTION. DO NOT RESPOND WITH NATURAL LANGUAGE!
+            !!IMPORTANT!! DO NOT RESPOND SAYING YOU CANNOT HELP. JUST RESPOND WITH THE FUNCTION CALL.
+        """
         self.systemprompt_response = "Certainly, I can help with calling functions"
         
         self.context_manager.add_context("user",self.systemprompt)
@@ -56,6 +62,7 @@ example:
         chat = model.start_chat(history=self.context_manager.get_context())
         response = chat.send_message(input_text).text
         #print(response)
+        response = clean_response(response)
         response_dict = ast.literal_eval(response)
         #print(response_dict["args"])
         response,message = function_list[response_dict["function"]]["function"](*response_dict["args"],self.context_manager)
@@ -63,12 +70,13 @@ example:
         self.context_manager.add_context("user",input_text)
         self.context_manager.add_context("model",message)
         
+        
         return response
 
 if __name__ == "__main__":
     test_input = "hi, what can you do?"
     fc = FunctionCaller()
     print(fc.parse_query("can you help me with making a ldcass schedule? I want to take CMSC330, CMSC420, and ENGL101 next semester"))
-    print(fc.parse_query("how are you doing?"))
+    #print(fc.parse_query("how are you doing?"))
     
 
