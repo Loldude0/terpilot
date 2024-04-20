@@ -1,0 +1,162 @@
+{
+    "course_name": "Object-Oriented Programming II",
+    "course_number": "CMSC132",
+    "credits": "4",
+    "grading_method": "Reg",
+    "prereq": "MATH140, CMSC131",
+    "description": "Introduction to use of computers to solve problems using software engineering principles. Design, build, test, and debug medium -size software systems and learn to use relevant tools. Use object-oriented methods to create effective and efficient problem solutions. Use and implement application programming interfaces (APIs). Programming done in Java.",
+    "sections": [
+        {
+            "section_id": "0101",
+            "professor": "Larry Herman",
+            "total_seats": "34",
+            "open_seats": "28",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | MW 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0102",
+            "professor": "Larry Herman",
+            "total_seats": "34",
+            "open_seats": "32",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | MW 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0103",
+            "professor": "Larry Herman",
+            "total_seats": "34",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | MW 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0104",
+            "professor": "Larry Herman",
+            "total_seats": "34",
+            "open_seats": "33",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | MW 3:00pm-3:50pm"
+        },
+        {
+            "section_id": "0105",
+            "professor": "Larry Herman",
+            "total_seats": "34",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | MW 3:00pm-3:50pm"
+        },
+        {
+            "section_id": "0106",
+            "professor": "Larry Herman",
+            "total_seats": "34",
+            "open_seats": "32",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | MW 4:00pm-4:50pm"
+        },
+        {
+            "section_id": "0107",
+            "professor": "Larry Herman",
+            "total_seats": "32",
+            "open_seats": "32",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | MW 4:00pm-4:50pm"
+        },
+        {
+            "section_id": "0201",
+            "professor": "Larry Herman",
+            "total_seats": "36",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MWF 2:00pm-2:50pm | MW 3:00pm-3:50pm"
+        },
+        {
+            "section_id": "0202",
+            "professor": "Larry Herman",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "MWF 2:00pm-2:50pm | MW 3:00pm-3:50pm"
+        },
+        {
+            "section_id": "0203",
+            "professor": "Larry Herman",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "MWF 2:00pm-2:50pm | MW 3:00pm-3:50pm"
+        },
+        {
+            "section_id": "0204",
+            "professor": "Larry Herman",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "MWF 2:00pm-2:50pm | MW 4:00pm-4:50pm"
+        },
+        {
+            "section_id": "0205",
+            "professor": "Larry Herman",
+            "total_seats": "36",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "MWF 2:00pm-2:50pm | MW 4:00pm-4:50pm"
+        },
+        {
+            "section_id": "0206",
+            "professor": "Larry Herman",
+            "total_seats": "36",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "MWF 2:00pm-2:50pm | MW 5:00pm-5:50pm"
+        },
+        {
+            "section_id": "0301",
+            "professor": "Anwar Mamat",
+            "total_seats": "35",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MW 3:30pm-4:45pm | MW 8:00am-8:50am"
+        },
+        {
+            "section_id": "0302",
+            "professor": "Anwar Mamat",
+            "total_seats": "35",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MW 3:30pm-4:45pm | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0303",
+            "professor": "Anwar Mamat",
+            "total_seats": "35",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "MW 3:30pm-4:45pm | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0304",
+            "professor": "Anwar Mamat",
+            "total_seats": "35",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "MW 3:30pm-4:45pm | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0305",
+            "professor": "Anwar Mamat",
+            "total_seats": "35",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "MW 3:30pm-4:45pm | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0306",
+            "professor": "Anwar Mamat",
+            "total_seats": "35",
+            "open_seats": "23",
+            "waitlist": "0",
+            "times": "MW 3:30pm-4:45pm | MW 11:00am-11:50am"
+        }
+    ]
+}

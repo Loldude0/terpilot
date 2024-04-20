@@ -1,0 +1,870 @@
+[
+    {
+        "course_name": "Academic Writing",
+        "course_number": "ENGL101",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "description": "An introductory course in expository writing.",
+        "geneds": [
+            "FSAW"
+        ],
+        "sections": [
+            {
+                "section_id": "0001",
+                "professor": "Xiaofang Huang",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am"
+            },
+            {
+                "section_id": "0002",
+                "professor": "Dalton Greene",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am"
+            },
+            {
+                "section_id": "0101",
+                "professor": "Porter Olsen",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0102",
+                "professor": "William Pittman",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0103",
+                "professor": "Liam Daley",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0108",
+                "professor": "Eric Baker",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Andrea Knowles",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0202",
+                "professor": "William Pittman",
+                "total_seats": "17",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0205",
+                "professor": "Ariana Nash",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0208",
+                "professor": "Mike Kolakoski",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0302",
+                "professor": "Daniel Sidman",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0303",
+                "professor": "Mike Kolakoski",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0304",
+                "professor": "Halla Khalil",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0305",
+                "professor": "Ariana Nash",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0306",
+                "professor": "Porter Olsen",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0402",
+                "professor": "Alan Montroso",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0403",
+                "professor": "Mike Kolakoski",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0404",
+                "professor": "Porter Olsen",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0405",
+                "professor": "Ariana Nash",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0406",
+                "professor": "Daniel Sidman",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0502",
+                "professor": "Olubukola Salako",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0503",
+                "professor": "Corinne Brinkley",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0504",
+                "professor": "Mike Kolakoski",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0505",
+                "professor": "Andrea Knowles",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0602",
+                "professor": "Declan Langton",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0603",
+                "professor": "Andrea Knowles",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0604",
+                "professor": "Gregory Deinert",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0605",
+                "professor": "Dylan Carpenter",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "1001",
+                "professor": "Susan Pramschufer",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "1002",
+                "professor": "Preet Bhela",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "1101",
+                "professor": "Rashi Maheshwari",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1102",
+                "professor": "Ava Serra",
+                "total_seats": "15",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1103",
+                "professor": "Stephanie Allen",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1104",
+                "professor": "Aubrey Zinn",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1109",
+                "professor": "Rachel Cote",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1203",
+                "professor": "Peter Grybauskas",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1204",
+                "professor": "Sabrina Islam",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1205",
+                "professor": "Stephanie Allen",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1209",
+                "professor": "John Macintosh",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1210",
+                "professor": "Olubukola Salako",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1301",
+                "professor": "Rachel Cote",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1302",
+                "professor": "John Macintosh",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1303",
+                "professor": "Olubukola Salako",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1304",
+                "professor": "Nahid Ahmadian",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1305",
+                "professor": "Victoria Moten",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1307",
+                "professor": "Heather McHale",
+                "total_seats": "0",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1308",
+                "professor": "Andrew Howard",
+                "total_seats": "17",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1401",
+                "professor": "Peter Grybauskas",
+                "total_seats": "17",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1402",
+                "professor": "Elizabeth Osei",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1403",
+                "professor": "Instructor: TBA",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1404",
+                "professor": "John Macintosh",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1405",
+                "professor": "Olubukola Salako",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1407",
+                "professor": "Sabrina Islam",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Paul Cote",
+                "total_seats": "17",
+                "open_seats": "1",
+                "waitlist": "0",
+                "times": "MW 3:00pm-4:15pm"
+            },
+            {
+                "section_id": "FC02",
+                "professor": "Paul Cote",
+                "total_seats": "17",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "MW 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "FC03",
+                "professor": "Emilee Durand",
+                "total_seats": "17",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "MW 6:00pm-7:15pm"
+            },
+            {
+                "section_id": "FC04",
+                "professor": "Gregory Deinert",
+                "total_seats": "17",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MW 6:00pm-7:15pm"
+            },
+            {
+                "section_id": "FC05",
+                "professor": "Dylan Carpenter",
+                "total_seats": "17",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MW 6:00pm-7:15pm"
+            },
+            {
+                "section_id": "FC06",
+                "professor": "Gregory Deinert",
+                "total_seats": "17",
+                "open_seats": "10",
+                "waitlist": "0",
+                "times": "MW 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "FC07",
+                "professor": "Brian Davis",
+                "total_seats": "17",
+                "open_seats": "9",
+                "waitlist": "0",
+                "times": "MW 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "FC08",
+                "professor": "Anthony Batts",
+                "total_seats": "17",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "FC09",
+                "professor": "Instructor: TBA",
+                "total_seats": "17",
+                "open_seats": "12",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "FC10",
+                "professor": "Mariko Carson",
+                "total_seats": "17",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm"
+            },
+            {
+                "section_id": "FC11",
+                "professor": "Instructor: TBA",
+                "total_seats": "17",
+                "open_seats": "8",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm"
+            },
+            {
+                "section_id": "FC12",
+                "professor": "Sydney Sharpstene",
+                "total_seats": "17",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "MW 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "FC13",
+                "professor": "Mariko Carson",
+                "total_seats": "17",
+                "open_seats": "7",
+                "waitlist": "0",
+                "times": "TuTh 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "FC14",
+                "professor": "Instructor: TBA",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "FC15",
+                "professor": "Instructor: TBA",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "FC16",
+                "professor": "Instructor: TBA",
+                "total_seats": "17",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "TuTh 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "FC17",
+                "professor": "Chauncey Dennie",
+                "total_seats": "17",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "FC18",
+                "professor": "Sabrina Islam",
+                "total_seats": "17",
+                "open_seats": "9",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "FC19",
+                "professor": "Anne Bolgiano",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MW 6:00pm-7:15pm"
+            },
+            {
+                "section_id": "FC20",
+                "professor": "Anne Bolgiano",
+                "total_seats": "17",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "MW 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "FC21",
+                "professor": "Sydney Sharpstene",
+                "total_seats": "17",
+                "open_seats": "8",
+                "waitlist": "0",
+                "times": "MW 3:00pm-4:15pm"
+            },
+            {
+                "section_id": "FC22",
+                "professor": "Nahid Ahmadian",
+                "total_seats": "17",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "FC23",
+                "professor": "Sydney Sharpstene",
+                "total_seats": "17",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "MW 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "FC24",
+                "professor": "Chauncey Dennie",
+                "total_seats": "17",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm"
+            },
+            {
+                "section_id": "FC25",
+                "professor": "Anne Bolgiano",
+                "total_seats": "17",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "MW 3:00pm-4:15pm"
+            },
+            {
+                "section_id": "FC26",
+                "professor": "Dylan Carpenter",
+                "total_seats": "17",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "MW 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "FC27",
+                "professor": "Anne Bolgiano",
+                "total_seats": "17",
+                "open_seats": "12",
+                "waitlist": "0",
+                "times": "MW 7:30pm-8:45pm"
+            },
+            {
+                "section_id": "1702",
+                "professor": "Nahid Ahmadian",
+                "total_seats": "13",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1703",
+                "professor": "Liam Daley",
+                "total_seats": "13",
+                "open_seats": "12",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0109",
+                "professor": "Katherine Joshi",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0210",
+                "professor": "Katherine Joshi",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0310",
+                "professor": "Katherine Joshi",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0407",
+                "professor": "Katherine Joshi",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0507",
+                "professor": "Alan Montroso",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "1001",
+                "professor": "Andrew Howard",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "1107",
+                "professor": "Andrew Howard",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0110",
+                "professor": "Tom Hatcher",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0211",
+                "professor": "Joshua Weiss",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0212",
+                "professor": "Tom Hatcher",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0311",
+                "professor": "Joshua Weiss",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0312",
+                "professor": "Tom Hatcher",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0410",
+                "professor": "Joshua Weiss",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0509",
+                "professor": "Kara Pleasants",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0607",
+                "professor": "Kara Pleasants",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "1108",
+                "professor": "Lara Payne",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1209",
+                "professor": "Lara Payne",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1210",
+                "professor": "Anthony Batts",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1308",
+                "professor": "Anthony Batts",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1401",
+                "professor": "Anthony Batts",
+                "total_seats": "17",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "2002",
+                "professor": "Laura Williams",
+                "total_seats": "16",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "2003",
+                "professor": "Laura Williams",
+                "total_seats": "16",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "2004",
+                "professor": "Janet Shim",
+                "total_seats": "16",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "2005",
+                "professor": "Janet Shim",
+                "total_seats": "18",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "2007",
+                "professor": "Janet Shim",
+                "total_seats": "16",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            }
+        ]
+    }
+]

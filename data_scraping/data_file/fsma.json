@@ -1,0 +1,986 @@
+[
+    {
+        "course_name": "Elementary Statistics and Probability",
+        "course_number": "DATA100",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH115",
+        "restriction": "Must not have completed MATH111; or must not have completed any STAT course with a prerequisite of MATH141",
+        "description": "Simplest tests of statistical hypotheses; applications to before-and-after and matched pair studies. Events, probability, combinations, independence. Binomial probabilities, confidence limits. Random variables, expected values, median, variance. Tests based on ranks. Law of large numbers, normal approximation. Estimates of mean and variance.",
+        "geneds": [
+            "FSAR",
+            "FSMA"
+        ],
+        "sections": [
+            {
+                "section_id": "0111",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | M 9:30am-10:45am"
+            },
+            {
+                "section_id": "0112",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | M 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0121",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Tu 9:30am-10:45am"
+            },
+            {
+                "section_id": "0122",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Tu 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0123",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Tu 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0124",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Tu 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0131",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | W 9:30am-10:45am"
+            },
+            {
+                "section_id": "0141",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Th 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0211",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | M 9:30am-10:45am"
+            },
+            {
+                "section_id": "0212",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | M 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0221",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Tu 9:30am-10:45am"
+            },
+            {
+                "section_id": "0222",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Tu 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0223",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Tu 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0224",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Tu 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0231",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | W 9:30am-10:45am"
+            },
+            {
+                "section_id": "0241",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Th 9:30am-10:45am"
+            },
+            {
+                "section_id": "0311",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | M 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0312",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | M 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0321",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | W 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0322",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | W 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0331",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Th 9:30am-10:45am"
+            },
+            {
+                "section_id": "0333",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Th 12:30pm-1:45pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Elementary Calculus I",
+        "course_number": "MATH120",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "",
+        "restriction": "Not open to students majoring in mathematics, engineering, the biological sciences, biochemistry, chemistry, or the physical sciences; Must not have completed MATH130, MATH136 or MATH140 with a grade of C- or higher",
+        "description": "Basic ideas of differential and integral calculus, with emphasis on elementary techniques of differentiation and applications.",
+        "geneds": [
+            "FSAR",
+            "FSMA"
+        ],
+        "sections": [
+            {
+                "section_id": "0111",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 8:00am-8:50am"
+            },
+            {
+                "section_id": "0121",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 9:00am-9:50am"
+            },
+            {
+                "section_id": "0131",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 10:00am-10:50am"
+            },
+            {
+                "section_id": "0141",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 11:00am-11:50am"
+            },
+            {
+                "section_id": "0211",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Tu 8:00am-8:50am"
+            },
+            {
+                "section_id": "0221",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Tu 9:00am-9:50am"
+            },
+            {
+                "section_id": "0231",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Tu 10:00am-10:50am"
+            },
+            {
+                "section_id": "0241",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Tu 11:00am-11:50am"
+            },
+            {
+                "section_id": "0311",
+                "professor": "Mestiyage Gunatilleka",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | M 11:00am-11:50am"
+            },
+            {
+                "section_id": "0321",
+                "professor": "Mestiyage Gunatilleka",
+                "total_seats": "25",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | M 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0331",
+                "professor": "Mestiyage Gunatilleka",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | M 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0341",
+                "professor": "Mestiyage Gunatilleka",
+                "total_seats": "25",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | M 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0411",
+                "professor": "Instructor: TBA",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 11:00am-11:50am"
+            },
+            {
+                "section_id": "0421",
+                "professor": "Instructor: TBA",
+                "total_seats": "25",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0431",
+                "professor": "Instructor: TBA",
+                "total_seats": "25",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0441",
+                "professor": "Instructor: TBA",
+                "total_seats": "25",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm | F 9:00am-9:50am"
+            },
+            {
+                "section_id": "FC02",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm | F 10:00am-10:50am"
+            },
+            {
+                "section_id": "FC03",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "4",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm | F 11:00am-11:50am"
+            },
+            {
+                "section_id": "FC04",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm | F 1:00pm-1:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Discrete Mathematics for Life Sciences",
+        "course_number": "MATH135",
+        "credits": "4",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH115",
+        "restriction": "Must be in the Biological Sciences or Neuroscience major; and not open to students majoring in mathematics, engineering, or the physical sciences",
+        "description": "Basic discrete mathematics, with emphasis on relevant models and techniques to the life sciences.",
+        "geneds": [
+            "FSAR",
+            "FSMA"
+        ],
+        "sections": [
+            {
+                "section_id": "0111",
+                "professor": "Todd Rowland",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | WF 8:00am-8:50am"
+            },
+            {
+                "section_id": "0121",
+                "professor": "Todd Rowland",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | WF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0131",
+                "professor": "Todd Rowland",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | WF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0141",
+                "professor": "Todd Rowland",
+                "total_seats": "24",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | WF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0211",
+                "professor": "Kendall Williams",
+                "total_seats": "24",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | MW 11:00am-11:50am"
+            },
+            {
+                "section_id": "0221",
+                "professor": "Kendall Williams",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | MW 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0231",
+                "professor": "Kendall Williams",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | MW 1:00pm-1:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Calculus I",
+        "course_number": "MATH140",
+        "credits": "4",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH115",
+        "description": "Introduction to calculus, including functions, limits, continuity, derivatives and applications of the derivative, sketching of graphs of functions, definite and indefinite integrals, and calculation of area. The course is especially recommended for science, engineering and mathematics majors.",
+        "geneds": [
+            "FSAR",
+            "FSMA"
+        ],
+        "sections": [
+            {
+                "section_id": "0111",
+                "professor": "Kendall Williams",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "0113",
+                "professor": "Kendall Williams",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "0121",
+                "professor": "Kendall Williams",
+                "total_seats": "20",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0123",
+                "professor": "Kendall Williams",
+                "total_seats": "20",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0131",
+                "professor": "Kendall Williams",
+                "total_seats": "20",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0211",
+                "professor": "Steven Chadwick",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0213",
+                "professor": "Steven Chadwick",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0221",
+                "professor": "Steven Chadwick",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0223",
+                "professor": "Steven Chadwick",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0231",
+                "professor": "Steven Chadwick",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0311",
+                "professor": "Dong Quan Nguyen",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0313",
+                "professor": "Dong Quan Nguyen",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0321",
+                "professor": "Dong Quan Nguyen",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0323",
+                "professor": "Dong Quan Nguyen",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0331",
+                "professor": "Dong Quan Nguyen",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0411",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0413",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0421",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0423",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0431",
+                "professor": "Timothy Pilachowski",
+                "total_seats": "21",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0511",
+                "professor": "Steven Chadwick",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "0513",
+                "professor": "Steven Chadwick",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "0521",
+                "professor": "Steven Chadwick",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0523",
+                "professor": "Steven Chadwick",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "0531",
+                "professor": "Steven Chadwick",
+                "total_seats": "25",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "3",
+                "waitlist": "0",
+                "times": "MWTh 3:00pm-4:15pm | F 9:30am-10:45am"
+            },
+            {
+                "section_id": "FC02",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWTh 3:00pm-4:15pm | F 11:00am-12:15pm"
+            },
+            {
+                "section_id": "FC03",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWTh 3:00pm-4:15pm | F 1:00pm-2:15pm"
+            },
+            {
+                "section_id": "FC04",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "MWTh 3:00pm-4:15pm | F 2:30pm-3:45pm"
+            },
+            {
+                "section_id": "FC05",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWTh 3:00pm-4:15pm | F 2:30pm-3:45pm"
+            },
+            {
+                "section_id": "FC06",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWTh 3:00pm-4:15pm | F 9:30am-10:45am"
+            },
+            {
+                "section_id": "FC07",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWTh 3:00pm-4:15pm | F 11:00am-12:15pm"
+            },
+            {
+                "section_id": "FC08",
+                "professor": "Instructor: TBA",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWTh 3:00pm-4:15pm | F 1:00pm-2:15pm"
+            },
+            {
+                "section_id": "FC09",
+                "professor": "Craig Schlenoff",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWTh 4:30pm-5:45pm | F 2:30pm-3:45pm"
+            },
+            {
+                "section_id": "FC10",
+                "professor": "Craig Schlenoff",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWTh 4:30pm-5:45pm | F 1:00pm-2:15pm"
+            },
+            {
+                "section_id": "0101",
+                "professor": "Shiferaw Berhanu",
+                "total_seats": "22",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MF 10:00am-10:50am | W 10:00am-11:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Instructor: TBA",
+                "total_seats": "22",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "WF 11:00am-11:50am | M 11:00am-12:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Calculus I",
+        "course_number": "MATH140H",
+        "credits": "4",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH115",
+        "description": "Introduction to calculus, including functions, limits, continuity, derivatives and applications of the derivative, sketching of graphs of functions, definite and indefinite integrals, and calculation of area. The course is especially recommended for science, engineering and mathematics majors.",
+        "geneds": [
+            "FSAR",
+            "FSMA"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Shiferaw Berhanu",
+                "total_seats": "22",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MF 10:00am-10:50am | W 10:00am-11:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Instructor: TBA",
+                "total_seats": "22",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "WF 11:00am-11:50am | M 11:00am-12:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Elementary Statistics and Probability",
+        "course_number": "STAT100",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH115",
+        "restriction": "Must not have completed MATH111; or must not have completed any STAT course with a prerequisite of MATH141",
+        "description": "Simplest tests of statistical hypotheses; applications to before-and-after and matched pair studies. Events, probability, combinations, independence. Binomial probabilities, confidence limits. Random variables, expected values, median, variance. Tests based on ranks. Law of large numbers, normal approximation. Estimates of mean and variance.",
+        "geneds": [
+            "FSAR",
+            "FSMA"
+        ],
+        "sections": [
+            {
+                "section_id": "0111",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | M 9:30am-10:45am"
+            },
+            {
+                "section_id": "0112",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | M 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0121",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Tu 9:30am-10:45am"
+            },
+            {
+                "section_id": "0122",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Tu 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0123",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Tu 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0124",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Tu 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0131",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | W 9:30am-10:45am"
+            },
+            {
+                "section_id": "0141",
+                "professor": "Matthew Griffin",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am | Th 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0211",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | M 9:30am-10:45am"
+            },
+            {
+                "section_id": "0212",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | M 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0221",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Tu 9:30am-10:45am"
+            },
+            {
+                "section_id": "0222",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Tu 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0223",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Tu 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0224",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Tu 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0231",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | W 9:30am-10:45am"
+            },
+            {
+                "section_id": "0241",
+                "professor": "Matthew Griffin",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm | Th 9:30am-10:45am"
+            },
+            {
+                "section_id": "0311",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | M 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0312",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | M 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0321",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | W 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0322",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | W 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0331",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Th 9:30am-10:45am"
+            },
+            {
+                "section_id": "0333",
+                "professor": "Archana Khurana",
+                "total_seats": "24",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Th 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Instructor: TBA",
+                "total_seats": "32",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MW 3:00pm-4:15pm | Tu 3:00pm-4:15pm"
+            },
+            {
+                "section_id": "FC02",
+                "professor": "Instructor: TBA",
+                "total_seats": "32",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "MW 3:00pm-4:15pm | Th 3:00pm-4:15pm"
+            }
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "course_name": "Introduction to Artificial Intelligence",
+    "course_number": "CMSC421",
+    "credits": "3",
+    "grading_method": "Reg",
+    "prereq": "CMSC330, CMSC351",
+    "description": "Introduces a range of ideas and methods in AI, varying semester to semester but chosen largely from: automated heuristic search, planning, games, knowledge representation, logical and statistical inference, learning, natural language processing, vision, robotics, cognitive modeling, and intelligent agents. Programming projects will help students obtain a hands-on feel for various topics.",
+    "sections": [
+        {
+            "section_id": "0101",
+            "professor": "William Regli",
+            "total_seats": "112",
+            "open_seats": "0",
+            "waitlist": "0",
+            "times": "TuTh 11:00am-12:15pm"
+        },
+        {
+            "section_id": "0201",
+            "professor": "Tianyi Zhou",
+            "total_seats": "140",
+            "open_seats": "0",
+            "waitlist": "7",
+            "times": "MW 3:30pm-4:45pm"
+        }
+    ]
+}

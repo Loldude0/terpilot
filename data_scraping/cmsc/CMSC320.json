@@ -1,0 +1,27 @@
+{
+    "course_name": "Introduction to Data Science",
+    "course_number": "CMSC320",
+    "credits": "3",
+    "grading_method": "Reg",
+    "prereq": "CMSC216, CMSC250",
+    "restriction": "Permission of CMNS-Computer Science department",
+    "description": "An introduction to the data science pipeline, i.e., the end-to-end process of going from unstructured, messy data to knowledge and actionable insights. Provides a broad overview of several topics including statistical data analysis, basic data mining and machine learning algorithms, large-scale data management, cloud computing, and information visualization.",
+    "sections": [
+        {
+            "section_id": "0101",
+            "professor": "Maksym Morawski",
+            "total_seats": "260",
+            "open_seats": "181",
+            "waitlist": "0",
+            "times": "TuTh 9:30am-10:45am"
+        },
+        {
+            "section_id": "0201",
+            "professor": "Fardina Alam",
+            "total_seats": "260",
+            "open_seats": "0",
+            "waitlist": "2",
+            "times": "TuTh 3:30pm-4:45pm"
+        }
+    ]
+}

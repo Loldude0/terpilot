@@ -1,0 +1,1408 @@
+[
+    {
+        "course_name": "MGA Legislative Seminar",
+        "course_number": "ENGL381",
+        "credits": "3",
+        "grading_method": "Reg, P-F,",
+        "prereq": "ENGL101",
+        "restriction": "Permission of ARHU-English department",
+        "description": "Prepares students to intern for the Maryland General Assembly. Introduces standard legislative genres and assigns extended practice in researching legislative issues.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Blake Wilder",
+                "total_seats": "15",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            }
+        ]
+    },
+    {
+        "course_name": "Science Writing",
+        "course_number": "ENGL390",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits; and junior standing or higher",
+        "description": "Specifically designed for students interested in further study in the physical and biological sciences. Exposes students to the conventions of scientific prose in the genres of research articles and proposals. Students also learn to accommodate scientific information to general audiences.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0301",
+                "professor": "Katherine Oneill",
+                "total_seats": "19",
+                "open_seats": "2",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0401",
+                "professor": "Katherine Oneill",
+                "total_seats": "19",
+                "open_seats": "2",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0501",
+                "professor": "Katherine Oneill",
+                "total_seats": "19",
+                "open_seats": "7",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "1501",
+                "professor": "Robin Allen-Klein",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "7",
+                "times": "TuTh 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "1505",
+                "professor": "Robin Allen-Klein",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "3",
+                "times": "TuTh 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1601",
+                "professor": "Richard Reynnells",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "2",
+                "times": "Tu 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1801",
+                "professor": "Richard Reynnells",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "W 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1901",
+                "professor": "Aysha Jawed",
+                "total_seats": "19",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "M 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1902",
+                "professor": "Aysha Jawed",
+                "total_seats": "19",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "Th 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "0101",
+                "professor": "Marybeth Shea",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Gregory Deinert",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0301",
+                "professor": "Marybeth Shea",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "2",
+                "times": "MWF 11:00am-11:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Science Writing",
+        "course_number": "ENGL390H",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits; and junior standing or higher",
+        "description": "Specifically designed for students interested in further study in the physical and biological sciences. Exposes students to the conventions of scientific prose in the genres of research articles and proposals. Students also learn to accommodate scientific information to general audiences.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Marybeth Shea",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Gregory Deinert",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0301",
+                "professor": "Marybeth Shea",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "2",
+                "times": "MWF 11:00am-11:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Advanced Composition",
+        "course_number": "ENGL391",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "An advanced composition course which emphasizes constructing written arguments accommodated to real audiences.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0401",
+                "professor": "Mark Forrester",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "2",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0402",
+                "professor": "Catherine Byrne",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0501",
+                "professor": "Catherine Byrne",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0601",
+                "professor": "Catherine Byrne",
+                "total_seats": "19",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "MW 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0701",
+                "professor": "Anna Josephson",
+                "total_seats": "19",
+                "open_seats": "10",
+                "waitlist": "0",
+                "times": "MW 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "0801",
+                "professor": "Catherine Byrne",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MW 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "0901",
+                "professor": "Anna Josephson",
+                "total_seats": "19",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "MW 6:30pm-7:45pm"
+            },
+            {
+                "section_id": "1101",
+                "professor": "Christopher Crane",
+                "total_seats": "19",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1201",
+                "professor": "John Kim",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1301",
+                "professor": "Christopher Crane",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1505",
+                "professor": "Olubukola Salako",
+                "total_seats": "19",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "TuTh 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1701",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "Tu 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1901",
+                "professor": "Mark Fitzgerald",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "Th 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Mark Forrester",
+                "total_seats": "19",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Advanced Composition",
+        "course_number": "ENGL391H",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "An advanced composition course which emphasizes constructing written arguments accommodated to real audiences.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0201",
+                "professor": "Mark Forrester",
+                "total_seats": "19",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Legal Writing",
+        "course_number": "ENGL392",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Conventions of legal writing and research. Students learn how to read and write about cases, statutes, or other legislation; how to apply legal principles to fact scenarios; and how to present a written analysis for readers in the legal profession. Assignments may include the law-school application essay, case briefs, legal memos, and client letters.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "1101",
+                "professor": "John Kim",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "10",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1301",
+                "professor": "John Kim",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "9",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1401",
+                "professor": "Roberta Ward",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "10",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1601",
+                "professor": "Esthus Amos",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "M 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1701",
+                "professor": "Sara Faradji",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "Tu 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1801",
+                "professor": "Esthus Amos",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "W 6:30pm-9:10pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Technical Writing",
+        "course_number": "ENGL393",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Focuses on the writing of technical papers and reports.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0001",
+                "professor": "Patrick Nelson",
+                "total_seats": "19",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am"
+            },
+            {
+                "section_id": "0303",
+                "professor": "Joan Mooney",
+                "total_seats": "19",
+                "open_seats": "12",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0401",
+                "professor": "Joan Mooney",
+                "total_seats": "19",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0501",
+                "professor": "Sarah Goodson",
+                "total_seats": "19",
+                "open_seats": "8",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0601",
+                "professor": "Sarah Goodson",
+                "total_seats": "19",
+                "open_seats": "2",
+                "waitlist": "0",
+                "times": "MW 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0801",
+                "professor": "Gerard Holmes",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "MW 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1101",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "3",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1201",
+                "professor": "Sonney Wolfe",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "9",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1402",
+                "professor": "Aubrey Zinn",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "3",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1501",
+                "professor": "Aubrey Zinn",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "4",
+                "times": "TuTh 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "1505",
+                "professor": "Sonney Wolfe",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "TuTh 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1602",
+                "professor": "Kelly Cresap",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "M 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1702",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "Tu 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1801",
+                "professor": "Kelly Cresap",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "W 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1902",
+                "professor": "Patrick Nelson",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "Th 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1202",
+                "professor": "Aubrey Zinn",
+                "total_seats": "19",
+                "open_seats": "9",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "3001",
+                "professor": "Alexandra Calloway",
+                "total_seats": "19",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "F 9:00am-11:40am"
+            },
+            {
+                "section_id": "1501",
+                "professor": "Sonney Wolfe",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 3:30pm-4:45pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Technical Writing",
+        "course_number": "ENGL393H",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Focuses on the writing of technical papers and reports.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "1202",
+                "professor": "Aubrey Zinn",
+                "total_seats": "19",
+                "open_seats": "9",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Technical Writing",
+        "course_number": "ENGL393Q",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Focuses on the writing of technical papers and reports.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "3001",
+                "professor": "Alexandra Calloway",
+                "total_seats": "19",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "F 9:00am-11:40am"
+            }
+        ]
+    },
+    {
+        "course_name": "Technical Writing",
+        "course_number": "ENGL393X",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Focuses on the writing of technical papers and reports.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "1501",
+                "professor": "Sonney Wolfe",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 3:30pm-4:45pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Business Writing",
+        "course_number": "ENGL394",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Intensive practice in the forms of written communication common in the business world: letters, memos, short reports, and proposals. Focus on the principles of rhetoric and effective style.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0102",
+                "professor": "Kara Pleasants",
+                "total_seats": "19",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Kara Pleasants",
+                "total_seats": "19",
+                "open_seats": "10",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0302",
+                "professor": "Jay Wilcox",
+                "total_seats": "19",
+                "open_seats": "4",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0401",
+                "professor": "Jay Wilcox",
+                "total_seats": "19",
+                "open_seats": "3",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0501",
+                "professor": "Jay Wilcox",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0601",
+                "professor": "Anna Szczepaniec-Bialas",
+                "total_seats": "19",
+                "open_seats": "4",
+                "waitlist": "0",
+                "times": "MW 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0701",
+                "professor": "Anna Szczepaniec-Bialas",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MW 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "0801",
+                "professor": "Shannon Zellars Strohl",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MW 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1101",
+                "professor": "John Tobin",
+                "total_seats": "19",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1201",
+                "professor": "Adam Lloyd",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "2",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1301",
+                "professor": "Adam Lloyd",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "4",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1303",
+                "professor": "Blake Wilder",
+                "total_seats": "19",
+                "open_seats": "10",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1401",
+                "professor": "Blake Wilder",
+                "total_seats": "19",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1501",
+                "professor": "John Tobin",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "1505",
+                "professor": "John Tobin",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "TuTh 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1601",
+                "professor": "Jonathan Rick",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "M 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1701",
+                "professor": "Robert Harris",
+                "total_seats": "19",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "Tu 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1902",
+                "professor": "Robert Harris",
+                "total_seats": "19",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "Th 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "ESG4",
+                "professor": "Holly Smith",
+                "total_seats": "10",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "ESG5",
+                "professor": "Holly Smith",
+                "total_seats": "10",
+                "open_seats": "3",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Writing for Health Professions",
+        "course_number": "ENGL395",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Focus on accommodating health-related technical material and empirical studies to lay audiences, and helping writers to achieve stylistic flexibility and correctness.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Zoe Alsop",
+                "total_seats": "19",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Zoe Alsop",
+                "total_seats": "19",
+                "open_seats": "1",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am"
+            },
+            {
+                "section_id": "0301",
+                "professor": "Michael Schmidt",
+                "total_seats": "19",
+                "open_seats": "1",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0401",
+                "professor": "Justin Lohr",
+                "total_seats": "19",
+                "open_seats": "12",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0501",
+                "professor": "Justin Lohr",
+                "total_seats": "19",
+                "open_seats": "9",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0601",
+                "professor": "Justin Lohr",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "MW 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0602",
+                "professor": "Michael Schmidt",
+                "total_seats": "19",
+                "open_seats": "10",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0801",
+                "professor": "Elizabeth Marshall",
+                "total_seats": "19",
+                "open_seats": "9",
+                "waitlist": "0",
+                "times": "MW 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "0901",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MW 6:30pm-7:45pm"
+            },
+            {
+                "section_id": "1001",
+                "professor": "Elizabeth Marshall",
+                "total_seats": "19",
+                "open_seats": "12",
+                "waitlist": "0",
+                "times": "TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "1101",
+                "professor": "Nasim DarouieHaghighi",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1201",
+                "professor": "Kisa Lape",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1301",
+                "professor": "Kisa Lape",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "2",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1402",
+                "professor": "Kisa Lape",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1501",
+                "professor": "Kisa Lape",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "TuTh 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "1502",
+                "professor": "James Goodwin",
+                "total_seats": "19",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "TuTh 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "1505",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "TuTh 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1506",
+                "professor": "Eric Bond",
+                "total_seats": "19",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "TuTh 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1507",
+                "professor": "Eric Bond",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "TuTh 6:30pm-7:45pm"
+            },
+            {
+                "section_id": "1701",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "Tu 6:30pm-9:10pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Writing for the Arts",
+        "course_number": "ENGL398A",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Examines the situations and genres in which working professionals (practitioners, advocates, administrators, and educators) write about art, culture, and artists. The course covers the complex process that writers need to learn, including how to accommodate information to specific audiences, how to use stylistic and visual devices to make information more accessible, and how to edit their own work as well as that of their peers. Assignments parallel the writing demands that students will face in the workplace, including analyzing and composing artist statements, an arts manifesto, art education guides, press releases about artists and their work, critical reviews of exhibits and performances, and proposals to funding agencies and foundations.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "1001",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "1101",
+                "professor": "Caroline Wilkins",
+                "total_seats": "19",
+                "open_seats": "1",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1601",
+                "professor": "Gerard Holmes",
+                "total_seats": "19",
+                "open_seats": "10",
+                "waitlist": "0",
+                "times": "M 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1701",
+                "professor": "Mark Fitzgerald",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "Tu 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1801",
+                "professor": "Peter Witte",
+                "total_seats": "19",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "W 6:30pm-9:10pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Writing for Social Entrepreneurship",
+        "course_number": "ENGL398B",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Designed for students who want to develop the skills needed to start a successful social venture--a start-up business with a social mission or a new nonprofit program. The course centers on a major writing project such as a business plan, a website design plan, a fundraising proposal, or a concept paper for a new nonprofit organization. Students produce other communication projects that social entrepreneurs use to develop their businesses and nonprofits, such as presentations or pitches to prospective investors/donors, marketing materials, and a job announcement. Students will learn from local social entrepreneurs who share their experiences of using writing to succeed in the field.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0601",
+                "professor": "Eric Thiel",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "MW 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0701",
+                "professor": "Eric Thiel",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "MW 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "0801",
+                "professor": "Eric Thiel",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MW 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1601",
+                "professor": "Mrim Boutla",
+                "total_seats": "19",
+                "open_seats": "7",
+                "waitlist": "0",
+                "times": "M 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1701",
+                "professor": "Mrim Boutla",
+                "total_seats": "19",
+                "open_seats": "10",
+                "waitlist": "0",
+                "times": "Tu 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1901",
+                "professor": "Roxanne Clements",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "Th 6:30pm-9:10pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Writing Case Studies and Investigative Reports",
+        "course_number": "ENGL398C",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Designed for students interested in becoming police investigators, educators, case workers, insurance adjusters, nurses, or program evaluators, or in entering branches of the social sciences that investigate cases and value reports based on accurate descriptions and compelling narratives. Such reports must be factual and yet useful to decision makers, unbiased and yet focused. Students study genres and language skills from careful summarizing to convincing storytelling.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0701",
+                "professor": "Kevin Wisniewski",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "5",
+                "times": "MW 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "0801",
+                "professor": "Kevin Wisniewski",
+                "total_seats": "19",
+                "open_seats": "4",
+                "waitlist": "0",
+                "times": "MW 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1101",
+                "professor": "Kathleen Orr",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "5",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1301",
+                "professor": "Alexandra Omogbadegun",
+                "total_seats": "19",
+                "open_seats": "7",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1507",
+                "professor": "Kevin Wisniewski",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MW 6:30pm-7:45pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Writing About Economics",
+        "course_number": "ENGL398E",
+        "credits": "3",
+        "grading_method": "Reg, P-F,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Examines the characteristic genres of writing in modern economics, including theoretical and empirically based journal articles, reports for government and commercial clients, and economic information presented to a variety of non-professional audiences, such as citizen-oriented and public policy organizations. Students learn how to analyze these documents rhetorically and how to communicate economic information using the content, arrangement, style, and visual graphics best suited to the purposes and standards of particular audiences. Core assignments include a genre-based journal and document analysis, presentations on economics-related topics for both economists and non-professional audiences, and a major research-based writing project for an audience outside of the classroom.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0801",
+                "professor": "Anna Josephson",
+                "total_seats": "19",
+                "open_seats": "10",
+                "waitlist": "0",
+                "times": "MW 5:00pm-6:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Scholarly Writing in the Humanities",
+        "course_number": "ENGL398L",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Examines scholarship in the humanities as a genre of professional writing and investigates the norms and procedures of advanced academic writing. Assignments parallel the writing demands that students will face in the academic workplace, including a graduate school application essay, a genre review, an annotated bibliography, a journal article, and an oral presentation of article subject matter.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0301",
+                "professor": "Mark Forrester",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "2",
+                "times": "MWF 11:00am-11:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Writing for Non-Profit Organizations",
+        "course_number": "ENGL398N",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Examines professional writing and communication work in the non-profit sector. Students will analyze the audiences and document genres that they may encounter in real-world non-profit work and will learn how to compose many of these documents, from press releases and other public relations material to position papers, reports, and grant proposals. Students may also have the opportunity to add a service-learning component to the course by working with and for an area non-profit.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0301",
+                "professor": "Gerard Holmes",
+                "total_seats": "19",
+                "open_seats": "4",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0401",
+                "professor": "Gerard Holmes",
+                "total_seats": "19",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0601",
+                "professor": "Ruth Phillips",
+                "total_seats": "19",
+                "open_seats": "8",
+                "waitlist": "0",
+                "times": "MW 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0801",
+                "professor": "Anna Szczepaniec-Bialas",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MW 5:00pm-6:15pm"
+            },
+            {
+                "section_id": "1001",
+                "professor": "Alexandra Omogbadegun",
+                "total_seats": "19",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "1101",
+                "professor": "Rebecca Holden",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1201",
+                "professor": "Rebecca Holden",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1301",
+                "professor": "David Todd",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1401",
+                "professor": "David Todd",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Writing Non-Fictional Narratives",
+        "course_number": "ENGL398R",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Approaches nonfiction narrative-a kind of writing influenced by fiction, magazine journalism, memoir, and personal essay--as a form of professional writing used in publishing and a range of careers involving proposal writing, work documentation, lobbying, social marketing, and political commentary, among others. Students learn to use many of the same tools as fiction writers, such as dialogue, vivid description, developing characters, nonlinear structure, and shifts in tense, time, and points of view. They also learn how to edit their own work as well as that of their peers, doing multiple revisions of the major assignments for a final portfolio. Major assignments include essays targeted to specific publications, query letters, audience analysis, and a publisher analysis.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "1001",
+                "professor": "John Tobin",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 8:00am-9:15am"
+            },
+            {
+                "section_id": "1101",
+                "professor": "Pamela Gerhardt",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1102",
+                "professor": "Danuta Hinc",
+                "total_seats": "19",
+                "open_seats": "3",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1201",
+                "professor": "Pamela Gerhardt",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "6",
+                "times": "TuTh 11:00am-12:15pm"
+            },
+            {
+                "section_id": "1301",
+                "professor": "Pamela Gerhardt",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "3",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1401",
+                "professor": "Danuta Hinc",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "2",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "1501",
+                "professor": "Danuta Hinc",
+                "total_seats": "19",
+                "open_seats": "2",
+                "waitlist": "0",
+                "times": "TuTh 3:30pm-4:45pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Writing About the Environment",
+        "course_number": "ENGL398V",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "restriction": "Must have earned a minimum of 60 credits",
+        "description": "Designed for those aspiring to work in a variety of fields that influence and are influenced by environmental science, including public policy, advocacy, science, and industry. Students learn to apply principles of technical writing to a range of scenarios and issues particular to the intersection of scientific knowledge and environmental policy. Writing audiences range from the public to decision-makers. The course emphasizes writing both within and across disciplines to enlist research for practical contexts.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "1201",
+                "professor": "Elizabeth Chang",
+                "total_seats": "19",
+                "open_seats": "7",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "1301",
+                "professor": "Heidi Scott",
+                "total_seats": "19",
+                "open_seats": "0",
+                "waitlist": "1",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "1501",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "1502",
+                "professor": "Instructor: TBA",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "TuTh 3:30pm-4:45pm"
+            },
+            {
+                "section_id": "1701",
+                "professor": "Jesse Brooks",
+                "total_seats": "19",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "Tu 6:30pm-9:10pm"
+            },
+            {
+                "section_id": "1702",
+                "professor": "Jesse Brooks",
+                "total_seats": "19",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "Th 6:30pm-9:10pm"
+            }
+        ]
+    },
+    {
+        "course_name": "MGA Legislative Seminar",
+        "course_number": "HONR368A",
+        "credits": "3",
+        "grading_method": "Reg, P-F,",
+        "prereq": "ENGL101",
+        "restriction": "Permission of ARHU-English department",
+        "description": "Prepares students to intern for the Maryland General Assembly. Introduces standard legislative genres and assigns extended practice in researching legislative issues.",
+        "geneds": [
+            "FSPW"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Blake Wilder",
+                "total_seats": "15",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            }
+        ]
+    }
+]

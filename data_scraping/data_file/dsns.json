@@ -1,0 +1,1693 @@
+[
+    {
+        "course_name": "Causes and Consequences of Global Change",
+        "course_number": "AOSC123",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "Study of the major components of Earth's climate system and climate change history. Discussion of 21st century climate change prediction, mitigation and adaptation efforts.",
+        "geneds": [
+            "SCIS",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Jeffrey Henrikson",
+                "total_seats": "9",
+                "open_seats": "2",
+                "waitlist": "0",
+                "times": "MW 5:00pm-5:50pm | F 11:00am-11:50am"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Jeffrey Henrikson",
+                "total_seats": "9",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "MW 5:00pm-5:50pm | F 10:00am-10:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Weather and Climate",
+        "course_number": "AOSC200",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH115",
+        "description": "What are weather and climate? Most people think they know but if you ask people to explain the differences and similarities you're bound to get a range of answers. Weather affects not just our daily activities but other important aspects of society such as transportation, commerce, security and agriculture. Most people understand what weather is to some extent. Climate and climate change are concepts that evoke strong emotional responses from people but are less well understood. In this class, students examine fundamental issues such as the greenhouse effect, severe weather, and global weather patterns and how they relate to a changing climate. Instruction in the lectures will provide the basic knowledge needed to understand these issues. In the discussion sections, students will be divided into groups to address the implications of these topics through group projects.",
+        "geneds": [
+            "SCIS",
+            "DSNS",
+            "DSNL                                    (if taken with AOSC201)"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Timothy Canty",
+                "total_seats": "9",
+                "open_seats": "1",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Timothy Canty",
+                "total_seats": "9",
+                "open_seats": "4",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0103",
+                "professor": "Timothy Canty",
+                "total_seats": "9",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Jeffrey Henrikson",
+                "total_seats": "9",
+                "open_seats": "2",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm | W 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0202",
+                "professor": "Jeffrey Henrikson",
+                "total_seats": "9",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm | W 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "0203",
+                "professor": "Jeffrey Henrikson",
+                "total_seats": "9",
+                "open_seats": "4",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm | M 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0204",
+                "professor": "Jeffrey Henrikson",
+                "total_seats": "9",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm | M 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0301",
+                "professor": "Alexandra Jones",
+                "total_seats": "9",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | Tu 4:00pm-4:50pm"
+            },
+            {
+                "section_id": "0302",
+                "professor": "Alexandra Jones",
+                "total_seats": "9",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | F 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0104",
+                "professor": "Timothy Canty",
+                "total_seats": "30",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 9:00am-9:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Weather and Climate",
+        "course_number": "AOSC200C",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH115",
+        "description": "What are weather and climate? Most people think they know but if you ask people to explain the differences and similarities you're bound to get a range of answers. Weather affects not just our daily activities but other important aspects of society such as transportation, commerce, security and agriculture. Most people understand what weather is to some extent. Climate and climate change are concepts that evoke strong emotional responses from people but are less well understood. In this class, students examine fundamental issues such as the greenhouse effect, severe weather, and global weather patterns and how they relate to a changing climate. Instruction in the lectures will provide the basic knowledge needed to understand these issues. In the discussion sections, students will be divided into groups to address the implications of these topics through group projects.",
+        "geneds": [
+            "SCIS",
+            "DSNS",
+            "DSNL                                    (if taken with AOSC201)"
+        ],
+        "sections": [
+            {
+                "section_id": "0104",
+                "professor": "Timothy Canty",
+                "total_seats": "30",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 9:00am-9:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Introduction to the Blue Ocean",
+        "course_number": "AOSC375",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "",
+        "description": "The global ocean is a major component of the Earth System that shapes life on earth, including our weather and climate. We explore the observation-based interdisciplinary science of oceanography, identifying its strong connections to related sciences like meteorology, and geography. We apply this developing understanding to environmental issues such as marine pollution, fish and fisheries, as well as to climate variability and to the changes to the marine environment that are resulting from steadily rising levels of atmospheric greenhouse gasses. Focusses include the biogeochemical and physical changes we can observe in the nearby Chesapeake Bay and the coastal waters of Eastern Shore, Maryland.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "James Carton",
+                "total_seats": "60",
+                "open_seats": "43",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Introduction to Astronomy",
+        "course_number": "ASTR100",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "An elementary course in descriptive astronomy, especially appropriate for non-science students. Topics include the Sun, Moon, planets, stars, and nebulae, galaxies, and evolution of the Universe.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Instructor: TBA",
+                "total_seats": "40",
+                "open_seats": "37",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am | M 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Instructor: TBA",
+                "total_seats": "40",
+                "open_seats": "37",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am | M 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0103",
+                "professor": "Instructor: TBA",
+                "total_seats": "40",
+                "open_seats": "38",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am | M 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "0104",
+                "professor": "Instructor: TBA",
+                "total_seats": "40",
+                "open_seats": "38",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am | F 10:00am-10:50am"
+            },
+            {
+                "section_id": "0105",
+                "professor": "Instructor: TBA",
+                "total_seats": "40",
+                "open_seats": "36",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am | F 11:00am-11:50am"
+            },
+            {
+                "section_id": "0106",
+                "professor": "Instructor: TBA",
+                "total_seats": "40",
+                "open_seats": "36",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am | F 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "James Hunt",
+                "total_seats": "30",
+                "open_seats": "28",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm | F 1:00pm-1:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Introductory Astrophysics - Solar System",
+        "course_number": "ASTR120",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "MATH140",
+        "restriction": "Must not have completed ASTR101 or ASTR100",
+        "description": "For students majoring in astronomy or with a strong interest in science. Topics include development of astronomy, planetary orbits, electromagnetic radiation, telescopes as well as constituents and origin of the solar system (planets, satellites, comets, asteroids, meteoroids, etc.).",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Michael Miller",
+                "total_seats": "30",
+                "open_seats": "27",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | F 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Michael Miller",
+                "total_seats": "30",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | F 2:00pm-2:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "The Science and Fiction of Planetary Systems",
+        "course_number": "ASTR230",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH113",
+        "description": "Have you ever wondered if humans will ever terraform Mars or Europa so we could live there without a spacesuit? Has it ever crossed your mind how lucky you are that you live on a water-rich planet with an oxygen-rich atmosphere? Have you ever suspected novelists and scriptwriters of creating ridiculous planets that violate scientific laws? Does the fate of our planet's thin biosphere keep you up at night? How common is life in the Universe? These are difficult questions, but armed with the right information, you can answer all of them. The Science and Fiction of Planetary Systems will help you develop a deeper understanding of why planets are the way they are. Along the way, you'll see examples of mistakes made in classic science fiction movies, novels and short stories and get the chance to invent your own plausible planets!",
+        "geneds": [
+            "SCIS",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Marvin Jones",
+                "total_seats": "10",
+                "open_seats": "1",
+                "waitlist": "0",
+                "times": "W 9:00am-9:50am | MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Marvin Jones",
+                "total_seats": "10",
+                "open_seats": "3",
+                "waitlist": "0",
+                "times": "W 9:00am-9:50am | MWF 1:00pm-1:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Stars and Stellar Systems",
+        "course_number": "ASTR300",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "ASTR101",
+        "description": "Designed primarily for non-science majors. Study of stars-types, properties, evolution, and distribution in space; supernovae, pulsars, and black holes.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Douglas Hamilton",
+                "total_seats": "60",
+                "open_seats": "46",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Solar System Astronomy",
+        "course_number": "ASTR330",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "ASTR101",
+        "description": "Designed primarily for non-science majors. The structure of planets and of their atmospheres, the nature of comets, asteroids, and satellites. Comparison of various theories for the origin of the solar system. Emphasis on a description of recent data and interpretation.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Thaddeus Komacek",
+                "total_seats": "60",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Origin of the Universe",
+        "course_number": "ASTR340",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "ASTR101",
+        "description": "Designed primarily for non-science majors. A study of our progression of knowledge about the universe. Topics include: early cosmological models, geocentric vs. heliocentric theory, curvature of space, Hubble's Law, Big Bang Theory, microwave background radiation, evolution of stars and galaxies, dark matter, active galaxies, quasars and the future of the universe.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Sylvain Veilleux",
+                "total_seats": "60",
+                "open_seats": "43",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            }
+        ]
+    },
+    {
+        "course_name": "Beyond Race: Human Biological Diversity",
+        "course_number": "BSCI151",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "Do racial labels have any practical use in understanding human biological diversity? Such categorizations are inextricably linked to racism, including a history of misuse in science going back hundreds of years, yet modern biological research and medicine often include the use of race. At its core, addressing this question requires understanding the balance between genetic and non-genetic factors underlying human diversity. The course will help students make an informed critique of the biological basis of race through the study of topics such as: basic biology, data analysis and experimental design, human evolution and genetics, and biomedical research and health outcomes.",
+        "geneds": [
+            "SCIS",
+            "DVUP",
+            "DSNS",
+            "DSSP"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Kimberly Paczolt",
+                "total_seats": "36",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 3:00pm-3:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Principles of Ecology and Evolution",
+        "course_number": "BSCI160",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "description": "Basic principles of biology with special emphasis on ecological and evolutionary biology.",
+        "geneds": [
+            "DSNL                                    (if taken with BSCI161)",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "6101",
+                "professor": "Magdalene Ngeve",
+                "total_seats": "120",
+                "open_seats": "117",
+                "waitlist": "0",
+                "times": "TuTh 9:30am-10:45am"
+            },
+            {
+                "section_id": "6201",
+                "professor": "Magdalene Ngeve",
+                "total_seats": "120",
+                "open_seats": "113",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "6301",
+                "professor": "Leo Shapiro",
+                "total_seats": "120",
+                "open_seats": "120",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "6401",
+                "professor": "Emily Bruns",
+                "total_seats": "60",
+                "open_seats": "51",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "6701",
+                "professor": "Bill Fagan",
+                "total_seats": "100",
+                "open_seats": "92",
+                "waitlist": "0",
+                "times": "MW 2:00pm-3:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Principles of Molecular & Cellular Biology",
+        "course_number": "BSCI170",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "description": "Basic principles of biology with special emphasis on cellular and molecular biology.",
+        "geneds": [
+            "DSNS",
+            "DSNL                                    (if taken with BSCI171)"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Swarna Mohan",
+                "total_seats": "130",
+                "open_seats": "125",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Nicholas Fletcher",
+                "total_seats": "155",
+                "open_seats": "127",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            },
+            {
+                "section_id": "0301",
+                "professor": "Michael Keller",
+                "total_seats": "155",
+                "open_seats": "147",
+                "waitlist": "0",
+                "times": "MWF 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0401",
+                "professor": "Instructor: TBA",
+                "total_seats": "140",
+                "open_seats": "134",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Michael Keller",
+                "total_seats": "115",
+                "open_seats": "88",
+                "waitlist": "0",
+                "times": "MW 4:30pm-5:45pm"
+            },
+            {
+                "section_id": "SEF1",
+                "professor": "James Sniezek",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "Tu 6:00pm-8:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Understanding The Principles and Perils of CBRN Weapons",
+        "course_number": "BSST240",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "description": "Explores the 'dark side' of scientific applications. Students will gain an understanding of CBRN Weapons, through the exploration of the scientific method, and certain fundamental principles of chemistry, biology, and physics. Students will also learn how to test hypotheses, use basic statistics, interpret results, and apply their new knowledge through discussions of practical applications in the domains of public health, emergency management, epidemiology, and threat assessment. Bringing these fields together in one class will allow students to better understand the use of and threat from CBRN weapons in terrorism.",
+        "geneds": [
+            "DSNS",
+            "DSNL                                    (if taken with BSST241)"
+        ],
+        "sections": [
+            {
+                "section_id": "FC01",
+                "professor": "Steve Sin",
+                "total_seats": "18",
+                "open_seats": "11",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Chemistry I - Fundamentals of General Chemistry",
+        "course_number": "CHEM131",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "coreq": "CHEM132",
+        "description": "An overview of the Periodic Table, inorganic substances, ionic and covalent bonding, bulk properties of materials, chemical equilibrium, and quantitative chemistry. CHEM131 is the first course in a four-semester sequence for students majoring in the sciences, other than Chemistry and Biochemistry majors.",
+        "geneds": [
+            "DSNL                                    (if taken with CHEM132)",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "1221",
+                "professor": "Bonnie Dixon",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Tu 8:00am-8:50am"
+            },
+            {
+                "section_id": "1222",
+                "professor": "Bonnie Dixon",
+                "total_seats": "24",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Tu 9:30am-10:20am"
+            },
+            {
+                "section_id": "1224",
+                "professor": "Bonnie Dixon",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Tu 11:00am-11:50am"
+            },
+            {
+                "section_id": "1241",
+                "professor": "Bonnie Dixon",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Th 8:00am-8:50am"
+            },
+            {
+                "section_id": "1242",
+                "professor": "Bonnie Dixon",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Th 9:30am-10:20am"
+            },
+            {
+                "section_id": "1243",
+                "professor": "Bonnie Dixon",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Th 11:00am-11:50am"
+            },
+            {
+                "section_id": "1325",
+                "professor": "Amanda Schech",
+                "total_seats": "24",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Tu 12:30pm-1:20pm"
+            },
+            {
+                "section_id": "1327",
+                "professor": "Amanda Schech",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Tu 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "1328",
+                "professor": "Amanda Schech",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Tu 3:30pm-4:20pm"
+            },
+            {
+                "section_id": "1345",
+                "professor": "Amanda Schech",
+                "total_seats": "24",
+                "open_seats": "18",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 12:30pm-1:20pm"
+            },
+            {
+                "section_id": "1347",
+                "professor": "Amanda Schech",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "1348",
+                "professor": "Amanda Schech",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 3:30pm-4:20pm"
+            },
+            {
+                "section_id": "1425",
+                "professor": "Janice Reutt-Robey",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am | Tu 12:30pm-1:20pm"
+            },
+            {
+                "section_id": "1426",
+                "professor": "Janice Reutt-Robey",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am | Tu 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "1427",
+                "professor": "Janice Reutt-Robey",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am | Tu 3:30pm-4:20pm"
+            },
+            {
+                "section_id": "1445",
+                "professor": "Janice Reutt-Robey",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am | Th 12:30pm-1:20pm"
+            },
+            {
+                "section_id": "1446",
+                "professor": "Janice Reutt-Robey",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am | Th 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "1447",
+                "professor": "Janice Reutt-Robey",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 8:00am-8:50am | Th 3:30pm-4:20pm"
+            },
+            {
+                "section_id": "1521",
+                "professor": "Lenea Stocker",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | Tu 8:00am-8:50am"
+            },
+            {
+                "section_id": "1522",
+                "professor": "Lenea Stocker",
+                "total_seats": "24",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | Tu 9:30am-10:20am"
+            },
+            {
+                "section_id": "1523",
+                "professor": "Lenea Stocker",
+                "total_seats": "24",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | Tu 11:00am-11:50am"
+            },
+            {
+                "section_id": "1541",
+                "professor": "Lenea Stocker",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | Th 8:00am-8:50am"
+            },
+            {
+                "section_id": "1542",
+                "professor": "Lenea Stocker",
+                "total_seats": "24",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | Th 9:30am-10:20am"
+            },
+            {
+                "section_id": "1543",
+                "professor": "Lenea Stocker",
+                "total_seats": "24",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm | Th 12:30pm-1:20pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Instructor: TBA",
+                "total_seats": "37",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm | F 11:00am-11:50am"
+            },
+            {
+                "section_id": "FC02",
+                "professor": "Instructor: TBA",
+                "total_seats": "37",
+                "open_seats": "31",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm | F 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "FC03",
+                "professor": "Instructor: TBA",
+                "total_seats": "37",
+                "open_seats": "32",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm | F 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "SEF1",
+                "professor": "Instructor: TBA",
+                "total_seats": "38",
+                "open_seats": "37",
+                "waitlist": "0",
+                "times": "M 6:00pm-8:50pm | W 6:00pm-6:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "General Chemistry for Engineers",
+        "course_number": "CHEM135",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "description": "The nature and composition of matter, solutions, chemical reactions, equilibria, and electrochemistry, with applications to various fields of engineering.",
+        "geneds": [
+            "DSNS",
+            "DSNL                                    (if taken with CHEM136)"
+        ],
+        "sections": [
+            {
+                "section_id": "3125",
+                "professor": "Elizabeth Griffith",
+                "total_seats": "15",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | M 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "3126",
+                "professor": "Elizabeth Griffith",
+                "total_seats": "15",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | M 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "3127",
+                "professor": "Elizabeth Griffith",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | M 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "3145",
+                "professor": "Elizabeth Griffith",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | W 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "3147",
+                "professor": "Elizabeth Griffith",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | W 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "3148",
+                "professor": "Elizabeth Griffith",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | W 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "3225",
+                "professor": "Alice Mignerey",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Tu 8:00am-8:50am"
+            },
+            {
+                "section_id": "3226",
+                "professor": "Alice Mignerey",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Tu 9:30am-10:20am"
+            },
+            {
+                "section_id": "3227",
+                "professor": "Alice Mignerey",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Tu 11:00am-11:50am"
+            },
+            {
+                "section_id": "3245",
+                "professor": "Alice Mignerey",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Th 8:00am-8:50am"
+            },
+            {
+                "section_id": "3247",
+                "professor": "Alice Mignerey",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Th 9:30am-10:20am"
+            },
+            {
+                "section_id": "3248",
+                "professor": "Alice Mignerey",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "MWF 2:00pm-2:50pm | Th 11:00am-11:50am"
+            },
+            {
+                "section_id": "3425",
+                "professor": "Andrei Vedernikov",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | M 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "3426",
+                "professor": "Andrei Vedernikov",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | M 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "3427",
+                "professor": "Andrei Vedernikov",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | M 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "3445",
+                "professor": "Andrei Vedernikov",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "3446",
+                "professor": "Andrei Vedernikov",
+                "total_seats": "15",
+                "open_seats": "14",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "3447",
+                "professor": "Andrei Vedernikov",
+                "total_seats": "15",
+                "open_seats": "15",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | W 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Instructor: TBA",
+                "total_seats": "37",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm | F 11:00am-11:50am"
+            },
+            {
+                "section_id": "FC02",
+                "professor": "Instructor: TBA",
+                "total_seats": "37",
+                "open_seats": "29",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm | F 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "FC03",
+                "professor": "Instructor: TBA",
+                "total_seats": "37",
+                "open_seats": "32",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm | F 1:00pm-1:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Principles of General Chemistry",
+        "course_number": "CHEM146",
+        "credits": "3",
+        "grading_method": "Reg,",
+        "prereq": "",
+        "coreq": "CHEM177",
+        "restriction": "Must be in one of the following programs (Chemistry; Biochemistry)",
+        "description": "An overview of the Periodic Table, inorganic substances, ionic and covalent bonding, bulk properties of materials, chemical equilibrium, and quantitative chemistry. CHEM146 is the first course in a four-semester sequence for Chemistry and Biochemistry majors.",
+        "geneds": [
+            "DSNL                                    (if taken with CHEM177)",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0032",
+                "professor": "Mercedes Taylor",
+                "total_seats": "30",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Tu 9:30am-10:20am"
+            },
+            {
+                "section_id": "0033",
+                "professor": "Mercedes Taylor",
+                "total_seats": "30",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 9:30am-10:20am"
+            }
+        ]
+    },
+    {
+        "course_name": "Bats in Society: Human-Wildlife Relationships, Conflicts, & Solutions",
+        "course_number": "ENST215",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "How might an understanding of human-wildlife conflicts shape our approach to disease, ecology, and conservation? Should we care that we are losing wildlife, like bats? Across the globe, human societies have significantly harmed bat populations both intentionally and unintentionally. This course will delve into different bat population crisis causes as well as current and potential solutions, while addressing complex human-wildlife conflicts that need to be considered while solving them. During the course, students will get hands-on experience using highly sophisticated bat acoustic technology to identify bats to species-level. Lecture and discussion sections will focus on bat ecology, management techniques, newest bat identification techniques, data interpretation, and scientific presentation skills.",
+        "geneds": [
+            "SCIS",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Shannon Browne",
+                "total_seats": "9",
+                "open_seats": "9",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Physical Geology",
+        "course_number": "GEOL100",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "A general survey of the rocks and minerals composing the earth, its surface features and the agents that form them, and the dynamic forces of plate tectonics.",
+        "geneds": [
+            "DSNL                                    (if taken with GEOL110)",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Tracey Centorbi",
+                "total_seats": "89",
+                "open_seats": "72",
+                "waitlist": "0",
+                "times": "MWF 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Ricardo Arevalo",
+                "total_seats": "99",
+                "open_seats": "88",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Environmental Geology",
+        "course_number": "GEOL120",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "A review of geologic factors underlying many environmental problems and the interactions between population and physical environment: geologic hazards, land-use planning, conservation, mineral resources, waste disposal, land reclamation, and the geologic aspects of health and disease. The course is aimed at lower division students in education and liberal arts, and should be useful to any student concerned with geologic perspectives of environmental problems.",
+        "geneds": [
+            "DSNL                                    (if taken with GEOL110)",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Tracey Centorbi",
+                "total_seats": "20",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | M 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Tracey Centorbi",
+                "total_seats": "20",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | M 4:00pm-4:50pm"
+            },
+            {
+                "section_id": "0103",
+                "professor": "Tracey Centorbi",
+                "total_seats": "20",
+                "open_seats": "20",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | M 5:00pm-5:50pm"
+            },
+            {
+                "section_id": "FC02",
+                "professor": "Tracey Centorbi",
+                "total_seats": "18",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "TuTh 4:30pm-5:45pm | F 10:00am-10:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Causes and Consequences of Global Change",
+        "course_number": "GEOL123",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "Study of the major components of Earth's climate system and climate change history. Discussion of 21st century climate change prediction, mitigation and adaptation efforts.",
+        "geneds": [
+            "SCIS",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Jeffrey Henrikson",
+                "total_seats": "9",
+                "open_seats": "2",
+                "waitlist": "0",
+                "times": "MW 5:00pm-5:50pm | F 11:00am-11:50am"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Jeffrey Henrikson",
+                "total_seats": "9",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "MW 5:00pm-5:50pm | F 10:00am-10:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Planetary Geology",
+        "course_number": "GEOL212",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "An examination of the geologic and geochemical processes at work in the solar system from the perspectives supplied by space age exploration of the planets and other solar system bodies.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "John Merck",
+                "total_seats": "24",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Introduction to the Blue Ocean",
+        "course_number": "GEOL375",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "",
+        "description": "The global ocean is a major component of the Earth System that shapes life on earth, including our weather and climate. We explore the observation-based interdisciplinary science of oceanography, identifying its strong connections to related sciences like meteorology, and geography. We apply this developing understanding to environmental issues such as marine pollution, fish and fisheries, as well as to climate variability and to the changes to the marine environment that are resulting from steadily rising levels of atmospheric greenhouse gasses. Focusses include the biogeochemical and physical changes we can observe in the nearby Chesapeake Bay and the coastal waters of Eastern Shore, Maryland.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "James Carton",
+                "total_seats": "60",
+                "open_seats": "43",
+                "waitlist": "0",
+                "times": "MWF 11:00am-11:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "The Cybernetic Human",
+        "course_number": "KNES226",
+        "credits": "3",
+        "grading_method": "Reg, P-F,",
+        "description": "Can the profound and rapid technological advances experienced in the 21st century change what it means to be human or the nature of humanity? Emergent technologies, new materials, increased computer power, engineering innovations, and groundbreaking work in the sciences of cognition and action provide myriad opportunities for repairing and enhancing the human body and brain. Examines the ethical, social, and technological implications of an increasing synergism of technology and the body in sports and the arts, at work or home, rehabilitating the body and the brain, and society at large.",
+        "geneds": [
+            "SCIS",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Tim Kiemel",
+                "total_seats": "6",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "MF 1:00pm-1:50pm | W 11:00am-11:50am"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Tim Kiemel",
+                "total_seats": "6",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "MF 1:00pm-1:50pm | W 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0103",
+                "professor": "Tim Kiemel",
+                "total_seats": "6",
+                "open_seats": "4",
+                "waitlist": "0",
+                "times": "MF 1:00pm-1:50pm | W 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0104",
+                "professor": "Tim Kiemel",
+                "total_seats": "6",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "MF 1:00pm-1:50pm | W 2:00pm-2:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Introduction to Neuroscience",
+        "course_number": "NEUR200",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "BSCI171, BSCI170",
+        "description": "In an evolutionary sense, the job of the nervous system is to produce, control, and coordinate behaviors that help an animal survive and reproduce. Neuroscience is the study of how the nervous system does that. Provides a broad introduction to neuroscience, always keeping the behavioral consequences in view.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Ana Navarro Cebrian",
+                "total_seats": "67",
+                "open_seats": "43",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Ana Navarro Cebrian",
+                "total_seats": "67",
+                "open_seats": "50",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            },
+            {
+                "section_id": "0301",
+                "professor": "Instructor: TBA",
+                "total_seats": "67",
+                "open_seats": "58",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Elements of Nutrition",
+        "course_number": "NFSC100",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "Fundamentals of human nutrition. Nutrient requirements related to changing individual and family needs.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Margaret Slavin",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | Th 8:30am-9:20am"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Margaret Slavin",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | Th 8:30am-9:20am"
+            },
+            {
+                "section_id": "0103",
+                "professor": "Margaret Slavin",
+                "total_seats": "22",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | W 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0104",
+                "professor": "Margaret Slavin",
+                "total_seats": "22",
+                "open_seats": "17",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | Th 12:30pm-1:20pm"
+            },
+            {
+                "section_id": "0105",
+                "professor": "Margaret Slavin",
+                "total_seats": "22",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | F 11:00am-11:50am"
+            },
+            {
+                "section_id": "0106",
+                "professor": "Margaret Slavin",
+                "total_seats": "22",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | F 10:00am-10:50am"
+            },
+            {
+                "section_id": "0107",
+                "professor": "Margaret Slavin",
+                "total_seats": "22",
+                "open_seats": "19",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | W 10:00am-10:50am"
+            },
+            {
+                "section_id": "0108",
+                "professor": "Margaret Slavin",
+                "total_seats": "22",
+                "open_seats": "21",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | W 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0109",
+                "professor": "Margaret Slavin",
+                "total_seats": "25",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | Tu 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0112",
+                "professor": "Margaret Slavin",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | W 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "0113",
+                "professor": "Margaret Slavin",
+                "total_seats": "25",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | W 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0114",
+                "professor": "Margaret Slavin",
+                "total_seats": "25",
+                "open_seats": "24",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | Th 11:00am-11:50am"
+            },
+            {
+                "section_id": "0115",
+                "professor": "Margaret Slavin",
+                "total_seats": "25",
+                "open_seats": "25",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | F 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Margaret Slavin",
+                "total_seats": "24",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "MW 4:30pm-5:20pm | F 11:30am-12:20pm"
+            },
+            {
+                "section_id": "FC02",
+                "professor": "Margaret Slavin",
+                "total_seats": "24",
+                "open_seats": "22",
+                "waitlist": "0",
+                "times": "MW 4:30pm-5:20pm | F 1:00pm-1:50pm"
+            },
+            {
+                "section_id": "0101",
+                "professor": "Margaret Slavin",
+                "total_seats": "12",
+                "open_seats": "12",
+                "waitlist": "0",
+                "times": "MW 11:00am-11:50am | W 1:00pm-1:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "General Physics: Mechanics and Particle Dynamics",
+        "course_number": "PHYS161",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "MATH141",
+        "description": "First semester of a three-semester calculus-based general physics course. Laws of motion, force, and energy; principles of mechanics, collisions, linear momentum, rotation, and gravitation.",
+        "geneds": [
+            "DSNS",
+            "DSNL                                    (if taken with PHYS275)"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "David Buehrle",
+                "total_seats": "32",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "MWF 3:00pm-3:50pm | Tu 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "0104",
+                "professor": "David Buehrle",
+                "total_seats": "32",
+                "open_seats": "26",
+                "waitlist": "0",
+                "times": "MWF 3:00pm-3:50pm | F 11:00am-11:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Instructor: TBA",
+                "total_seats": "32",
+                "open_seats": "31",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | Th 8:00am-8:50am"
+            },
+            {
+                "section_id": "0202",
+                "professor": "Instructor: TBA",
+                "total_seats": "32",
+                "open_seats": "28",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | Tu 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0203",
+                "professor": "Instructor: TBA",
+                "total_seats": "32",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | W 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "0204",
+                "professor": "Instructor: TBA",
+                "total_seats": "32",
+                "open_seats": "32",
+                "waitlist": "0",
+                "times": "TuTh 11:00am-12:15pm | M 4:00pm-4:50pm"
+            },
+            {
+                "section_id": "0301",
+                "professor": "Alberto Belloni",
+                "total_seats": "32",
+                "open_seats": "30",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Th 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "0302",
+                "professor": "Alberto Belloni",
+                "total_seats": "32",
+                "open_seats": "29",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | Tu 4:00pm-4:50pm"
+            },
+            {
+                "section_id": "0303",
+                "professor": "Alberto Belloni",
+                "total_seats": "32",
+                "open_seats": "23",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | W 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0304",
+                "professor": "Alberto Belloni",
+                "total_seats": "32",
+                "open_seats": "32",
+                "waitlist": "0",
+                "times": "MWF 10:00am-10:50am | W 3:00pm-3:50pm"
+            },
+            {
+                "section_id": "FC01",
+                "professor": "Aria Heidarian",
+                "total_seats": "26",
+                "open_seats": "13",
+                "waitlist": "0",
+                "times": "TuTh 6:00pm-7:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Mechanics",
+        "course_number": "PHYS171",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "",
+        "description": "First semester of a three semester sequence for physics majors and those desiring a rigorous preparation in the physical sciences: kinematics, Newton's laws, energy and work, linear and angular momenta.",
+        "geneds": [
+            "DSNS",
+            "DSNL                                    (if taken with PHYS275)"
+        ],
+        "sections": [
+            {
+                "section_id": "0201",
+                "professor": "James Drake",
+                "total_seats": "54",
+                "open_seats": "52",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 9:00am-9:50am"
+            },
+            {
+                "section_id": "0201",
+                "professor": "James Drake",
+                "total_seats": "54",
+                "open_seats": "52",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 9:00am-9:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Mechanics",
+        "course_number": "PHYS171H",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "",
+        "description": "First semester of a three semester sequence for physics majors and those desiring a rigorous preparation in the physical sciences: kinematics, Newton's laws, energy and work, linear and angular momenta.",
+        "geneds": [
+            "DSNS",
+            "DSNL                                    (if taken with PHYS275)"
+        ],
+        "sections": [
+            {
+                "section_id": "0201",
+                "professor": "James Drake",
+                "total_seats": "54",
+                "open_seats": "52",
+                "waitlist": "0",
+                "times": "MWF 9:00am-9:50am | Th 9:00am-9:50am"
+            }
+        ]
+    },
+    {
+        "course_name": "The Manhattan Project",
+        "course_number": "PHYS235",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "Introduction to some critical ideas of nuclear physics and a review of some key historical developments starting at the end of the 19th century. Chronological development of nuclear physics from the discovery of radioactivity by Becquerel in 1896 through to the discovery of fission in Germany in 1938 followed by an examination of the programs to develop nuclear weapons in the United States, Britain and Germany. Extensive study of political, ethical, scientific, military, social, and economic issues surrounding the Manhattan Project.",
+        "geneds": [
+            "SCIS",
+            "DSNS",
+            "DSHS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Sylvester Gates",
+                "total_seats": "7",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "MW 4:00pm-4:50pm | M 11:00am-11:50am"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Sylvester Gates",
+                "total_seats": "7",
+                "open_seats": "7",
+                "waitlist": "0",
+                "times": "MW 4:00pm-4:50pm | W 11:00am-11:50am"
+            },
+            {
+                "section_id": "0103",
+                "professor": "Sylvester Gates",
+                "total_seats": "7",
+                "open_seats": "5",
+                "waitlist": "0",
+                "times": "MW 4:00pm-4:50pm | Th 2:00pm-2:50pm"
+            },
+            {
+                "section_id": "0104",
+                "professor": "Sylvester Gates",
+                "total_seats": "7",
+                "open_seats": "7",
+                "waitlist": "0",
+                "times": "MW 4:00pm-4:50pm | Th 2:00pm-2:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Fields",
+        "course_number": "PHYS272",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "PHYS171, MATH241, MATH141",
+        "description": "Second semester of a calculus based general physics course. Universal gravitation, electric and magnetic fields and potentials, simple circuits, Maxwell's equations in integral form. Continues the application of mathematics to conceptual models, now with more abstract components.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0201",
+                "professor": "Eun-Suk Seo",
+                "total_seats": "30",
+                "open_seats": "26",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | F 12:00pm-12:50pm"
+            },
+            {
+                "section_id": "0201",
+                "professor": "Eun-Suk Seo",
+                "total_seats": "30",
+                "open_seats": "26",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | F 12:00pm-12:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Fields",
+        "course_number": "PHYS272H",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "PHYS171, MATH241, MATH141",
+        "description": "Second semester of a calculus based general physics course. Universal gravitation, electric and magnetic fields and potentials, simple circuits, Maxwell's equations in integral form. Continues the application of mathematics to conceptual models, now with more abstract components.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0201",
+                "professor": "Eun-Suk Seo",
+                "total_seats": "30",
+                "open_seats": "26",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm | F 12:00pm-12:50pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Introductory Crop Science",
+        "course_number": "PLSC112",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "Major crop plants including: anatomy, physiology, morphology, history, use, adaptation, culture, improvement and economic importance.",
+        "geneds": [
+            "DSNS",
+            "DSNL                                    (if taken with PLSC113)"
+        ]
+    },
+    {
+        "course_name": "How Safe is Your Salad? The Microbiological Safety of Fresh produce",
+        "course_number": "PLSC115",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "description": "As food is produced in larger quantities and made to travel longer distances, keeping our food safe in this day and age is an ever growing challenge. This course will focus on the question of what it takes to grow and maintain safe fruits and vegetables, as food travels along the path from the farm to your fork. Food safety of fresh produce will be discussed from the public health, agricultural, economical and policy perspectives.",
+        "geneds": [
+            "SCIS",
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Shirley Micallef",
+                "total_seats": "7",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "Tu 11:00am-12:15pm | Th 11:00am-12:15pm"
+            },
+            {
+                "section_id": "0102",
+                "professor": "Shirley Micallef",
+                "total_seats": "7",
+                "open_seats": "6",
+                "waitlist": "0",
+                "times": "Tu 11:00am-12:15pm | Th 12:30pm-1:45pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Plants, Genes and Biotechnology",
+        "course_number": "PLSC203",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "BSCI170, BSCI171, BSCI103",
+        "description": "An overview of the history, genetics, and reproductive mechanisms for agronomic and horticultural plants that examines mechanisms of genetic improvement ranging from traditional plant breeding to tissue culture and genetic engineering. Social and political issues such as germplasm preservation and international intellectual property rights will also be discussed.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Vijay Tiwari",
+                "total_seats": "23",
+                "open_seats": "16",
+                "waitlist": "0",
+                "times": "TuTh 2:00pm-3:15pm"
+            }
+        ]
+    },
+    {
+        "course_name": "Biological Psychology",
+        "course_number": "PSYC304",
+        "credits": "3",
+        "grading_method": "Reg, P-F, Aud,",
+        "prereq": "BSCI171, BSCI170",
+        "description": "Biological Psychology is the study of the physiological basis of behavior. In this course, we will first cover the basic principles of brain organization and neural transmission. We will then introduce traditional and modern research techniques in the field of behavioral neuroscience. The last portion of the course focuses on specific topics including psychopharmacology, learning and memory, emotion, stress, drug of abuse, neurological disorders (e.g., Alzheimer's disease and Parkinson's disease) and schizophrenia.",
+        "geneds": [
+            "DSNS"
+        ],
+        "sections": [
+            {
+                "section_id": "0101",
+                "professor": "Anna Li",
+                "total_seats": "105",
+                "open_seats": "88",
+                "waitlist": "0",
+                "times": "TuTh 12:30pm-1:45pm"
+            }
+        ]
+    }
+]
