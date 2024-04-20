@@ -15,6 +15,9 @@ from datetime import datetime
 
 import os
 from dotenv import load_dotenv
+import json
+
+
 load_dotenv()
 connection_string = os.getenv("CONNECTION_STRING")
 
@@ -30,10 +33,15 @@ from flask_cors import CORS
 
 from sqlalchemy import text
 
+from function_caller import *
+
 app = Flask(__name__)
 
-@app.route("/gettest", methods=["POST"])
+@app.route("/gettest", methods=["GET"])
 def get_probable():
     data = request.json.get("data")
     data_string = str(data)
-    print(data_string)
+    response = parse_query(data_string)
+    assert type(response) == str
+    
+    return jsonify({"response": response})
