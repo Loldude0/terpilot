@@ -1,3 +1,5 @@
+from graph import DirectionalGraph, CoursePrerequisiteGraph
+
 tmp_time_data = {
     "CMSC330": {"0101":["1130050", None, "1130050", None, None], "0102": ["1130050", None, "0930050", None, None]},
     "CMSC351": {"0101":["0830050", None, "1330050", None, None], "0102": ["1130050", None," 0930050", None, None]},
@@ -34,6 +36,8 @@ def generate_schedule_aux(class_lst, time_table, idx, lst, res):
                 res.append(lst_cpy)
                 break
             generate_schedule_aux(class_lst, cpy_time_table, idx+1, lst_cpy, res)
+    
+    return
                     
 
 def generate_schedule(lst):
@@ -42,6 +46,13 @@ def generate_schedule(lst):
     time_table = [False] * 5 * 24 * 6
     generate_schedule_aux(class_lst, time_table, 0, [], res)
     print(res)
+    return res
+
+def verify_courses(graph, course_lst):
+    for course in course_lst:
+        if not graph.is_satisfied(course):
+            course_lst.remove(course)      
+    return
 
 if __name__ == "__main__":
     generate_schedule(["CMSC330", "CMSC351", "ENGL101"])
