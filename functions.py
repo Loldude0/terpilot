@@ -42,6 +42,7 @@ def generate_schedule(lst):
     time_table = [False] * 5 * 24 * 6
     generate_schedule_aux(class_lst, time_table, 0, [], res)
     print(res)
+    return res
 
 if __name__ == "__main__":
     generate_schedule(["CMSC330", "CMSC351", "ENGL101"])

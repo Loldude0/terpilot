@@ -63,12 +63,16 @@ context_manager.add_context("model","Certainly, I can help with calling function
 def parse_query(input_text):
     chat = model.start_chat(history=context_manager.get_context())
     response = chat.send_message(input_text).text
+    print(response)
+    response_dict = ast.literal_eval(response)
+    print(response_dict["args"])
+    response = function_list[response_dict["function"]]["function"](*response_dict["args"])
     return response
 
 if __name__ == "__main__":
     test_input = "make me a schedule from these classes: [CMSC330, CMSC351, ENGL101]"
     response = parse_query(test_input)
     response_dict = ast.literal_eval(response)
-    print(response_dict)
+    print(response)
     function_list[response_dict["function"]]["function"](*response_dict["args"])
 
