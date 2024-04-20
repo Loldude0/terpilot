@@ -37,7 +37,7 @@ def process_data(directory, courses, professors):
                         removed += 1
                         continue
                     for section in sections:
-                        if 'Instructor: TBA' not in section['professor'] and section['professor'] not in professors:
+                        if section['professor'] not in professors:
                             sections.remove(section)
                             removed_section += 1
                     if sections:
