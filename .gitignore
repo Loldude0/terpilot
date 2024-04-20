@@ -17,4 +17,3 @@ venv/
 env/
 test.*
 node_modules
-.env
