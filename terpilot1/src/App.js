@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ChatPage from './pages/ChatPage';
+import ChatPage from './components/ChatPage';
 import ScheduleBuilding from './pages/ScheduleBuilding';
 import TaskBar from './components/taskBar';
 

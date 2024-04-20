@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ChatPage.css'; // Make sure your CSS is correctly linked
-import sendIcon from '/Users/pranavchandar/terpilot/terpilot1/src/pages/sendButton.png'; // Check the path is correct
+import sendIcon from '../pages/sendButton.png'; // Check the path is correct
 
 function ChatPage() {
   const [message, setMessage] = useState("");
