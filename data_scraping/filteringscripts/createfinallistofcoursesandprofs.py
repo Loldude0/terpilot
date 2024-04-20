@@ -17,7 +17,7 @@ def get_courses_and_professors(data):
         course_professor_dict[course] = list(set(professors))  # Remove duplicates
     return course_professor_dict
 
-filename = r'/home/atajne/terpilot/data_scraping/testudo_data/final_testudo_data.json'
+filename = r'/home/atajne/terpilot/data_scraping/final_data_json/final_testudo_data.json'
 data = read_from_json(filename)
 
 course_professor_dict = get_courses_and_professors(data)
