@@ -21,12 +21,6 @@ import json
 load_dotenv()
 connection_string = os.getenv("CONNECTION_STRING")
 
-from upload_pipeline import upload_pipeline
-
-from parse_query import parse_query
-from predict_disease import predict_disease
-from summary import summarize
-
 from flask import current_app, g
 
 from flask_cors import CORS
@@ -37,7 +31,9 @@ from function_caller import *
 
 app = Flask(__name__)
 
-@app.route("/gettest", methods=["GET"])
+CORS(app)
+
+@app.route("/getresponse", methods=["POST"])
 def get_probable():
     data = request.json.get("data")
     data_string = str(data)
@@ -45,3 +41,5 @@ def get_probable():
     assert type(response) == str
     
     return jsonify({"response": response})
+
+app.run(debug=True)
