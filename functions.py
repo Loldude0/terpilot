@@ -13,18 +13,6 @@ genai.configure(api_key=GOOGLE_API_KEY)
         
 model = genai.GenerativeModel("gemini-pro")
 
-context_manager = GeminiContextManager()
-context_manager.add_context("user",
-    f"""
-        [SYSTEM PRPMPT]
-        You are a friendly copilot that helps students in the University of Maryland perform various tasks regarding our ELMS.
-        You should refer to yourself as "Terpilot" when talking to the user.
-
-    """
-)
-
-context_manager.add_context("model","Hi, this is your friendly copilot, Terpilot. How can I help you today?")
-
 tmp_time_data = {
     "CMSC330": {"0101":["1130050", None, "1130050", None, None], "0102": ["1130050", None, "0930050", None, None]},
     "CMSC351": {"0101":["0830050", None, "1330050", None, None], "0102": ["1130050", None," 0930050", None, None]},
@@ -65,13 +53,14 @@ def generate_schedule_aux(class_lst, time_table, idx, lst, res):
     return
                     
 
-def generate_schedule(lst):
+def generate_schedule(lst, context_manager):
     class_lst = tmp_time_data
     res = []
     time_table = [False] * 5 * 24 * 6
     generate_schedule_aux(class_lst, time_table, 0, [], res)
     print(res)
-    return res
+    message = f"Here are the possible schedules: {res}"
+    return res, message
 
 def verify_courses(graph, course_lst):
     for course in course_lst:
@@ -79,11 +68,18 @@ def verify_courses(graph, course_lst):
             course_lst.remove(course)      
     return
 
-def general_chat(input_text):
+def general_chat(input_text, context_manager):
+    context_manager.swap_system_message(f"""
+        [SYSTEM PRPMPT]
+        You are a friendly copilot that helps students in the University of Maryland perform various tasks regarding our ELMS.
+        You should refer to yourself as "Terpilot" when talking to the user.
+        Always respond with concise and short messages.
+        
+    """, "Hi, this is your friendly copilot, Terpilot. How can I help you today?")
     chat = model.start_chat(history=context_manager.get_context())
     response = chat.send_message(input_text).text
     
-    return response
+    return response, response
 
 if __name__ == "__main__":
     generate_schedule(["CMSC330", "CMSC351", "ENGL101"])
