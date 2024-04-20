@@ -1,4 +1,29 @@
 from graph import DirectionalGraph, CoursePrerequisiteGraph
+import google.generativeai as genai
+from dotenv import load_dotenv
+import os
+from gemini_context_manager import GeminiContextManager
+import re
+from functions import *
+import ast
+
+load_dotenv()
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+genai.configure(api_key=GOOGLE_API_KEY)
+        
+model = genai.GenerativeModel("gemini-pro")
+
+context_manager = GeminiContextManager()
+context_manager.add_context("user",
+    f"""
+        [SYSTEM PRPMPT]
+        You are a friendly copilot that helps students in the University of Maryland perform various tasks regarding our ELMS.
+        You should refer to yourself as "Terpilot" when talking to the user.
+
+    """
+)
+
+context_manager.add_context("model","Hi, this is your friendly copilot, Terpilot. How can I help you today?")
 
 tmp_time_data = {
     "CMSC330": {"0101":["1130050", None, "1130050", None, None], "0102": ["1130050", None, "0930050", None, None]},
@@ -53,6 +78,12 @@ def verify_courses(graph, course_lst):
         if not graph.is_satisfied(course):
             course_lst.remove(course)      
     return
+
+def general_chat(input_text):
+    chat = model.start_chat(history=context_manager.get_context())
+    response = chat.send_message(input_text).text
+    
+    return response
 
 if __name__ == "__main__":
     generate_schedule(["CMSC330", "CMSC351", "ENGL101"])

@@ -9,32 +9,17 @@ import ast
 load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
-
-safety_settings = [
-            {
-                "category": "HARM_CATEGORY_HARASSMENT",
-                "threshold": "BLOCK_NONE"
-            },
-            {
-                "category": "HARM_CATEGORY_HATE_SPEECH",
-                "threshold": "BLOCK_NONE"
-            },
-            {
-                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                "threshold": "BLOCK_NONE"
-            },
-            {
-                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                "threshold": "BLOCK_NONE"
-            }
-        ]
         
-model = genai.GenerativeModel("gemini-pro",safety_settings=safety_settings)
+model = genai.GenerativeModel("gemini-pro")
 
 function_list = {
     "generate_schedule": {"description": """this function generates a schedule based on the input list of classes.
                           How to call: generate_schedule([~list of classes~])""",
-                          "function": generate_schedule}
+                          "function": generate_schedule},
+    "gneeral_chat": {"description": """this function is a general chat function that can be used to chat with the model.
+                    This function will be called when the user request deos not match any of the available functions.
+                    How to call: general_chat(~message~)""",
+                    "function": general_chat}
 }
 
 
@@ -71,8 +56,7 @@ def parse_query(input_text):
 
 if __name__ == "__main__":
     test_input = "make me a schedule from these classes: [CMSC330, CMSC351, ENGL101]"
+    test_input = "hi, what can you do?"
     response = parse_query(test_input)
-    response_dict = ast.literal_eval(response)
     print(response)
-    function_list[response_dict["function"]]["function"](*response_dict["args"])
 
