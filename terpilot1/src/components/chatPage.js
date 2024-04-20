@@ -10,13 +10,32 @@ function ChatPage() {
     if (!message.trim()) return; // Prevent sending empty messages
     setLoading(true);
 
-    // Simulate a backend call
+    // Prepare the data to send in the request
+    const dataToSend = {
+      message: message
+    };
+
     try {
-      await new Promise(resolve => setTimeout(resolve, 2000)); // Simulate a delay
-      setMessage(''); // Clear the message after successful sending
+      // HTTP request to the backend
+      const response = await fetch('http://127.0.0.1:5000/getresponse', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(dataToSend)
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      } else {
+        // Optionally handle the response data
+        const responseData = await response.json();
+        console.log('Message sent successfully:', responseData);
+      }
     } catch (error) {
       console.error('Failed to send message:', error);
     } finally {
+      setMessage(''); // Clear the message after attempt to send (success or fail)
       setLoading(false); // Ensure loading is set to false after operation
     }
   };
@@ -46,4 +65,4 @@ function ChatPage() {
   );
 }
 
-export default ChatPage;
+export default ChatPage;
