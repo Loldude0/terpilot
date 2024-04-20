@@ -17,5 +17,6 @@ venv/
 env/
 test.*
 node_modules
+.env
 
 virtual_environment/
