@@ -1,1 +1,18 @@
-{"courses": ["TLPL101", "CMSC106", "CMSC395", "CMSC395", "TLPL101", "TLPL401", "CMSC122", "CMSC131", "TLPL101"], "average_rating": null, "type": "professor", "reviews": [], "name": "Aaron Kyei-asare", "slug": "kyei-asare_aaron"}
+{
+    "courses": [
+        "TLPL101",
+        "CMSC106",
+        "CMSC395",
+        "CMSC395",
+        "TLPL101",
+        "TLPL401",
+        "CMSC122",
+        "CMSC131",
+        "TLPL101"
+    ],
+    "average_rating": null,
+    "type": "professor",
+    "reviews": [],
+    "name": "Aaron Kyei-asare",
+    "slug": "kyei-asare_aaron"
+}
