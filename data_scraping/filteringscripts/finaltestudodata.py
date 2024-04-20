@@ -46,7 +46,7 @@ def process_data(directory, courses, professors):
                         written += 1
                     else:
                         removed_courses_due_to_missing_section.append(item['course_number'])
-                        removed += 1
+                        removed_section += 1
     return final_data, processed, removed, removed_section, written, removed_courses, removed_courses_due_to_missing_section
 
 courses_file = '/home/atajne/terpilot/data_scraping/intermediatedata/unique_courses_planetterp.json'
@@ -66,6 +66,7 @@ print(f"Removed: {removed}")
 print(f"Removed section: {removed_section}")
 print(f"Written: {written}")
 print(f"Removed courses: {a}")
-print(f"Removed courses due to missing section: {b}")
+print(f"Removed courses due to missing sections: {b}")
+print(f"professors: {final_professors}")
 
 write_to_json(final_data, 'final_testudo_data.json')
