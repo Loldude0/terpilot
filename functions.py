@@ -29,7 +29,7 @@ def generate_schedule_aux(class_lst, time_table, idx, lst, res):
                     cpy_time_table[i*24*6 + int(start_time[:2])*6 + int(int(start_time[2:4])/10) + j] = True
         else:
             lst_cpy = lst.copy()
-            lst_cpy.append(section_name)
+            lst_cpy.append(class_names[idx]+"_"+section_name)
             if idx == len(class_names) - 1:
                 res.append(lst_cpy)
                 break
@@ -42,6 +42,7 @@ def generate_schedule(lst):
     time_table = [False] * 5 * 24 * 6
     generate_schedule_aux(class_lst, time_table, 0, [], res)
     print(res)
+    return res
 
 if __name__ == "__main__":
     generate_schedule(["CMSC330", "CMSC351", "ENGL101"])

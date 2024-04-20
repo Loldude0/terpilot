@@ -35,10 +35,11 @@ CORS(app)
 
 @app.route("/getresponse", methods=["POST"])
 def get_probable():
-    data = request.json.get("data")
-    data_string = str(data)
-    response = parse_query(data_string)
-    assert type(response) == str
+    data = request.json.get("message")
+    print(type(data))
+    print(data)
+    response = parse_query(data)
+    print(type(response))
     
     return jsonify({"response": response})
 
