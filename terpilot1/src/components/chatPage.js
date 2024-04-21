@@ -37,7 +37,7 @@ function ChatPage() {
   const sendMessageToBackend = async (messageContent) => {
     // Uncomment the following lines and replace with your backend endpoint
     console.log("sending to backend")
-    const response = await fetch('http://127.0.0.1:5000/getresponse', {
+    const response = await fetch('http://104.131.173.76:5000/getresponse', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
