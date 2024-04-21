@@ -29,7 +29,6 @@ CREATE TABLE professor (
     professor_name varchar(256) NOT NULL,
     professor_rating float,
     professor_summary text,
-    professor_avg_gpa float,
     professor_grading_chart text
 );
 
