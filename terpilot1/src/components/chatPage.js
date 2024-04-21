@@ -45,10 +45,9 @@ function ChatPage() {
       if (data.type === "text-data"){
         setMessages([...new_messages, { content: data.message, direction: "incoming" }]);
       } else if (data.type === "geo-data") {
-        setMessages([...new_messages, { content: "geo data", direction: "incoming" }]);
+        setMessages([...new_messages, { content: "geo-data", direction: "incoming" }]);
         // data.message = [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
         setMapLocations(data.message);  
-        setMessages([...new_messages, { content: "geo data", direction: "incoming" }])
       } else {
         console.log("error");
       }
@@ -78,13 +77,18 @@ function ChatPage() {
   return (
     <div className="chat-container">
       <div className="messages">
-        {messages.map((msg, index) => (
-          <div key={index} className={`message-bubble ${msg.direction === "outgoing" ? "outgoing" : "incoming"}`}>
-            {msg.content}
-          </div>
-        ))}
+        {messages.map((msg, index) => 
+          msg.direction === "incoming" ? (
+            <div key={index} className={`message-bubble incoming`}>
+              {msg.content === "geo-data" ? <MapComponent locations={mapLocations} /> : msg.content}
+            </div>
+          ) : (
+            <div key={index} className={`message-bubble outgoing`}>
+              {msg.content}
+            </div>
+          )
+        )}
       </div>
-      {mapLocations.length>0 && <MapComponent locations={mapLocations} />}
       <div className="input-container">
         <textarea
           value={inputValue}
