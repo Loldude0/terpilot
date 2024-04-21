@@ -1,18 +1,35 @@
 import React, { useState, useEffect } from 'react';
 import { DayPilot, DayPilotCalendar } from "@daypilot/daypilot-lite-react";
+import { setMinutes, setHours, setDay, isPast, addWeeks } from "date-fns";
 import "./Calendar.css";
+
+const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 const Calendar = ({ schedule }) => {
   const [events, setEvents] = useState([]);
   console.log(schedule);
   useEffect(() => {
-    // Assuming schedule is an array of event objects with { start, end, text } properties
-    setEvents(schedule.map(event => ({
-      start: new DayPilot.Date(event.start),
-      end: new DayPilot.Date(event.end),
-      id: DayPilot.guid(),
-      text: event.text
-    })));
+    setEvents(schedule.map(event => {
+      const dayOfWeek = daysOfWeek.indexOf(event.start);
+      const [startHour, startMinute] = event.start_time.split(':').map(Number);
+      const [endHour, endMinute] = event.end_time.split(':').map(Number);
+
+      let startDate = setMinutes(setHours(setDay(new Date(), dayOfWeek), startHour), startMinute);
+      let endDate = setMinutes(setHours(setDay(new Date(), dayOfWeek), endHour), endMinute);
+
+      // If the start date is in the past, move it to the next week
+      if (isPast(startDate)) {
+        startDate = addWeeks(startDate, 1);
+        endDate = addWeeks(endDate, 1);
+      }
+
+      return {
+        start: new DayPilot.Date(startDate),
+        end: new DayPilot.Date(endDate),
+        id: DayPilot.guid(),
+        text: event.text
+      };
+    }));
   }, [schedule]);
 
   const calendarConfig = {

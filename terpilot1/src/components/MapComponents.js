@@ -30,7 +30,7 @@ const MapComponent = ({ locations }) => {
         <Marker
           key={index}
           position={{ lat: parseFloat(loc.lat), lng: parseFloat(loc.lng) }}
-          label={loc.name}
+          label={index}
         />
       ))}
 

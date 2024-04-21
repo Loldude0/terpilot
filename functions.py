@@ -7,7 +7,7 @@ import re
 from functions import *
 import ast
 import json
-
+from datetime import datetime
 import psycopg2
 from psycopg2 import OperationalError
 import os
@@ -95,7 +95,12 @@ def generate_schedule(lst, context_manager):
     }
     message = f"Here are the possible schedules: {res_dict}"
     
-    res = [{"start": "2024-04-21S10:00:00", "end": "2024-04-21S12:00:00", "text": "CMSC330"}]
+    res = [
+  { "start": "Monday", "start_time": "09:00", "end_time": "10:00", "text": "Math" },
+  { "start": "Monday", "start_time": "10:00", "end_time": "11:00", "text": "English" },
+  { "start": "Tuesday", "start_time": "09:00", "end_time": "10:00", "text": "Science" },
+  { "start": "Tuesday", "start_time": "10:00", "end_time": "11:00", "text": "History" },
+];
     
     return res, message, "schedule-data"
 
