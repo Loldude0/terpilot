@@ -19,7 +19,7 @@ db_name = cur.fetchone()[0]
 print(f"Connected to the database '{db_name}'")
 
 # Load the data from the JSON files
-with open('/home/atajne/terpilot/data_scraping/final_data_json/final_to_add.json') as f:
+with open('/home/atajne/terpilot/data_scraping/finalthing/combined.json') as f:
     courses_data = json.load(f)
 
 with open('/home/atajne/terpilot/data_scraping/final_data_json/combined_prof_info.json') as f:
@@ -37,9 +37,9 @@ for course in courses_data:
 
     for section in course['sections']:
         cur.execute("""
-            INSERT INTO section (section_name, course_name, course_id, professor_name, professor_rating, course_time, course_total_seats, course_open_seats, course_waitlist, course_summary, course_rating)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-        """, (section['section_id'], course['course_name'], course_id, section.get('professor', 'N/A'), float(section.get('rating', 0)), section.get('times', 'N/A'), int(section.get('total_seats', 0)), int(section.get('open_seats', 0)), int(section.get('waitlist', 0)), section.get('course_summary', 'N/A'), float(section.get('rating', 0))))
+            INSERT INTO section (section_name, course_name, course_id, professor_name, professor_rating, course_time, course_total_seats, course_open_seats, course_waitlist, course_summary, course_rating, course_location)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        """, (section['section_id'], course['course_name'], course_id, section.get('professor', 'N/A'), float(section.get('rating', 0)), section.get('times', 'N/A'), int(section.get('total_seats', 0)), int(section.get('open_seats', 0)), int(section.get('waitlist', 0)), section.get('course_summary', 'N/A'), float(section.get('rating', 0)), section.get('locations', 'N/A')))
 
 for professor in professors_data:
     average_rating = professor.get('average_rating')

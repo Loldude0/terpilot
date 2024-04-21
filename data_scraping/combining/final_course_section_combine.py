@@ -33,15 +33,16 @@ for course in final_testudo_data:
             for section in course['sections']:
                 if section['professor'] == summary_data['name']:
                     print("we found a match")
+
                     try:
                         section['course_summary'] = summary_data['course_summaries'][course_number]
                     except:
                         section['course_summary'] = 'no summary available'
+
                     try:
                         section['rating'] = summary_data['course_ratings'][course_number]
                     except:
                         section['rating'] = '0'
-                    break
 
 # Write the combined data to a new json file
 with open('final_to_add.json', 'w') as f:

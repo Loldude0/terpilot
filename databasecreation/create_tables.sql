@@ -44,5 +44,6 @@ CREATE TABLE section (
     course_open_seats int,
     course_waitlist int,
     course_summary text,
-    course_rating float
+    course_rating float,
+    course_location varchar(256)
 );
