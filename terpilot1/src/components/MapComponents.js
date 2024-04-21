@@ -1,9 +1,12 @@
 import React from 'react';
-import { GoogleMap, Marker } from '@react-google-maps/api';
+import { GoogleMap, MarkerF } from '@react-google-maps/api';
 import mapStyles from '../mapStyles';
+import mapIcon from "./red_turtle.png"; 
+
+
 const mapContainerStyle = {
-  width: '50vw',
-  height: '50vh',
+  width: '100%', // Adjusted for full width for better visibility
+  height: '400px', // Increased height for better visibility
 };
 
 const options = {
@@ -12,31 +15,32 @@ const options = {
   zoomControl: true,
 };
 
-// Component to display Google Maps with multiple markers
 const MapComponent = ({ locations }) => {
-  // locations: [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
-  // I will add the center of UMD later
-  // 38.987886156592246, -76.94299360133668
-  const center = { lat: 38.987886156592246, lng: -76.94299360133668 };
+  console.log("Locations:", locations); // Debugging line
+  const center = { lat: 38.987886, lng: -76.942994 }; // Updated for clarity
+
   return (
     <GoogleMap
       mapContainerStyle={mapContainerStyle}
-      zoom={12}
+      zoom={15} // Increased zoom for closer view
       center={center}
-      options = {options}
+      options={options}
     >
-      {locations.map((loc, index) => (
-        console.log(loc),
-        <Marker
+      {locations.map((location, index) => (
+        <MarkerF
           key={index}
-          position={{ lat: parseFloat(loc.lat), lng: parseFloat(loc.lng) }}
-          label={index}
+          position={{ lat: parseFloat(location.lat), lng: parseFloat(location.lng) }}
+          label={location.name}
+          icon={{
+            url: mapIcon,
+            scaledSize: new window.google.maps.Size(30, 30), // Adjust size as needed
+            origin: new window.google.maps.Point(0,0),
+            
+          }}
         />
       ))}
-
-
     </GoogleMap>
   );
 };
 
-export default MapComponent;
+export default MapComponent;
