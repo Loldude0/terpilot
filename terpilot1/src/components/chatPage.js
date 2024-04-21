@@ -18,14 +18,15 @@ import Calendar from './Calendar';
 
 function ChatPage() {
   const [messages, setMessages] = useState([]);
+  const [scheduleData, setScheduleData] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [loading, setLoading] = useState(false); // Define the loading state
   const [mapLocations, setMapLocations] = useState([]);
-  const [scheduleData, setScheduleData] = useState([]);
-  const {isLoaded, loadError} = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY
+  const { isLoaded, loadError } = useLoadScript({
+    googleMapsApiKey: "AIzaSyA0Rb9lOy66_3hIcrfcduzGzqC2ajlQc6k"
   });
   const messagesEndRef = useRef(null);
+
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -35,55 +36,53 @@ function ChatPage() {
   }, [messages]);
 
   const sendMessageToBackend = async (messageContent) => {
-    // Uncomment the following lines and replace with your backend endpoint
-    console.log("sending to backend")
-    const response = await fetch('http://127.0.0.1:5000/getresponse', {
+    // Immediately update the outgoing message
+    setMessages(prevMessages => [...prevMessages, { content: messageContent, direction: "outgoing" }]);
+  
+    // Fetch data from backend
+    const response = await fetch('http://104.131.173.76:5000/getresponse', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ message: messageContent })
     });
-    console.log(messages)
-    const user_message = { content: messageContent, direction: "outgoing" };
-    let new_messages = [...messages, user_message];
-    setMessages(new_messages);
-    
+  
+    // Check if response is OK and then process data
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
-      if (data.type === "text-data"){
-        setMessages([...new_messages, { content: data.message, direction: "incoming" }]);
-      } else if (data.type === "geo-data") {
-        setMessages([...new_messages, { content: "geo-data", direction: "incoming" }]);
-        // data.message = [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
-        setMapLocations(data.message);  
-      } else if (data.type === "schedule-data") {
-        setMessages([...new_messages, { content: "schedule-data", direction: "incoming" }]);
-        setScheduleData(data.message)
-
-      } else {
-        console.log("error");
-      }
-      // Handle the response data as needed...
+      setMessages(prevMessages => {
+        // Copy previous messages and handle new data
+        let newMessages = [...prevMessages];
+        if (data.type === "text-data") {
+          newMessages.push({ content: data.message, direction: "incoming" });
+        } else if (data.type === "geo-data") {
+          newMessages.push({ content: "geo-data", direction: "incoming" });
+          setMapLocations(data.message);
+        } else if (data.type === "schedule-data") {
+          newMessages.push({ content: "schedule-data", direction: "incoming" });
+          setScheduleData(data.schedule);
+        }
+        return newMessages;
+      });
     } else {
-      // Handle errors...
-      setMessages([...messages, { content: "Error sending message", direction: "incoming" }]);
+      // Handle errors by adding an error message to chat
+      setMessages(prevMessages => [...prevMessages, { content: "Error sending message", direction: "incoming" }]);
     }
   };
   
+
   const sendMessage = () => {
     if (!inputValue.trim()) return;
-    setLoading(true); // You would turn this true when sending starts
-    
-    setMessages(prevMessages => [...prevMessages, { content: inputValue, direction: "outgoing" }]);
+    setLoading(true);
+    sendMessageToBackend(inputValue);
     setInputValue(""); // Clear the input after sending
-    sendMessageToBackend(inputValue); // Call the function to send the message to the backend
-    setLoading(false); // You would turn this true when sending starts and then back to false when done
+    setLoading(false); // Turn this false when done
   };
+
   const handleKeyDown = (e) => {
-    if (e.key === 'Enter' && !e.shiftKey) { // Added check for shiftKey
-      e.preventDefault(); // Prevents the default action of Enter key (new line)
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault(); // Prevents the default action of Enter key
       sendMessage();
     }
   };
@@ -91,25 +90,19 @@ function ChatPage() {
   return (
     <div className="chat-container">
       <div className="messages">
-        {messages.map((msg, index) => 
-          msg.direction === "incoming" ? (
-            <div key={index} className={`message-bubble incoming`}>
-              {msg.content === "geo-data" ? <MapComponent locations={mapLocations} /> :
-              msg.content === "schedule-data" ? <Calendar schedule={scheduleData} />: msg.content}
-            </div>
-          ) : (
-            <div key={index} className={`message-bubble outgoing`}>
-              {msg.content}
-            </div>
-          )
-        )}
-        <div className="bottom-ref" ref={messagesEndRef} />
+        {messages.map((msg, index) => (
+          <div key={index} className={`message-bubble ${msg.direction === "outgoing" ? "outgoing" : "incoming"}`}>
+            {msg.content === "geo-data" ? <MapComponent locations={mapLocations} /> :
+             msg.content === "schedule-data" ? <Calendar schedule={scheduleData} /> : msg.content}
+          </div>
+        ))}
+        <div ref={messagesEndRef} />
       </div>
       <div className="input-container">
         <textarea
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          onKeyDown={handleKeyDown} // Added onKeyDown event handler
+          onKeyDown={handleKeyDown}
           placeholder="Type something..."
           className="message-input"
           rows={1}
@@ -121,6 +114,5 @@ function ChatPage() {
     </div>
   );
 }
-
 
 export default ChatPage;

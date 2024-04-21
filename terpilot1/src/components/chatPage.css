@@ -33,6 +33,7 @@
 }
 
 .message-bubble {
+  animation: slideIn 0.5s ease-out forwards;
   max-width: 50% !important;
   padding: 10px 20px;
   border-radius: 12px;
@@ -153,7 +154,19 @@
   margin: 0; 
   margin-right: 25px;/* No margin */
 }
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .message-bubble {
+  animation: fadeIn 1.5s ease forwards;
   max-width: 16%; /* Adjust the max-width as needed */
   padding: 17px 22px; /* Adjust the padding to control the bubble size */
   border-radius: 25px; /* For rounded corners on the bubble */
@@ -163,8 +176,18 @@
   margin-bottom: 7px; 
   word-break: break-word;/* This will prevent long words from overflowing */
 }
-
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Optional: Start from slightly below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .message-bubble.outgoing {
+  animation-direction: normal;
   background-color: #20159d; /* background color for outgoing messages */
   background-color: #2321a4; /* Example color for outgoing messages */
   color: white;
@@ -174,6 +197,7 @@
 }
 
 .message-bubble.incoming {
+  animation-direction: normal;
   background-color: #f1f1f1; /* background color for incoming messages */
   color: #333;
   align-self: flex-start; /* Aligns incoming messages to the left */
@@ -187,4 +211,3 @@
   resize: none; /* Remove the resize handle */
   overflow: auto; /* Hide overflow to start with a single line */
 }
-/* Additional styles for the loader and messages can be added/adjusted as needed */
