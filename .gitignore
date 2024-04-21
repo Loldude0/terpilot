@@ -19,5 +19,3 @@ test.*
 node_modules
 .env
 virtual_environment
-
-virtual_environment/

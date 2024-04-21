@@ -6,24 +6,12 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import os
 from dotenv import load_dotenv
-import json
 
-from function_caller import FunctionCaller
 
 from function_caller import *
 
 load_dotenv()
 connection_string = os.getenv("CONNECTION_STRING")
-
-fc = FunctionCaller()
-
-from flask import current_app, g
-
-from flask_cors import CORS
-
-from sqlalchemy import text
-
-from function_caller import *
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = connection_string
