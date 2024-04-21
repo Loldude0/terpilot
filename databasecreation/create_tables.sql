@@ -1,6 +1,6 @@
 -- SCHEMA: public
 
--- DROP SCHEMA IF EXISTS public CASCADE;
+DROP SCHEMA IF EXISTS public CASCADE;
 
 CREATE SCHEMA IF NOT EXISTS public AUTHORIZATION postgres;
 
@@ -37,8 +37,12 @@ CREATE TABLE section (
     section_id serial primary key,
     course_name varchar(256) NOT NULL,
     course_id int REFERENCES course(course_id),
-    professor_id int REFERENCES professor(professor_id),
+    professor_name varchar(256) NOT NULL,
+    professor_rating float,
     course_time varchar(256),
-    course_seats varchar(256),
-    course_summary text
+    course_total_seats int,
+    course_open_seats int,
+    course_waitlist int,
+    course_summary text,
+    course_rating float
 );
