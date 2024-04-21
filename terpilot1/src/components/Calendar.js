@@ -4,7 +4,7 @@ import "./Calendar.css";
 
 const Calendar = ({ schedule }) => {
   const [events, setEvents] = useState([]);
-
+  console.log(schedule);
   useEffect(() => {
     // Assuming schedule is an array of event objects with { start, end, text } properties
     setEvents(schedule.map(event => ({

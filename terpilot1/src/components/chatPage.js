@@ -59,6 +59,7 @@ function ChatPage() {
         // data.message = [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
         setMapLocations(data.message);  
       } else if (data.type === "schedule-data") {
+        console.log(data.message);
         setMessages([...new_messages, { content: "schedule-data", direction: "incoming" }]);
         setScheduleData(data.message)
 

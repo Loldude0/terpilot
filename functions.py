@@ -92,7 +92,10 @@ def generate_schedule(lst, context_manager):
         f"Choice{i+1}": [" Section ".join(class_item.split("-")) for class_item in res[i]] for i in range(len(res))
     }
     message = f"Here are the possible schedules: {res_dict}"
-    return res, message, "text-data"
+    
+    res = [{"start": "2024-04-21S10:00:00", "end": "2024-04-21S12:00:00", "text": "CMSC330"}]
+    
+    return res, message, "schedule-data"
 
 def verify_courses(graph, course_lst):
     for course in course_lst:
