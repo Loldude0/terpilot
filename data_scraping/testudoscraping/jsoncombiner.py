@@ -1,11 +1,35 @@
 import json
 import re
 
-with open("list.html", "r") as file: #<-------------------->CHANGE<-------------------->
-    courses_list = eval(file.read())
+list = [
+    "cmsc",
+    "dshs",
+    "dshu",
+    "dsnl",
+    "dsns",
+    "dssp",
+    "dvcc",
+    "dvup",
+    "fsaw",
+    "fsma",
+    "fsoc",
+    "fspw",
+    "scis"
+]
+courses_list = []
+def doit(name):
+    with open(r"/home/atajne/terpilot/data_scraping/raw/" + name + "/" + name + ".html", "r") as file: #<-------------------->CHANGE<-------------------->
+        courses_listy = eval(file.read())
+        courses_list.extend(courses_listy)
+
+for name in list:
+    doit(name)
+
+print(courses_list)
 
 final_json = []
 for course in courses_list:
+    print(course)
     try:
         with open(course + ".json", "r") as file:
             data = json.load(file)
@@ -15,4 +39,5 @@ for course in courses_list:
         continue
 
 with open("list.json", "w") as file: #<-------------------->CHANGE<-------------------->
+    print(final_json)
     json.dump(final_json, file)

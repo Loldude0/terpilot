@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 #<-------------------->CHANGE<-------------------->
 #<-------------------->CHANGE<-------------------->
-url = "https://app.testudo.umd.edu/soc/gen-ed/202408/SCIS"
+url = "https://app.testudo.umd.edu/soc/gen-ed/202408/CMSC"
 #<-------------------->CHANGE<-------------------->
 #<-------------------->CHANGE<-------------------->
 
