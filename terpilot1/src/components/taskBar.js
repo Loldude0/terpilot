@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './TaskBar.css'; // Import CSS for styling
+import './taskBar.css'; // Import CSS for styling
 
 function TaskBar() {
   const navigate = useNavigate();

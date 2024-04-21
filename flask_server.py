@@ -7,6 +7,7 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv
 
+
 from function_caller import *
 
 load_dotenv()
@@ -18,13 +19,10 @@ app.config["SQLALCHEMY_ECHO"] = True
 db = SQLAlchemy(app)
 
 @app.route("/getresponse", methods=["POST"])
-def get_probable():
+def get_response():
     data = request.json.get("message")
-    print(type(data))
-    print(data)
-    response = parse_query(data)
-    print(type(response))
-    
-    return jsonify({"response": response})
+    response = fc.parse_query(data)
+    print(response)     
+    return jsonify({"message": response})
 
 app.run(debug=True)

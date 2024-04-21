@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+html, body {
+  height:100%;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.task-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--taskbar-color);
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  height: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.task-bar .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif; /* Fancy font for the logo */
+  margin-left: 10px; /* Maintain alignment */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.task-bar-button {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.task-bar-button:hover {
+  background-color: var(--button-hover-color);
+  color: var(--background-color);
+}
+.task-bar-button {
+  background-color: transparent; /* Ensures no background color changes */
+  color: black; /* Default text color */
+  transition: color 0.3s; /* Smooth transition for text color */
+}
+
+.task-bar-button:hover {
+  color: #dca92a; /* Soft blue for hover */
+}
+
+
+.icon-settings {
+  font-style: normal; /* Placeholder for the settings icon */
+  padding-left: 10px;
+}
+
+@media (max-width: 500px) {
+  .task-bar {
+    flex-direction: column;
+    height: auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .task-bar .logo,
+  .task-bar .task-bar-button {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 5px 0;
   }
 }
