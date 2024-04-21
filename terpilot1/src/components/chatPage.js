@@ -47,7 +47,7 @@ function ChatPage() {
       } else if (data.type === "geo-data") {
         setMessages([...new_messages, { content: "geo data", direction: "incoming" }]);
         // data.message = [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
-        setMapLocations(data.message);
+        setMapLocations(data.message);  
         setMessages([...new_messages, { content: "geo data", direction: "incoming" }])
       } else {
         console.log("error");
