@@ -40,7 +40,7 @@ safety_settings = [
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel("gemini-pro",safety_settings=safety_settings)
-model2 = genai.GenerativeModel("gemini-1.5-pro-latest",safety_settings=safety_settings)
+summary_model = genai.GenerativeModel("gemini-1.5-pro-latest",safety_settings=safety_settings)
 
 tmp_time_data = {
     "CMSC330": {"0101":["1130050", None, "1130050", None, None], "0102": ["1130050", None, "0930050", None, None]},
@@ -113,13 +113,15 @@ def general_chat(input_text, context_manager):
     
     return response, response, "text-data"
 
-def generate_summary(string, context_manager):
-    context_manager.swap_system_message(f"""
+def generate_summary(input_text, context_manager):
+    summary_context_manager = GeminiContextManager()
+    summary_context_manager.add_context("user"f"""
         [SYSTEM PRPMPT]
         You are a summary generator that generates a summary of a given text.
         You should summarize the text in a short, consise manner.
-    """, "Sure, I can help with summarizing the text.")
-    chat = model.start_chat(history=context_manager.get_context())
+    """)
+    summary_context_manager.add_context("model","Sure, I can help with summarizing the text.")
+    chat = summary_model.start_chat(history=summary_context_manager.get_context())
     response = chat.send_message(input_text).text
 
     return response, response, "text-data"
