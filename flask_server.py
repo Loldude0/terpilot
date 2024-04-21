@@ -28,6 +28,4 @@ def get_response():
     print(response)
     return jsonify({"type":response_type,"message": response})
 
-
-
 app.run(debug=True)
