@@ -83,7 +83,7 @@ def generate_schedule_aux(class_lst, time_table, idx, lst, res):
                     
 
 def generate_schedule(lst, context_manager):
-    class_lst = tmp_time_data
+    class_lst = process_timetable(lst)
     res = []
     time_table = [False] * 5 * 24 * 6
     generate_schedule_aux(class_lst, time_table, 0, [], res)
@@ -104,8 +104,8 @@ def verify_courses(graph, course_lst):
     return
 
 def general_chat(input_text, context_manager):
-    context_manager.swap_system_message(f"""
-        [SYSTEM PRPMPT]
+    context_manager.swap_system_message(f"""s
+        [SYSTEM PROMPT]
         You are a friendly copilot that helps students in the University of Maryland perform various tasks regarding our ELMS.
         You should refer to yourself as "Terpilot" when talking to the user.
         Always respond with concise and short messages.
@@ -119,9 +119,9 @@ def general_chat(input_text, context_manager):
 def generate_summary(input_text, context_manager):
     summary_context_manager = GeminiContextManager()
     summary_context_manager.add_context("user"f"""
-        [SYSTEM PRPMPT]
+        [SYSTEM PROMPT]
         You are a summary generator that generates a summary of a given text.
-        You should summarize the text in a short, consise manner.
+        You should summarize the text in a short, consise manner within 128 words.
     """)
     summary_context_manager.add_context("model","Sure, I can help with summarizing the text.")
     chat = summary_model.start_chat(history=summary_context_manager.get_context())
@@ -130,9 +130,14 @@ def generate_summary(input_text, context_manager):
     return response, response, "text-data"
 
 def generate_professor_summary(professor_name, context_manager):
-    professor_name = "Maksym Morawski"
-    average_rating = 4.5
-    summary = generate_summary("", context_manager)
+    fetched_summary = get_professor_summary(professor_name)
+    summary = ""
+    if fetched_summary is None:
+        summary = "Unfortunately, there are not enough reviews for me to analyze and generate a summary."
+    else:
+        summary = generate_summary(fetched_summary, context_manager)
+
+    average_rating = get_average_professor_rating(professor_name)
     full_summary = f"""
                 Here is a summary of Professor {professor_name}.
                 Average Rating: {average_rating}
@@ -157,6 +162,62 @@ def get_average_professor_rating(professor_name):
     if rating is None:
         return None
     return rating[0]
+
+def get_professor_summary(professor_name):
+    cur.execute("""
+        SELECT professor_summary
+        FROM professor
+        WHERE professor_name = %s
+    """, (professor_name,))
+    summary = cur.fetchone()
+    if summary is None:
+        return None
+    return summary[0]
+
+def get_course_name_from_course_id(course_id):
+    cur.execute("""
+        SELECT course_name
+        FROM course
+        WHERE course_number = %s
+    """, (course_id,))
+    course_name = cur.fetchone()
+    if course_name is None:
+        return None
+    return course_name[0]
+
+def get_sections_time_from_course(course_name):
+    cur.execute("""
+        SELECT course_time, section_name
+        FROM section
+        WHERE course_name = %s
+    """, (get_course_name_from_course_id(course_name),))
+    time = cur.fetchall()
+    return time
+
+def parse_time_for_section(time):
+    days = ['M', 'Tu', 'W', 'Th', 'F']
+    schedule = [None]*5
+    time_splits = time.split('|')
+    for time_split in time_splits:
+        day_time = re.findall(r'[A-Za-z]+|\d+:\d+[ap]m-\d+:\d+[ap]m', time_split.strip())
+        for day in day_time[0]:
+            for d in days:
+                if day in d:
+                    start_time, end_time = [datetime.strptime(t, "%I:%M%p") for t in day_time[1].split('-')]
+                    duration = int((end_time - start_time).total_seconds() / 60)
+                    schedule[days.index(d)] = start_time.strftime("%H%M") + str(duration).zfill(3)
+    return schedule
+
+def process_timetable(classes):
+    timetable = {}
+    for course_id in classes:
+        sections_time = get_sections_time_from_course(course_id)
+        for time, section_name in sections_time:
+            if course_id not in timetable:
+                timetable[course_id] = {}
+            print(time)
+            timetable[course_id][section_name] = parse_time_for_section(time)
+    return timetable
 
 if __name__ == "__main__":
     print(generate_schedule(["CMSC330", "CMSC351", "ENGL101"], None))
