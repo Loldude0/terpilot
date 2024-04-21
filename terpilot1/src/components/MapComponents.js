@@ -43,4 +43,4 @@ const MapComponent = ({ locations }) => {
   );
 };
 
-export default MapComponent;
+export default MapComponent;

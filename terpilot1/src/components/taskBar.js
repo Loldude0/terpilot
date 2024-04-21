@@ -9,7 +9,7 @@ function TaskBar() {
   return (
     <div className="task-bar">
       <div className="logo">
-        TerpPilot
+        TerPilot
         <img src={turtleLogo} alt="Turtle Logo" style={{ marginLeft: '10px', width: '45px', height: '45px' }} />
       </div>
       <div>

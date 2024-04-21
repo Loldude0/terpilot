@@ -12,6 +12,7 @@ import psycopg2
 from psycopg2 import OperationalError
 import os
 from dotenv import load_dotenv
+from parse_usr_data import get_suggestions
 
 conn = psycopg2.connect(
     dbname="postgres",
@@ -419,6 +420,15 @@ def get_course_location(course_id):
 
     return list(set(latlonglist))
 
+def make_suggestions(context_manager):
+    suggestions = get_suggestions()
+    response_string = f"""
+    Based on your unofficial transcript, here are some courses that you should take:
+    {"\n".join([suggestion[0] + ': fullfills ' + ','.join(suggestion[1]) for suggestion in suggestions])}
+    
+    """
+    print(suggestions)
+    return suggestions, "Here are some course suggestions: {suggestions}", "text-data"
 
 if __name__ == "__main__":
     print(generate_schedule(["CMSC330", "CMSC351", "ENGL101"], None))
