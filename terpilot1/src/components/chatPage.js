@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {useLoadScript} from '@react-google-maps/api'; // Import the useLoadScript hook
 import { 
   MainContainer, 
   ChatContainer, 
@@ -11,11 +12,17 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import '../App.css'; 
 import './ChatPage.css';
 import sendIcon from "../pages/sendIcon.png"; // Import the send icon
+import MapComponent from './MapComponents';
+
 
 function ChatPage() {
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [loading, setLoading] = useState(false); // Define the loading state
+  const [mapLocations, setMapLocations] = useState([]);
+  const {isLoaded, loadError} = useLoadScript({
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY
+  });
 
   const sendMessageToBackend = async (messageContent) => {
     // Uncomment the following lines and replace with your backend endpoint
@@ -34,7 +41,17 @@ function ChatPage() {
     
     if (response.ok) {
       const data = await response.json();
-      setMessages([...new_messages, { content: data.message, direction: "incoming" }]);
+      console.log(data);
+      if (data.type === "text-data"){
+        setMessages([...new_messages, { content: data.message, direction: "incoming" }]);
+      } else if (data.type === "geo-data") {
+        setMessages([...new_messages, { content: "geo data", direction: "incoming" }]);
+        // data.message = [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
+        setMapLocations(data.message);  
+        setMessages([...new_messages, { content: "geo data", direction: "incoming" }])
+      } else {
+        console.log("error");
+      }
       // Handle the response data as needed...
     } else {
       // Handle errors...
@@ -67,15 +84,16 @@ function ChatPage() {
           </div>
         ))}
       </div>
+      {mapLocations.length>0 && <MapComponent locations={mapLocations} />}
       <div className="input-container">
-          <textarea
+        <textarea
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           onKeyDown={handleKeyDown} // Added onKeyDown event handler
           placeholder="Type something..."
           className="message-input"
           rows={1}
-          />
+        />
         <button onClick={sendMessage} disabled={loading}>
           <img src={sendIcon} alt="Send" className="send-button-icon" />
         </button>

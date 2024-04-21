@@ -6,12 +6,32 @@ from gemini_context_manager import GeminiContextManager
 import re
 from functions import *
 import ast
+import json
 
 load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+
+safety_settings = [
+            {
+                "category": "HARM_CATEGORY_HARASSMENT",
+                "threshold": "BLOCK_NONE"
+            },
+            {
+                "category": "HARM_CATEGORY_HATE_SPEECH",
+                "threshold": "BLOCK_NONE"
+            },
+            {
+                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                "threshold": "BLOCK_NONE"
+            },
+            {
+                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                "threshold": "BLOCK_NONE"
+            }
+]
 genai.configure(api_key=GOOGLE_API_KEY)
-        
-model = genai.GenerativeModel("gemini-pro")
+
+model = genai.GenerativeModel("gemini-pro",safety_settings=safety_settings)
 
 tmp_time_data = {
     "CMSC330": {"0101":["1130050", None, "1130050", None, None], "0102": ["1130050", None, "0930050", None, None]},
@@ -44,7 +64,7 @@ def generate_schedule_aux(class_lst, time_table, idx, lst, res):
                     cpy_time_table[i*24*6 + int(start_time[:2])*6 + int(int(start_time[2:4])/10) + j] = True
         else:
             lst_cpy = lst.copy()
-            lst_cpy.append(class_names[idx]+"_"+section_name)
+            lst_cpy.append(class_names[idx]+"-"+section_name)
             if idx == len(class_names) - 1:
                 res.append(lst_cpy)
                 break
@@ -59,8 +79,11 @@ def generate_schedule(lst, context_manager):
     time_table = [False] * 5 * 24 * 6
     generate_schedule_aux(class_lst, time_table, 0, [], res)
     print(res)
-    message = f"Here are the possible schedules: {res}"
-    return res, message
+    res_dict = {
+        f"Choice{i+1}": [" Section ".join(class_item.split("-")) for class_item in res[i]] for i in range(len(res))
+    }
+    message = f"Here are the possible schedules: {res_dict}"
+    return res, message, "text-data"
 
 def verify_courses(graph, course_lst):
     for course in course_lst:
@@ -79,7 +102,11 @@ def general_chat(input_text, context_manager):
     chat = model.start_chat(history=context_manager.get_context())
     response = chat.send_message(input_text).text
     
-    return response, response
+    return response, response, "text-data"
+
+def get_map_data(class_lst, context_manager):
+    location_lst = [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
+    return location_lst, "Here are the location of the classes: {location_lst}", "geo-data"
 
 if __name__ == "__main__":
-    generate_schedule(["CMSC330", "CMSC351", "ENGL101"])
+    print(generate_schedule(["CMSC330", "CMSC351", "ENGL101"], None))
