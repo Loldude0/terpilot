@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { DayPilot, DayPilotCalendar } from "@daypilot/daypilot-lite-react";
-import "./CalendarStyles.css";
+import "./Calendar.css";
 
 const Calendar = ({ schedule }) => {
   const [events, setEvents] = useState([]);
