@@ -32,14 +32,12 @@ safety_settings = [
             }
         ]
 
-model = genai.GenerativeModel("gemini-1.5-pro-latest",safety_settings=safety_settings)
+model = genai.GenerativeModel("gemini-pro",safety_settings=safety_settings)
 
 chat = model.start_chat()
 
 def generate_summary(text):
-    print(f"Generating summary for: {text}")
-    response = chat.send_message("SUMMARIZE THE FOLLOWING: " + text)
-    return response
+    return text
 
 #<------------------------SUMMARIZER------------------------>
 
@@ -51,8 +49,6 @@ def generate_summary_for_professor(professor_info):
     if not professor_summary:
         professor_summary = "No summary available due to lack of reviews"
     professor_rating = sum(all_ratings) / len(all_ratings) if all_ratings else 0
-
-    sleep(3)
 
     # Generate a summary for each course the professor has taught
     course_reviews = defaultdict(list)
@@ -66,7 +62,7 @@ def generate_summary_for_professor(professor_info):
     for course, reviews in course_reviews.items():
         combined_reviews = " ".join(reviews)
         course_summary = generate_summary(combined_reviews)
-        sleep(2)
+
         if not course_summary:
             course_summary = "No summary available due to lack of reviews"
         course_summaries[course] = course_summary
@@ -90,7 +86,6 @@ def generate_summaries(directory):
             print(f"Generating summary for {filename}")
             professor_info = json.load(file)
             summaries.append(generate_summary_for_professor(professor_info))
-            sleep(5)
 
     # Write the summaries to a new JSON file
     with open("summaries.json", "w") as file:
