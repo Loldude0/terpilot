@@ -20,13 +20,15 @@ def get_average_professor_rating(professor_name):
         return None
     return rating[0]
 
-def get_average_professor_rating_for_course(professor_name, course_name):
+def get_professor_summary(professor_name):
     cur.execute("""
-        SELECT professor_rating
-        FROM section
-        WHERE professor_name = %s AND course_name = %s
-    """, (professor_name, course_name))
-    rating = cur.fetchone()
-    if rating is None:
+        SELECT professor_summary
+        FROM professor
+        WHERE professor_name = %s
+    """, (professor_name,))
+    summary = cur.fetchone()
+    if summary is None:
         return None
-    return rating[0]
+    return summary[0]
+
+print(get_professor_summary("Maksym Morawski"))
