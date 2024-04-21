@@ -38,6 +38,6 @@ for course in courses_list:
         print("Error in processing " + course + ".json")
         continue
 
-with open("list.json", "w") as file: #<-------------------->CHANGE<-------------------->
+with open("listo.json", "w") as file: #<-------------------->CHANGE<-------------------->
     print(final_json)
     json.dump(final_json, file)

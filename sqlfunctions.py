@@ -53,10 +53,9 @@ def get_sections_time_from_course(course_name):
     time = cur.fetchall()
     return time
 
-def parse_time_for_section(time, text):
+def parse_time_for_section(time):
     days = ['M', 'Tu', 'W', 'Th', 'F']
-    day_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-    schedule = []
+    schedule = [None]*5
     time_splits = time.split('|')
     for time_split in time_splits:
         day_time = re.findall(r'[A-Za-z]+|\d+:\d+[ap]m-\d+:\d+[ap]m', time_split.strip())
@@ -65,15 +64,18 @@ def parse_time_for_section(time, text):
                 if day in d:
                     start_time, end_time = [datetime.strptime(t, "%I:%M%p") for t in day_time[1].split('-')]
                     duration = int((end_time - start_time).total_seconds() / 60)
-                    schedule.append({"start": day_names[days.index(d)], "start_time": start_time.strftime("%H:%M"), "end_time": (start_time + timedelta(minutes=duration)).strftime("%H:%M"), "text": text})
+                    schedule[days.index(d)] = start_time.strftime("%H%M") + str(duration).zfill(3)
     return schedule
 
 def process_timetable(classes):
-    timetable = []
+    timetable = {}
     for course_id in classes:
         sections_time = get_sections_time_from_course(course_id)
         for time, section_name in sections_time:
-            timetable.extend(parse_time_for_section(time, course_id + "-" + section_name))
+            if course_id not in timetable:
+                timetable[course_id] = {}
+            print(time)
+            timetable[course_id][section_name] = parse_time_for_section(time)
     return timetable
 
 def get_course_information(course_id):
@@ -178,6 +180,15 @@ def get_course_location(course_id):
             latlonglist.append(get_lat_long_bldg(l.split(" ")[0].strip()))
 
     return list(set(latlonglist))
+
+def get_cs_catalog():
+    cur.execute("""
+        SELECT course_number, course_name, course_description
+        FROM course
+        WHERE course_number LIKE 'CMSC%'
+    """)
+    courses = cur.fetchall()
+    return courses
 
 #test out lat long stuff
 print(process_timetable(["CMSC351"]))

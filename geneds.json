@@ -1,0 +1,7442 @@
+[
+    {
+        "course_name": "Bits and Bytes of Computer and Information Sciences",
+        "course_number": "CMSC100",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to C Programming",
+        "course_number": "CMSC106",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Computer Programming via the Web",
+        "course_number": "CMSC122",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Computing",
+        "course_number": "CMSC125",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Object-Oriented Programming I",
+        "course_number": "CMSC131",
+        "geneds": []
+    },
+    {
+        "course_name": "Object-Oriented Programming II",
+        "course_number": "CMSC132",
+        "geneds": []
+    },
+    {
+        "course_name": "Object Oriented Programming I Beyond Fundamentals",
+        "course_number": "CMSC133",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Computer Systems",
+        "course_number": "CMSC216",
+        "geneds": []
+    },
+    {
+        "course_name": "Discrete Structures",
+        "course_number": "CMSC250",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Data Science",
+        "course_number": "CMSC320",
+        "geneds": []
+    },
+    {
+        "course_name": "Organization of Programming Languages",
+        "course_number": "CMSC330",
+        "geneds": []
+    },
+    {
+        "course_name": "Web Application Development with JavaScript",
+        "course_number": "CMSC335",
+        "geneds": []
+    },
+    {
+        "course_name": "Algorithms",
+        "course_number": "CMSC351",
+        "geneds": []
+    },
+    {
+        "course_name": "Computer Science Honors Seminar",
+        "course_number": "CMSC396H",
+        "geneds": []
+    },
+    {
+        "course_name": "Computer Systems Architecture",
+        "course_number": "CMSC411",
+        "geneds": []
+    },
+    {
+        "course_name": "Operating Systems",
+        "course_number": "CMSC412",
+        "geneds": []
+    },
+    {
+        "course_name": "Computer and Network Security",
+        "course_number": "CMSC414",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Parallel Computing",
+        "course_number": "CMSC416",
+        "geneds": []
+    },
+    {
+        "course_name": "Computer Networks",
+        "course_number": "CMSC417",
+        "geneds": []
+    },
+    {
+        "course_name": "Advanced Data Structures",
+        "course_number": "CMSC420",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Artificial Intelligence",
+        "course_number": "CMSC421",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Machine Learning",
+        "course_number": "CMSC422",
+        "geneds": []
+    },
+    {
+        "course_name": "Bioinformatic Algorithms, Databases, and Tools",
+        "course_number": "CMSC423",
+        "geneds": []
+    },
+    {
+        "course_name": "Database Design",
+        "course_number": "CMSC424",
+        "geneds": []
+    },
+    {
+        "course_name": "Game Programming",
+        "course_number": "CMSC425",
+        "geneds": []
+    },
+    {
+        "course_name": "Computer Vision",
+        "course_number": "CMSC426",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Compilers",
+        "course_number": "CMSC430",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Human-Computer Interaction",
+        "course_number": "CMSC434",
+        "geneds": []
+    },
+    {
+        "course_name": "Software Engineering",
+        "course_number": "CMSC435",
+        "geneds": []
+    },
+    {
+        "course_name": "Programming Handheld Systems",
+        "course_number": "CMSC436",
+        "geneds": []
+    },
+    {
+        "course_name": "Design and Analysis of Computer Algorithms",
+        "course_number": "CMSC451",
+        "geneds": []
+    },
+    {
+        "course_name": "Cryptography",
+        "course_number": "CMSC456",
+        "geneds": []
+    },
+    {
+        "course_name": "Computational Methods",
+        "course_number": "CMSC460",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Numerical Analysis I",
+        "course_number": "CMSC466",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Data Visualization",
+        "course_number": "CMSC471",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to Deep Learning",
+        "course_number": "CMSC472",
+        "geneds": []
+    },
+    {
+        "course_name": "Capstone in Machine Learning",
+        "course_number": "CMSC473",
+        "geneds": []
+    },
+    {
+        "course_name": "Combinatorics and Graph Theory",
+        "course_number": "CMSC475",
+        "geneds": []
+    },
+    {
+        "course_name": "Introduction to African American Studies",
+        "course_number": "AASP100",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to African American Studies",
+        "course_number": "AASP100H",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Public Policy and the Black Community",
+        "course_number": "AASP101",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Black Culture in the United States",
+        "course_number": "AASP202",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Black Culture in the United States",
+        "course_number": "AASP202H",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Social (In)Justice and African-American Health and Well-Being",
+        "course_number": "AASP230",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Asian American Studies",
+        "course_number": "AAST200",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian American History",
+        "course_number": "AAST201",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Filipino American History and Biography",
+        "course_number": "AAST363",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian American Politics",
+        "course_number": "AAST443",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Did Yeast Create Civilization?",
+        "course_number": "AGST130",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Cultures of Everyday Life in America",
+        "course_number": "AMST202",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Houses, Schools, and Prisons in American Life",
+        "course_number": "AMST262",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Asian American Studies",
+        "course_number": "AMST298C",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Native American and Indigenous Studies",
+        "course_number": "AMST312",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian American Politics",
+        "course_number": "AMST498J",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Medical Anthropology and Global Health",
+        "course_number": "ANTH210",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Archaeology",
+        "course_number": "ANTH240",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Sexuality and Culture",
+        "course_number": "ANTH263",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Anthropology of Global Health",
+        "course_number": "ANTH265",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Changing Climate, Changing Cultures",
+        "course_number": "ANTH266",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Archaeological Methods and Practice",
+        "course_number": "ANTH305",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Plagues, Pathogens and Public Policy",
+        "course_number": "ANTH323",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Environment, Economics and Policy",
+        "course_number": "AREC241",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Elements of Agricultural and Resource Economics",
+        "course_number": "AREC250",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Global Poverty and Economic Development",
+        "course_number": "AREC345",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Archaeological Methods and Practice",
+        "course_number": "ARTH305",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Ensuring your Financial Future Through Stock Investing",
+        "course_number": "BSOS201",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "States of Emergency",
+        "course_number": "BSST334",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Criminal Justice",
+        "course_number": "CCJS100",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Criminology",
+        "course_number": "CCJS105",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Responses to Violence",
+        "course_number": "CCJS225",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Slavery in the Twenty First Century: Combating Human Trafficking",
+        "course_number": "CCJS325",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Disability: From Stigma and Sideshow to Mainstream and Main Street",
+        "course_number": "CHSE205",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Archaeological Methods and Practice",
+        "course_number": "CLAS305",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Modernity of Athenian Democracy",
+        "course_number": "CLAS312",
+        "geneds": [
+            "DSHU",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Analyzing Media Practice through Theory",
+        "course_number": "CPMS225",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "College Park Scholars Capstone: Science, Technology, and Society",
+        "course_number": "CPSS225",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Thinking Like an Economist",
+        "course_number": "ECON111",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Principles of Microeconomics",
+        "course_number": "ECON200",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Principles of Macroeconomics",
+        "course_number": "ECON201",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Science and Practice of Happiness and Psychological Well-Being",
+        "course_number": "EDCP230",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Learning How to Learn",
+        "course_number": "EDHD201",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Foundations of Early Childhood Education",
+        "course_number": "EDHD210",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Human Development and Societal Institutions",
+        "course_number": "EDHD230",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Human Development Through the Life Span",
+        "course_number": "EDHD320",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Child Growth and Development",
+        "course_number": "EDHD411",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Infant Development",
+        "course_number": "EDHD412",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Adolescent Development",
+        "course_number": "EDHD413",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Educational Psychology",
+        "course_number": "EDHD460",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Families and Global Health",
+        "course_number": "FMSC110",
+        "geneds": [
+            "DVCC",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Families and Global Health",
+        "course_number": "FMSC110S",
+        "geneds": [
+            "DVCC",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Modern Families",
+        "course_number": "FMSC170",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Man Up! Where Are The Fathers?",
+        "course_number": "FMSC190",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Couples, Marriage, and Families: Intimate Relationship Across the Life Course",
+        "course_number": "FMSC260",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Research Methods in Family Science",
+        "course_number": "FMSC302",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Family Health:  Health Happens in Families",
+        "course_number": "FMSC330",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Children in Families",
+        "course_number": "FMSC332",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Family Inequality",
+        "course_number": "FMSC381",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Violence in Families",
+        "course_number": "FMSC460",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Human Geography",
+        "course_number": "GEOG202",
+        "geneds": [
+            "DVCC",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "As the World Turns: Society and Sustainability in a Time of Great Change",
+        "course_number": "GEOG330",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "American Government",
+        "course_number": "GVPT170",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "International Political Relations",
+        "course_number": "GVPT200",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Law or Politics? The U.S. Supreme Court and Individual Rights",
+        "course_number": "GVPT202",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Appetite for Change: Politics and the Globalization of Food",
+        "course_number": "GVPT206",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian American Politics",
+        "course_number": "GVPT368C",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Beyond Technology, the Policy Implications of Cyberspace",
+        "course_number": "HACS208P",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Linguistics",
+        "course_number": "HESP120",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Research Behind Headlines on Words, Thought, and Behavior",
+        "course_number": "HESP214",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Saving the World With Data",
+        "course_number": "HGLO101",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "American Jewish Experience",
+        "course_number": "HIST106",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Medieval World",
+        "course_number": "HIST111",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "African Civilization to 1800",
+        "course_number": "HIST122",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "God Wills It! The Crusades in Medieval and Modern Perspectives",
+        "course_number": "HIST133",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Civil Discourse or Urban Riot: Why Cities Don't (Often) Explode",
+        "course_number": "HIST135",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Moneyland: Business in American Culture",
+        "course_number": "HIST136",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Interpreting American History: Beginnings to 1877",
+        "course_number": "HIST200",
+        "geneds": [
+            "DSHU",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Interpreting American History: From 1865 to the Present",
+        "course_number": "HIST201",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to the History of Science",
+        "course_number": "HIST204",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Women in Western Europe to 1750",
+        "course_number": "HIST215",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian American History",
+        "course_number": "HIST221",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Revolution, Regret, and Reform: The People and Principles in American Political History",
+        "course_number": "HIST226",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Invaders, Conquerors, Usurpers: A History of Pre-Modern Britain to 1485",
+        "course_number": "HIST234",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "History of Colonial Latin America",
+        "course_number": "HIST250",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Medicine in an Age of Empires, 1500-1800",
+        "course_number": "HIST261",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "East Asian Civilization I",
+        "course_number": "HIST284",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Urban Dreams and Nightmares: The Jewish Experience of Cities",
+        "course_number": "HIST286",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Politics of Sexuality in America: A Historical Approach",
+        "course_number": "HIST289N",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Lawlessness: From Pirates to Body-snatchers, Exploring the Legitimacy of Illicit Activity",
+        "course_number": "HIST289O",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Health Behavior",
+        "course_number": "HLTH230",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Global Health Messages: Understanding Exposure & Impact",
+        "course_number": "HLTH234",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Global Health Messages: Understanding Exposure & Impact",
+        "course_number": "HLTH234H",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Tweets & Likes: Digital Health & Social Media",
+        "course_number": "HLTH264",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Tweets & Likes: Digital Health & Social Media",
+        "course_number": "HLTH264H",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Controlling Stress and Tension",
+        "course_number": "HLTH285",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Controlling Stress and Tension",
+        "course_number": "HLTH285H",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Globalizing the American Revolution",
+        "course_number": "HNUH218C",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Stealing from the Poor, Giving to the Rich: The Political Economy of Global Capitalism",
+        "course_number": "HNUH218R",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Transform Maryland: Consulting Practicum",
+        "course_number": "HNUH219T",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Surveillant Society, Surveillant Selves",
+        "course_number": "HNUH238C",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Geopolitics of Finance: Innovation & Cross-Cultural Globalization",
+        "course_number": "HNUH239T",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Global Heritage",
+        "course_number": "HNUH268B",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Where the Waters Blend: Contemporary Indigenous Perspectives on History, Traditions, and Modern Issues",
+        "course_number": "HNUH268W",
+        "geneds": [
+            "DVCC",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Indigenous Knowledge, Supernatural Remedy, and Collective Action: Lessons from Agrarian Societies",
+        "course_number": "HNUH278U",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Race, Reproduction and Rights",
+        "course_number": "HNUH288B",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Records Scandals & Data Vandals: Public & Private Sector Controversies Ripped From The Headlines",
+        "course_number": "INST153",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Information Science",
+        "course_number": "INST201",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Designing Fair Systems",
+        "course_number": "INST204",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Designing Fair Systems",
+        "course_number": "INST204S",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Health Justice: Investigating the Roles of Information in Preventing & Addressing Health Disparities",
+        "course_number": "INST232C",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Information Science",
+        "course_number": "INST301",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "History of Modern Israel",
+        "course_number": "ISRL342",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Mass Communication",
+        "course_number": "JOUR150",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Media Law and Ethics in the Digital Age",
+        "course_number": "JOUR281",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "American Jewish Experience",
+        "course_number": "JWST141",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Urban Dreams and Nightmares: The Jewish Experience of Cities",
+        "course_number": "JWST275",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Civil Discourse or Urban Riot: Why Cities Don't (Often) Explode",
+        "course_number": "JWST289E",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Archaeological Methods and Practice",
+        "course_number": "JWST319Y",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Hoop Dreams: Black Masculinity and Sport",
+        "course_number": "KNES225",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Sport and American Society",
+        "course_number": "KNES287",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Psychology of Sports & Exercise",
+        "course_number": "KNES350",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Psychology of Sports & Exercise",
+        "course_number": "KNES350H",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "LACS234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "LACS234H",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "History of Colonial Latin America",
+        "course_number": "LACS250",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Lesbian, Gay, Bisexual, and Transgender Studies",
+        "course_number": "LGBT200",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introductory Linguistics",
+        "course_number": "LING200",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "HERITAGE LANGUAGES AND THEIR SPEAKERS",
+        "course_number": "LING262",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Justice and the Law",
+        "course_number": "MLAW100",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Naval Science",
+        "course_number": "NAVY100",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Know Thyself: Wisdom Through Cognitive Science",
+        "course_number": "PHIL202",
+        "geneds": [
+            "DSHU",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Public Health in the City: Perspectives on Health in the Urban Environment",
+        "course_number": "PHSC430",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Manhattan Project",
+        "course_number": "PHYS235",
+        "geneds": [
+            "DSNS",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Foundations of Public Policy",
+        "course_number": "PLCY100",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Great Thinkers on Public Policy",
+        "course_number": "PLCY101",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Public Leaders and Active Citizens",
+        "course_number": "PLCY201",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Public Leaders and Active Citizens",
+        "course_number": "PLCY201S",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "PORT234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Psychology",
+        "course_number": "PSYC100",
+        "geneds": [
+            "DSNS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Social Psychology",
+        "course_number": "PSYC221",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Living the Good Life: The Psychology of Happiness",
+        "course_number": "PSYC234",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Psychology of Women",
+        "course_number": "PSYC336",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Multicultural Psychology in the U.S.",
+        "course_number": "PSYC354",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "God Wills It! The Crusades in Medieval and Modern Perspectives",
+        "course_number": "RELS133",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Sociology",
+        "course_number": "SOCY100",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Understanding Contemporary Social Problems - Frameworks for Critical Thinking and Strategies for Solutions",
+        "course_number": "SOCY105",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Innovation, Exploration and the Evolution of Human Societies",
+        "course_number": "SOCY200",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Why are We Still Talking About Race?",
+        "course_number": "SOCY224",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to the Study of Deviance",
+        "course_number": "SOCY227",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Sociological Social Psychology",
+        "course_number": "SOCY230",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Inequality in American Society",
+        "course_number": "SOCY241",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Intersectionality and Illness: How do Overarching Social Inequalities Affect Health Outcomes?",
+        "course_number": "SOCY277",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Globalization's Winners and Losers",
+        "course_number": "SOCY340",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "SPAN234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "SPAN234H",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Subversive Cultures and Performance",
+        "course_number": "THET287",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Forbidden Books: Censorship of Children's and Young Adult Literature",
+        "course_number": "TLPL206",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Language Rights and Repression in Education",
+        "course_number": "TLPL253",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Foundations of Education",
+        "course_number": "TLPL360",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Knowing and Learning in Mathematics and Science",
+        "course_number": "TLPL414",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to WGSS: Gender, Power, and Society",
+        "course_number": "WGSS200",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Bodies in Contention",
+        "course_number": "WGSS290",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Politics of Sexuality in America: A Historical Approach",
+        "course_number": "WGSS298N",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Psychology of Women",
+        "course_number": "WGSS336",
+        "geneds": [
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "African Civilization",
+        "course_number": "AASP200",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "African-American Literature and Culture",
+        "course_number": "AASP298L",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Asian Americans in Film",
+        "course_number": "AAST355",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "South Asian American Literature and Culture",
+        "course_number": "AAST440",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction American Studies",
+        "course_number": "AMST101",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Popular Culture in America",
+        "course_number": "AMST203",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Film and American Culture Studies",
+        "course_number": "AMST204",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Material Aspects of American Life",
+        "course_number": "AMST205",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "U.S. Latinx Literature and Culture",
+        "course_number": "AMST298Q",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "(Dis)ability in American Film",
+        "course_number": "AMST320",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Asian Americans in Film",
+        "course_number": "AMST328W",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Food Cultures in the Global Middle East",
+        "course_number": "ARAB250",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Design Thinking and Architecture",
+        "course_number": "ARCH170",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "History of World Architecture II",
+        "course_number": "ARCH226",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to Humanities, Health, and Medicine",
+        "course_number": "ARHU230",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Scriptwriting for Theater, Film, and Television",
+        "course_number": "ARHU275",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "\"Are you - Nobody - too?\" Why we create and share stories, poems, comics and zines",
+        "course_number": "ARHU298L",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Writers' House Second Year Colloquium: Form and Theory of Creative Writing; Prose",
+        "course_number": "ARHU319A",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writers' House Second Year Colloquium: Form and Theory of Creative Writing; Exploring the Contemporary Revolution in Poetic Practice",
+        "course_number": "ARHU319D",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Art and Society in Ancient and Medieval Europe and the Mediterranean",
+        "course_number": "ARTH200",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Art and Society in the West from the Renaissance to the Present",
+        "course_number": "ARTH201",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Art and Society in the Modern American World",
+        "course_number": "ARTH255",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Art and Activism",
+        "course_number": "ARTH260C",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Monuments, Monumentality, and the Art of Memorial",
+        "course_number": "ARTH261",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Public Art",
+        "course_number": "ARTH262",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Aegean Art and Archaeology",
+        "course_number": "ARTH301",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Presently Black: Contemporary African American Art",
+        "course_number": "ARTH362",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Contemporary Chinese Art and Film",
+        "course_number": "ARTH392",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to Art Theory",
+        "course_number": "ARTT150",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "The Problem of Prejudice: Overcoming Impediments to Global Peace and Justice",
+        "course_number": "BSOS240",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Linguistic Landscape of China",
+        "course_number": "CHIN307",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Modern Chinese Literature in Translation",
+        "course_number": "CHIN315",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Film Form and Culture",
+        "course_number": "CINE245",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Film Art in a Global Society",
+        "course_number": "CINE280",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Iranian Cinema",
+        "course_number": "CINE283",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Contemporary Chinese Art and Film",
+        "course_number": "CINE337",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Ancient Myths and Modern Lives",
+        "course_number": "CLAS170",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Discovering the World of Ancient Rome",
+        "course_number": "CLAS190",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "What is Romance?",
+        "course_number": "CLAS274",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Modernity of Athenian Democracy",
+        "course_number": "CLAS312",
+        "geneds": [
+            "DSHU",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Roman Freedpersons",
+        "course_number": "CLAS322",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Ancient Comedy",
+        "course_number": "CLAS375",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Black Diaspora Literature and Culture",
+        "course_number": "CMLT235",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Diversify and Multiply: Jewish Culture and the Production of an Identity",
+        "course_number": "CMLT242",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Global Literature and Social Change",
+        "course_number": "CMLT270",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "World Literature by Women",
+        "course_number": "CMLT275",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Literatures of the Americas",
+        "course_number": "CMLT277",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Film Art in a Global Society",
+        "course_number": "CMLT280",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "The Great Derangement: Climate, Art, and Literature",
+        "course_number": "CMLT399E",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Communication and Gender",
+        "course_number": "COMM324",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Technology and Consequences: Engineering, Ethics, and Humanity",
+        "course_number": "ENEE200",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Technology and Consequences: Engineering, Ethics and Humanity",
+        "course_number": "ENES200",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Acting Human: Shakespeare and the Drama of Identity",
+        "course_number": "ENGL120",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Why Fiction Matters",
+        "course_number": "ENGL126",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Rites of Discovery: Science, Law, and Literature, 1492-1992",
+        "course_number": "ENGL134",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "American Literature(s)",
+        "course_number": "ENGL222",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "African-American Literature and Culture",
+        "course_number": "ENGL234",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "U.S. Latinx Literature and Culture",
+        "course_number": "ENGL235",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "What is Poetry?",
+        "course_number": "ENGL243",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "The Play's the Thing",
+        "course_number": "ENGL244",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Film Form and Culture",
+        "course_number": "ENGL245",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Reading Women Writing",
+        "course_number": "ENGL250",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Detective Fiction",
+        "course_number": "ENGL251",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to Humanities, Health, and Medicine",
+        "course_number": "ENGL254",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Literature of Science and Technology",
+        "course_number": "ENGL255",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Fantasy Literature",
+        "course_number": "ENGL256",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Children's Literature",
+        "course_number": "ENGL257",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to the Hebrew Bible/Old Testament",
+        "course_number": "ENGL262",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "LGBTQ+ Literatures and Media",
+        "course_number": "ENGL265",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Scriptwriting for Theater, Film, and Television",
+        "course_number": "ENGL275",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "The English Language",
+        "course_number": "ENGL280",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "How Rhetoric Works: Persuasive Power and Strategies",
+        "course_number": "ENGL282",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to Digital Studies",
+        "course_number": "ENGL290",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writing, Revising, Persuading",
+        "course_number": "ENGL291",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writing in the Wireless World",
+        "course_number": "ENGL293",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Persuasion and Cleverness in Social Media",
+        "course_number": "ENGL294",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Digital Storytelling and Poetics",
+        "course_number": "ENGL295",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Reading and Writing Disability",
+        "course_number": "ENGL296",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "J.R.R. Tolkien: Middle-earth and Beyond",
+        "course_number": "ENGL375",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Masterpieces in French and Francophone Cinemas",
+        "course_number": "FREN243",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to Cultural and Textual Analysis",
+        "course_number": "FREN250",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to Cultural and Textual Analysis",
+        "course_number": "FREN250H",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Highlights of German Literature and Culture",
+        "course_number": "GERS322",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Highlights of German Literature and Culture",
+        "course_number": "GERS322H",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "The Great Derangement: Climate, Art, and Literature",
+        "course_number": "GERS367",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to the Hebrew Bible/Old Testament",
+        "course_number": "HEBR298B",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Conversation and Composition I",
+        "course_number": "HEBR313",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Honors Humanities: Introduction to the Arts and Humanities",
+        "course_number": "HHUM105",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "The Everyday and the American Environment",
+        "course_number": "HISP200",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Ancient World",
+        "course_number": "HIST110",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Islamic Civilization",
+        "course_number": "HIST120",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Fighting Slavery",
+        "course_number": "HIST132",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Spies, Assassins, Martyrs, and Witches: Famous Trials in American History",
+        "course_number": "HIST134",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Spies, Assassins, Martyrs, and Witches: Famous Trials in American History",
+        "course_number": "HIST134S",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Interpreting American History: Beginnings to 1877",
+        "course_number": "HIST200",
+        "geneds": [
+            "DSHU",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Interpreting American History: From 1865 to the Present",
+        "course_number": "HIST201",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Religions of the Ancient Near East",
+        "course_number": "HIST219I",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Discovering the World of Ancient Rome",
+        "course_number": "HIST219T",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "The Picture of Health and Illness: Modern Medicine in Illustration",
+        "course_number": "HNUH228R",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Invasive: Feminist Perspectives on Power, Politics, and Ecosurveillance",
+        "course_number": "HNUH238R",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Artificial Intelligence: Critical Examinations through Science Fiction and Technology",
+        "course_number": "HNUH248R",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Democratic Habits",
+        "course_number": "HNUH278B",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Digital Media Theory and Culture",
+        "course_number": "IMDM150",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Design Across Campus",
+        "course_number": "INST104",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Speaking and Writing in Italian",
+        "course_number": "ITAL207",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "The Dark Side of the Italian Renaissance",
+        "course_number": "ITAL441",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Beyond Facebook: How Social Media are Transforming Society, Culture, Business and Politics",
+        "course_number": "JOUR282",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Probing War: Investigative Narratives and American Conflicts",
+        "course_number": "JOUR283",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Literature in Journalism",
+        "course_number": "JOUR456",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Is Judaism a Religion?",
+        "course_number": "JWST171",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Religions of the Ancient Near East",
+        "course_number": "JWST225",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to the Hebrew Bible/Old Testament",
+        "course_number": "JWST262",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Diversify and Multiply: Jewish Culture and the Production of an Identity",
+        "course_number": "JWST272",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Jerusalem in Antiquity: The History of Sacred Space in a Holy City",
+        "course_number": "JWST274",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "History of Physical Culture, Sport, & Science in America",
+        "course_number": "KNES285",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "LACS234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "LACS234H",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Landscape Architecture and Environmental Design",
+        "course_number": "LARC160",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "LGBTQ+ Literatures and Media",
+        "course_number": "LGBT265",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Language and Mind",
+        "course_number": "LING240",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Lol that's not funny: Language change and linguistic creativity in online communication",
+        "course_number": "MLSC250",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Popular Music in Black America",
+        "course_number": "MUSC204",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "History of Popular Music, 1950-Present",
+        "course_number": "MUSC205",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "The Impact of Music on Life",
+        "course_number": "MUSC210",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "World Popular Musics and Identity",
+        "course_number": "MUSC215",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Music as Global Culture",
+        "course_number": "MUSC260",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Leadership and Management",
+        "course_number": "NAVY200",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Art Activism in Iran",
+        "course_number": "PERS280",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Iranian Cinema",
+        "course_number": "PERS283",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to Philosophy",
+        "course_number": "PHIL100",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Contemporary Moral Issues",
+        "course_number": "PHIL140",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Know Thyself: Wisdom Through Cognitive Science",
+        "course_number": "PHIL202",
+        "geneds": [
+            "DSHU",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Rights and Wrongs of Killing People",
+        "course_number": "PHIL203",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Political and Social Philosophy I",
+        "course_number": "PHIL245",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Ancient Greek and Roman Philosophy",
+        "course_number": "PHIL310",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "PORT234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Islamic Civilization",
+        "course_number": "RELS120",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Ancient Myths and Modern Lives",
+        "course_number": "RELS170",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Is Judaism a Religion?",
+        "course_number": "RELS171",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Religions of the Ancient Near East",
+        "course_number": "RELS225",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Jerusalem in Antiquity: The History of Sacred Space in a Holy City",
+        "course_number": "RELS274",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Mythology of the Oppressed",
+        "course_number": "SLLC280",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Living the Good Life: Chinese Philosophy in the Modern World",
+        "course_number": "SLLC286",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Reading and Writing in Spanish",
+        "course_number": "SPAN207",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "SPAN234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "SPAN234H",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Approaches to Cultural Materials in the Hispanic World",
+        "course_number": "SPAN303",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Spanish Culture, Civilization and Literature I: Medieval Times",
+        "course_number": "SPAN331",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Spanish Culture, Civilization and Literature III: Modern Times",
+        "course_number": "SPAN333",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Latin American Literatures and Cultures I: From Pre-Columbian to Colonial Times",
+        "course_number": "SPAN361",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Latin American Literatures and Cultures III: From Modernism  to Neo-Liberalism",
+        "course_number": "SPAN363",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to the Theatre",
+        "course_number": "THET110",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Black Theatre and Performance I",
+        "course_number": "THET293",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Historical and Philosophical Perspectives on Education",
+        "course_number": "TLPL250",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Literature for Adolescents",
+        "course_number": "TLPL457",
+        "geneds": [
+            "DSHU"
+        ]
+    },
+    {
+        "course_name": "Introduction to Disability Studies",
+        "course_number": "WGSS105",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to WGSS: Art and Culture",
+        "course_number": "WGSS250",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Reading Women Writing",
+        "course_number": "WGSS255",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "World Literature by Women",
+        "course_number": "WGSS275",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Ecological and Evolutionary Anthropology",
+        "course_number": "ANTH222",
+        "geneds": [
+            "DVUP",
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Weather and Climate",
+        "course_number": "AOSC200",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with AOSC201)",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Weather and Climate",
+        "course_number": "AOSC200C",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with AOSC201)",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "General Astronomy",
+        "course_number": "ASTR101",
+        "geneds": [
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Amazing Green: Plants that Transformed the World",
+        "course_number": "BSCI135",
+        "geneds": [
+            "SCIS",
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Principles of Ecology and Evolution",
+        "course_number": "BSCI160",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with BSCI161)"
+        ]
+    },
+    {
+        "course_name": "Principles of Molecular & Cellular Biology",
+        "course_number": "BSCI170",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with BSCI171)"
+        ]
+    },
+    {
+        "course_name": "Human Anatomy and Physiology I",
+        "course_number": "BSCI201",
+        "geneds": [
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "General Microbiology",
+        "course_number": "BSCI223",
+        "geneds": [
+            "SCIS",
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Understanding The Principles and Perils of CBRN Weapons",
+        "course_number": "BSST240",
+        "geneds": [
+            "DSNL (if taken with BSST241)",
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Chemistry I - Fundamentals of General Chemistry",
+        "course_number": "CHEM131",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with CHEM132)"
+        ]
+    },
+    {
+        "course_name": "General Chemistry for Engineers",
+        "course_number": "CHEM135",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with CHEM136)"
+        ]
+    },
+    {
+        "course_name": "Principles of General Chemistry",
+        "course_number": "CHEM146",
+        "geneds": [
+            "DSNL (if taken with CHEM177)",
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Fundamentals of Soil Science",
+        "course_number": "ENST200",
+        "geneds": [
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Geography of Environmental Systems",
+        "course_number": "GEOG201",
+        "geneds": [
+            "DSNL (if taken with GEOG211)"
+        ]
+    },
+    {
+        "course_name": "Physical Geology",
+        "course_number": "GEOL100",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with GEOL110)"
+        ]
+    },
+    {
+        "course_name": "Environmental Geology",
+        "course_number": "GEOL120",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with GEOL110)"
+        ]
+    },
+    {
+        "course_name": "Introduction to Plant Science",
+        "course_number": "INAG100",
+        "geneds": [
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Physics of Music",
+        "course_number": "PHYS102",
+        "geneds": [
+            "DSNL (if taken with PHYS103)"
+        ]
+    },
+    {
+        "course_name": "Inquiry into Physics",
+        "course_number": "PHYS115",
+        "geneds": [
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Fundamentals of Physics I",
+        "course_number": "PHYS121",
+        "geneds": [
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Fundamentals of Physics II",
+        "course_number": "PHYS122",
+        "geneds": [
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "General Physics: Mechanics and Particle Dynamics",
+        "course_number": "PHYS161",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with PHYS275)"
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Mechanics",
+        "course_number": "PHYS171",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with PHYS275)"
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Mechanics",
+        "course_number": "PHYS171H",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with PHYS275)"
+        ]
+    },
+    {
+        "course_name": "General Physics: Electricity, Magnetism and Thermodynamics",
+        "course_number": "PHYS260",
+        "geneds": [
+            "DSNL (if taken with PHYS261)"
+        ]
+    },
+    {
+        "course_name": "General Physics: Electricity, Magnetism and Thermodynamics",
+        "course_number": "PHYS260H",
+        "geneds": [
+            "DSNL (if taken with PHYS261)"
+        ]
+    },
+    {
+        "course_name": "General Physics: Waves, Optics, Relativity and Modern Physics",
+        "course_number": "PHYS270",
+        "geneds": [
+            "DSNL (if taken with PHYS271)"
+        ]
+    },
+    {
+        "course_name": "Introductory Crop Science",
+        "course_number": "PLSC112",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with PLSC113)"
+        ]
+    },
+    {
+        "course_name": "Introduction to Turf Science and Management",
+        "course_number": "PLSC205",
+        "geneds": [
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Eating with Eyes Wide Open",
+        "course_number": "ANSC227",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Causes and Consequences of Global Change",
+        "course_number": "AOSC123",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Weather and Climate",
+        "course_number": "AOSC200",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with AOSC201)",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Weather and Climate",
+        "course_number": "AOSC200C",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with AOSC201)",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to the Blue Ocean",
+        "course_number": "AOSC375",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "The Chesapeake Bay Ecosystem: Intersection of Science, Economics, and Policy",
+        "course_number": "AREC200",
+        "geneds": [
+            "DSNS",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Astronomy",
+        "course_number": "ASTR100",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Introductory Astrophysics - Solar System",
+        "course_number": "ASTR120",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "The Science and Fiction of Planetary Systems",
+        "course_number": "ASTR230",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Stars and Stellar Systems",
+        "course_number": "ASTR300",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Solar System Astronomy",
+        "course_number": "ASTR330",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Origin of the Universe",
+        "course_number": "ASTR340",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Life in the Universe - Astrobiology",
+        "course_number": "ASTR380",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Pollinators in Crisis",
+        "course_number": "BSCI126",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Beyond Race: Human Biological Diversity",
+        "course_number": "BSCI151",
+        "geneds": [
+            "DSNS",
+            "DSSP",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Principles of Ecology and Evolution",
+        "course_number": "BSCI160",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with BSCI161)"
+        ]
+    },
+    {
+        "course_name": "Principles of Molecular & Cellular Biology",
+        "course_number": "BSCI170",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with BSCI171)"
+        ]
+    },
+    {
+        "course_name": "Understanding The Principles and Perils of CBRN Weapons",
+        "course_number": "BSST240",
+        "geneds": [
+            "DSNL (if taken with BSST241)",
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Chemistry I - Fundamentals of General Chemistry",
+        "course_number": "CHEM131",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with CHEM132)"
+        ]
+    },
+    {
+        "course_name": "General Chemistry for Engineers",
+        "course_number": "CHEM135",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with CHEM136)"
+        ]
+    },
+    {
+        "course_name": "Principles of General Chemistry",
+        "course_number": "CHEM146",
+        "geneds": [
+            "DSNL (if taken with CHEM177)",
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Are Two Languages Better than One:  The Science and Controversy of Bilingualism",
+        "course_number": "EDHD241",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Environmental Science",
+        "course_number": "ENSP101",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Bats in Society: Human-Wildlife Relationships, Conflicts, & Solutions",
+        "course_number": "ENST215",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Environmental Health",
+        "course_number": "ENST233",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Natural Disasters: Earthquakes, Floods, and Fires",
+        "course_number": "GEOG140",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Mapping our Digital World",
+        "course_number": "GEOG170",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Earth From Space",
+        "course_number": "GEOG172",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Physical Geology",
+        "course_number": "GEOL100",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with GEOL110)"
+        ]
+    },
+    {
+        "course_name": "Dinosaurs: A Natural History",
+        "course_number": "GEOL104",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Environmental Geology",
+        "course_number": "GEOL120",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with GEOL110)"
+        ]
+    },
+    {
+        "course_name": "Causes and Consequences of Global Change",
+        "course_number": "GEOL123",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Evolution of Life and Environment on Planet Earth",
+        "course_number": "GEOL124",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Earth's Fury: Earthquakes, Volcanoes, and Tsunami",
+        "course_number": "GEOL200",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Planetary Geology",
+        "course_number": "GEOL212",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Introduction to the Blue Ocean",
+        "course_number": "GEOL375",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Climate in Crisis: Socio-Environmental Sustainability",
+        "course_number": "HNUH229T",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "The Basis of Behavior: Evolution and the Origin of Actions",
+        "course_number": "HNUH258U",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "The Cybernetic Human",
+        "course_number": "KNES226",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Science of Physical Activity and Cardiovascular Health",
+        "course_number": "KNES260",
+        "geneds": [
+            "DSNS",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Neuroscience",
+        "course_number": "NEUR200",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Elements of Nutrition",
+        "course_number": "NFSC100",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Elements of Nutrition",
+        "course_number": "NFSC100H",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Food: Science and Technology",
+        "course_number": "NFSC112",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "A Global Challenge: Energy and Climate Change",
+        "course_number": "PHYS105",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "General Physics: Mechanics and Particle Dynamics",
+        "course_number": "PHYS161",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with PHYS275)"
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Mechanics",
+        "course_number": "PHYS171",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with PHYS275)"
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Mechanics",
+        "course_number": "PHYS171H",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with PHYS275)"
+        ]
+    },
+    {
+        "course_name": "The Manhattan Project",
+        "course_number": "PHYS235",
+        "geneds": [
+            "DSNS",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Fields",
+        "course_number": "PHYS272",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Introductory Physics: Fields",
+        "course_number": "PHYS272H",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Introductory Crop Science",
+        "course_number": "PLSC112",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with PLSC113)"
+        ]
+    },
+    {
+        "course_name": "How Safe is Your Salad? The Microbiological Safety of Fresh produce",
+        "course_number": "PLSC115",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Plants, Genes and Biotechnology",
+        "course_number": "PLSC203",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Psychology",
+        "course_number": "PSYC100",
+        "geneds": [
+            "DSNS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Biological Psychology",
+        "course_number": "PSYC304",
+        "geneds": [
+            "DSNS"
+        ]
+    },
+    {
+        "course_name": "Asian Americans and Media",
+        "course_number": "AAST351",
+        "geneds": [
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "(Dis)ability in American Film",
+        "course_number": "AMST320",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Aquaculture",
+        "course_number": "ANSC255",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Internship Experience in Animal and Avian Sciences",
+        "course_number": "ANSC359",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Environmental Archaeology",
+        "course_number": "ANTH451",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Design Thinking and Making in Architecture",
+        "course_number": "ARCH171",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Design in Practice",
+        "course_number": "ARCH270",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "People, Planet, and Profit: Building Sustainable Places",
+        "course_number": "ARCH271",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Experiential Learning",
+        "course_number": "ARCH386",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "The Chesapeake Bay Ecosystem: Intersection of Science, Economics, and Policy",
+        "course_number": "AREC200",
+        "geneds": [
+            "DSNS",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Farm Management and Sustainable Food Production",
+        "course_number": "AREC306",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Explorations in Arts and Humanities; Mapping Biographies of the Enslaved in America",
+        "course_number": "ARHU158D",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Explorations in Arts and Humanities; From Parasite to Mutualist: Redesigning Human Relations with Earth",
+        "course_number": "ARHU158K",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Explorations in Arts and Humanities; Theatre as a Tool for Societal Transformation",
+        "course_number": "ARHU158M",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Explorations in Arts and Humanities; The Art of Public Health",
+        "course_number": "ARHU158N",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Explorations in Arts and Humanities; The Power of Youth",
+        "course_number": "ARHU158Q",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Explorations in Arts and Humanities; Language and Antiracism",
+        "course_number": "ARHU158W",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Scriptwriting for Theater, Film, and Television",
+        "course_number": "ARHU275",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writers' House Second Year Colloquium: Form and Theory of Creative Writing; Prose",
+        "course_number": "ARHU319A",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writers' House Second Year Colloquium: Form and Theory of Creative Writing; Exploring the Contemporary Revolution in Poetic Practice",
+        "course_number": "ARHU319D",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Financial Entrepreneurship for Arts Leaders",
+        "course_number": "ARHU340",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "The TV Writers Room Screenwriting for Television and Video",
+        "course_number": "ARHU375",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Experiential Learning",
+        "course_number": "ARHU386",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Symbolic Images: The Theory and Practice of Iconography in European Art, 1400-1850",
+        "course_number": "ARTH230",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Art and Activism",
+        "course_number": "ARTH260C",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Public Art",
+        "course_number": "ARTH262",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Experiential Learning",
+        "course_number": "ARTH386",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Two-Dimensional Design Fundamentals",
+        "course_number": "ARTT100",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Elements of Drawing I",
+        "course_number": "ARTT110",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Elements of Drawing I",
+        "course_number": "ARTT110S",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Observational Astronomy",
+        "course_number": "ASTR310",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Creative Problem Solving",
+        "course_number": "BMGT161",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Design and Quality",
+        "course_number": "BMGT190H",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Technology, Society and the Future of Humanity",
+        "course_number": "BMGT207",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Enterprising Leader",
+        "course_number": "BMGT262",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "How Do Innovators Think?",
+        "course_number": "BMGT289B",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Frauds, Scams, and Thefts: What, How and Why?",
+        "course_number": "BMGT289D",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Entrepreneurial Thinking for Non-Business Majors: How Not to Miss Great Opportunities Your Life Throws at You",
+        "course_number": "BMGT289E",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Why Good Managers Make Bad Decisions",
+        "course_number": "BMGT289I",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Entrepreneurship",
+        "course_number": "BMGT461",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Entrepreneurship",
+        "course_number": "BMGT461M",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Entrepreneurship",
+        "course_number": "BMGT461N",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "QUEST Capstone Professional Practicum",
+        "course_number": "BMGT490H",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Strategic Management",
+        "course_number": "BMGT495",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Beyond Race: Human Biological Diversity",
+        "course_number": "BSCI151",
+        "geneds": [
+            "DSNS",
+            "DSSP",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Neuroscience Laboratory",
+        "course_number": "BSCI455",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Ensuring your Financial Future Through Stock Investing",
+        "course_number": "BSOS201",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Social Sciences Internship Practicum",
+        "course_number": "BSOS355",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Responses to Violence",
+        "course_number": "CCJS225",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Criminological and Criminal Justice Research Methods",
+        "course_number": "CCJS300",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Computer Programming via the Web",
+        "course_number": "CMSC122",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Computing",
+        "course_number": "CMSC125",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Experiential Learning",
+        "course_number": "COMM386",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "College Park Scholars: Global Public Health Second-Year Colloquium",
+        "course_number": "CPGH200",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Advanced Practicum: Internship",
+        "course_number": "CPSP339P",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "College Park Scholars: Science, Technology & Society - Service-Learning Practicum",
+        "course_number": "CPSS240",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "College Park Scholars: Infrastructure and Society",
+        "course_number": "CPSS340",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Dance",
+        "course_number": "DANC200",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Dance",
+        "course_number": "DANC200S",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Peer Counseling Skills and Mental Health Advocacy",
+        "course_number": "EDCP210",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "The Science and Practice of Happiness and Psychological Well-Being",
+        "course_number": "EDCP230",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Exploring Early Childhood General and Special Education",
+        "course_number": "EDHD220",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Research Experiences in Human Development",
+        "course_number": "EDHD228",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Disability in Community: Access, Accommodation, and Adaptation",
+        "course_number": "EDSP220",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Peer Mentor Training and Certification",
+        "course_number": "EDSP311",
+        "geneds": [
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Internship I:  Elementary/Middle Special Education",
+        "course_number": "EDSP452",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Special Topics in Education; Guided Experience In College Teaching",
+        "course_number": "EDUC388",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Special Topics in Education; Guided Experience in College Teaching - UTA",
+        "course_number": "EDUC388T",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Special Topics in Education; New Student Programs",
+        "course_number": "EDUC388U",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Engineering Design",
+        "course_number": "ENES100",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Discovering New Ventures",
+        "course_number": "ENES140",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Design and Quality",
+        "course_number": "ENES190H",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Entrepreneurial Opportunity Analysis and Decision-Making in 21st Century Technology Ventures",
+        "course_number": "ENES210",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Ethical, Policy and Social Implications of Science and Technology",
+        "course_number": "ENES240",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Leadership in Engineering, Science, and Technology",
+        "course_number": "ENES317",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "QUEST Capstone Professional Practicum",
+        "course_number": "ENES490H",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Why Fiction Matters",
+        "course_number": "ENGL126",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Writing Poems and Stories: An Introductory Workshop",
+        "course_number": "ENGL271",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writing Fiction: A Beginning Workshop",
+        "course_number": "ENGL272",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writing Poetry: A Beginning Workshop",
+        "course_number": "ENGL273",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Scriptwriting for Theater, Film, and Television",
+        "course_number": "ENGL275",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Digital Studies",
+        "course_number": "ENGL290",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writing, Revising, Persuading",
+        "course_number": "ENGL291",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writing in the Wireless World",
+        "course_number": "ENGL293",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Persuasion and Cleverness in Social Media",
+        "course_number": "ENGL294",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Digital Storytelling and Poetics",
+        "course_number": "ENGL295",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Research and Writing in the Workplace",
+        "course_number": "ENGL297",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "English Careers Internship",
+        "course_number": "ENGL388P",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Undergraduate Teaching Assistants in English",
+        "course_number": "ENGL388V",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writing Center Internship",
+        "course_number": "ENGL388W",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Capstone in Environmental Science and Policy",
+        "course_number": "ENSP400",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Capstone",
+        "course_number": "ENST472",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Senior Professional Experience",
+        "course_number": "ENST486",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Federal and Global Experiential Learning",
+        "course_number": "FGSM398",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "FIRE SEMESTER 1",
+        "course_number": "FIRE120",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "FIRE Semester 3",
+        "course_number": "FIRE298",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Research Methods in Family Science",
+        "course_number": "FMSC302",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Personal and Family Finance",
+        "course_number": "FMSC341",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Team Dynamics and Research Methodology",
+        "course_number": "GEMS202",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Team Thesis Defense",
+        "course_number": "GEMS497",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Geology Senior Thesis II: Research",
+        "course_number": "GEOL394",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Scope and Methods for Political Science Research",
+        "course_number": "GVPT201",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "The Study of Political Philosophy: Ancient and Modern",
+        "course_number": "GVPT241",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Environmental Politics",
+        "course_number": "GVPT273",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Capstone in International Development",
+        "course_number": "GVPT356",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Applied Cybersecurity Foundations II",
+        "course_number": "HACS200",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Digital Forensics",
+        "course_number": "HACS208N",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Undergraduate Research in Cybersecurity",
+        "course_number": "HACS287",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "The Future of Work: Interdisciplinary Foundations and Horizons of Business",
+        "course_number": "HBUS100",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Design Cultures and Creativity I",
+        "course_number": "HDCC105",
+        "geneds": [
+            "DSSP",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Seminar in Digital Cultures and Creativity; Music Composition",
+        "course_number": "HDCC208A",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Seminar in Digital Cultures and Creativity; Creativity through Visual Communication",
+        "course_number": "HDCC208F",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Seminar in Digital Cultures and Creativity; Gameplay and Game Mechanics",
+        "course_number": "HDCC208J",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Seminar in Digital Cultures and Creativity; Pixels on the Screen",
+        "course_number": "HDCC208P",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Seminar in Digital Cultures and Creativity; Text(iles)",
+        "course_number": "HDCC208T",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Linguistics",
+        "course_number": "HESP120",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Senior Seminar; Social Movements of the 1960s and 1970s",
+        "course_number": "HIST408F",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Senior Seminar; Sex and Society in Early Modern Europe",
+        "course_number": "HIST408L",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Senior Seminar; Race and the History of Jim Crow Segregation",
+        "course_number": "HIST408M",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Senior Seminar; Revolutions and Rebellions in the Atlantic World",
+        "course_number": "HIST408N",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Community Health Engagement",
+        "course_number": "HLTH292",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Making a Difference: Applying Community Health",
+        "course_number": "HLTH391",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Making a Difference: Applying Community Health",
+        "course_number": "HLTH391H",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Geopolitics of Finance: A Simulation of the Roller Coasters of Capitalism",
+        "course_number": "HNUH239P",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "The Ecology of Childhood Poverty",
+        "course_number": "HNUH258B",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Drawn to D.C.: Mapping the City",
+        "course_number": "HNUH259P",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Federal and Global Experiential Learning",
+        "course_number": "HNUH398P",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Special Topics in Coaching: Carillon Peer Mentors",
+        "course_number": "IDEA398C",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "People, Planet, and Profit: Digging Into Sustainable Agriculture",
+        "course_number": "INAG123",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Golf Course Design and Construction",
+        "course_number": "INAG242",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Agricultural Public Relations",
+        "course_number": "INAG252",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Databases for All",
+        "course_number": "INST123",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Becoming A Social Media Influencer",
+        "course_number": "INST151",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "\"Fake Checking\": Battling Misinformation and Disinformation in the Real World",
+        "course_number": "INST152",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Health Justice: Investigating the Roles of Information in Preventing & Addressing Health Disparities",
+        "course_number": "INST232C",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Database Design and Modeling",
+        "course_number": "INST327",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Mass Communication",
+        "course_number": "JOUR150",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Media Literacy",
+        "course_number": "JOUR175",
+        "geneds": [
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Information 3.0: Exploring Technological Tools",
+        "course_number": "JOUR289I",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Capital News Service Bureau",
+        "course_number": "JOUR325",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "News Bureau: Multimedia Reporting",
+        "course_number": "JOUR353",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "News Bureau: Multimedia Editing and Production",
+        "course_number": "JOUR355",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Broadcast News Bureau",
+        "course_number": "JOUR367",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Science of Physical Activity and Cardiovascular Health",
+        "course_number": "KNES260",
+        "geneds": [
+            "DSNS",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Empowering Healthy Physical Activity",
+        "course_number": "KNES286",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Computer Visualization in Design",
+        "course_number": "LARC121",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Urban Agriculture: Designing and Assessing Edible Landscapes",
+        "course_number": "LARC151",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Landscape Architecture and Environmental Design",
+        "course_number": "LARC160",
+        "geneds": [
+            "DSHU",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Leadership",
+        "course_number": "LEAD217",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Lesbian, Gay, Bisexual, and Transgender People and Communication",
+        "course_number": "LGBT350",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Lesbian, Gay, Bisexual, and Transgender Community Organization Internship",
+        "course_number": "LGBT386",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Phonetics",
+        "course_number": "LING320",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Law and Social Inquiry",
+        "course_number": "MLAW304",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Teaching Secondary Instrumental Music II",
+        "course_number": "MUED420",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Music Fundamentals I",
+        "course_number": "MUSC140",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Financial Entrepreneurship for Arts Leaders",
+        "course_number": "MUSC448E",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Naval Operations and Seamanship",
+        "course_number": "NAVY400",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Neuroscience Laboratory",
+        "course_number": "NEUR405",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Diet: Is it a cause or a solution",
+        "course_number": "NFSC220",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Food Product Research and Development",
+        "course_number": "NFSC422",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Food Chemistry Laboratory",
+        "course_number": "NFSC423",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Special Problems in Nutrition",
+        "course_number": "NFSC490",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "AI & ETHICS",
+        "course_number": "PHIL211",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Public Health Science Capstone",
+        "course_number": "PHSC497",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Experimental Physics III: Electromagnetic Waves, Optics and Modern Physics",
+        "course_number": "PHYS375",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Undergraduate Experimental Research",
+        "course_number": "PHYS407",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Public Leaders and Active Citizens",
+        "course_number": "PLCY201",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Public Leaders and Active Citizens",
+        "course_number": "PLCY201S",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Leading and Investing in Social Change: Re-defining and Experimenting with Philanthropy",
+        "course_number": "PLCY214",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Ethical, Policy and Social Implications of Science and Technology",
+        "course_number": "PLCY240",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Innovation and Social Change: Do Good Now",
+        "course_number": "PLCY380",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Social Psychology",
+        "course_number": "PSYC221",
+        "geneds": [
+            "DSSP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Research Methods in Psychology Laboratory",
+        "course_number": "PSYC300",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "People, Planet, and Profit: Building Sustainable Places",
+        "course_number": "RDEV250",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Research Methods in Sociology",
+        "course_number": "SOCY202",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Sociology of Health and Illness",
+        "course_number": "SOCY335",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Writing Center Internship",
+        "course_number": "SPAN388W",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Black Theatre and Performance I",
+        "course_number": "THET293",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Inquiry Teaching of STEM in Middle School",
+        "course_number": "TLPL102",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Student-Centered Curriculum and Instruction",
+        "course_number": "TLPL401",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Teaching and Learning Middle School Mathematics",
+        "course_number": "TLPL413",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Knowledge, Reasoning, and Learning in Science",
+        "course_number": "TLPL420",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Methods I: K-12 World Language Methods and Technology",
+        "course_number": "TLPL445",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Teaching and Learning in Secondary Education: English",
+        "course_number": "TLPL451",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Curriculum, Teaching, and Assessment in Secondary Social Studies",
+        "course_number": "TLPL471",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Leadership in Collaborative Learning Groups",
+        "course_number": "TLTC310",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "The Sustainable City: Exploring Opportunities and Challanges",
+        "course_number": "URSP250",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Intergroup Dialogue Facilitator Development & Practicum",
+        "course_number": "WEID300",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Racialized Gender and Rebel Media",
+        "course_number": "WGSS291",
+        "geneds": [
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
+        "course_number": "AAST394",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
+        "course_number": "AMST324",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Changing Climate, Changing Cultures",
+        "course_number": "ANTH266",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Innovations in Countering Violent Extremism",
+        "course_number": "BSST335",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Intermediate Written Chinese I",
+        "course_number": "CHIN202",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Common Ground Deliberative Dialogues; Civic Engagement for Social Good",
+        "course_number": "CHSE228C",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Common Ground Deliberative Dialogues; Common Ground ResLife",
+        "course_number": "CHSE228D",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Essentials of Intercultural Communication",
+        "course_number": "COMM382",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "College Park Scholars: Public Leadership First-Year Colloquium I",
+        "course_number": "CPPL100",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "The Future of Communicating Science",
+        "course_number": "CPSS220",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Disability in Community: Access, Accommodation, and Adaptation",
+        "course_number": "EDSP220",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Fundamentals of Sign Language",
+        "course_number": "EDSP376",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Equity and Inclusion in Engineering Design",
+        "course_number": "ENES138",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Virtus Living and Learning Community Seminar III",
+        "course_number": "ENES213",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "FLEXUS Living and Learning Community Seminar III",
+        "course_number": "ENES215",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Leading Global Teams and Engaging Across Cultures in Business, Engineering, and Technology",
+        "course_number": "ENES472",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Families and Global Health",
+        "course_number": "FMSC110",
+        "geneds": [
+            "DVCC",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Families and Global Health",
+        "course_number": "FMSC110S",
+        "geneds": [
+            "DVCC",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Human Geography",
+        "course_number": "GEOG202",
+        "geneds": [
+            "DVCC",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Capstone in International Development",
+        "course_number": "GVPT356",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Leadership and Ethnicity",
+        "course_number": "HESI423",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Leadership and the Jewish Community",
+        "course_number": "HESI424",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Global Health Messages: Understanding Exposure & Impact",
+        "course_number": "HLTH234",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Global Health Messages: Understanding Exposure & Impact",
+        "course_number": "HLTH234H",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Where the Waters Blend: Contemporary Indigenous Perspectives on History, Traditions, and Modern Issues",
+        "course_number": "HNUH268W",
+        "geneds": [
+            "DVCC",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
+        "course_number": "IMMR394",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Technology, Culture, and Society",
+        "course_number": "INST466",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Lesbian, Gay, Bisexual, and Transgender People and Communication",
+        "course_number": "LGBT350",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Lesbian, Gay, Bisexual, and Transgender Community Organization Internship",
+        "course_number": "LGBT386",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Peer Education: Preventing Power-Based Violence",
+        "course_number": "PEER312",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Examining Pluralism in Public Policy",
+        "course_number": "PLCY302",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Student-Centered Curriculum and Instruction",
+        "course_number": "TLPL401",
+        "geneds": [
+            "DVCC",
+            "DSSP"
+        ]
+    },
+    {
+        "course_name": "Cross-Cultural Communication and Multilingual Learners",
+        "course_number": "TLPL443",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Navigating Social Identity Difference through Intergroup Dialogue; Race, Gender, or Socioeconomic Status",
+        "course_number": "WEID139B",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Navigating Social Identity Difference through Intergroup Dialogue; Race, Gender, or Citizenship",
+        "course_number": "WEID139L",
+        "geneds": [
+            "DVCC"
+        ]
+    },
+    {
+        "course_name": "Introduction to African American Studies",
+        "course_number": "AASP100",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to African American Studies",
+        "course_number": "AASP100H",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Black Culture in the United States",
+        "course_number": "AASP202",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Black Culture in the United States",
+        "course_number": "AASP202H",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Social (In)Justice and African-American Health and Well-Being",
+        "course_number": "AASP230",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "African-American History to 1865",
+        "course_number": "AASP298C",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "African-American Literature and Culture",
+        "course_number": "AASP298L",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Asian American Studies",
+        "course_number": "AAST200",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian American History",
+        "course_number": "AAST201",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian Americans and Media",
+        "course_number": "AAST351",
+        "geneds": [
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Asian Americans in Film",
+        "course_number": "AAST355",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Filipino American History and Biography",
+        "course_number": "AAST363",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "South Asian American Literature and Culture",
+        "course_number": "AAST440",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Asian American Politics",
+        "course_number": "AAST443",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction American Studies",
+        "course_number": "AMST101",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Popular Culture in America",
+        "course_number": "AMST203",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Film and American Culture Studies",
+        "course_number": "AMST204",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Material Aspects of American Life",
+        "course_number": "AMST205",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Houses, Schools, and Prisons in American Life",
+        "course_number": "AMST262",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Asian American Studies",
+        "course_number": "AMST298C",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "U.S. Latinx Literature and Culture",
+        "course_number": "AMST298Q",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Native American and Indigenous Studies",
+        "course_number": "AMST312",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "(Dis)ability in American Film",
+        "course_number": "AMST320",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Asian Americans in Film",
+        "course_number": "AMST328W",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Asian American Politics",
+        "course_number": "AMST498J",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Medical Anthropology and Global Health",
+        "course_number": "ANTH210",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Ecological and Evolutionary Anthropology",
+        "course_number": "ANTH222",
+        "geneds": [
+            "DVUP",
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Introduction to Archaeology",
+        "course_number": "ANTH240",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Sexuality and Culture",
+        "course_number": "ANTH263",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Anthropology of Global Health",
+        "course_number": "ANTH265",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Food Cultures in the Global Middle East",
+        "course_number": "ARAB250",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Global Poverty and Economic Development",
+        "course_number": "AREC345",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "World Hunger, Population, and Food Supplies",
+        "course_number": "AREC365",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Agricultural Development, Population Growth and the Environment",
+        "course_number": "AREC445",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Art and Society in Ancient and Medieval Europe and the Mediterranean",
+        "course_number": "ARTH200",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Art and Society in the West from the Renaissance to the Present",
+        "course_number": "ARTH201",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Art and Society in the Modern American World",
+        "course_number": "ARTH255",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Monuments, Monumentality, and the Art of Memorial",
+        "course_number": "ARTH261",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Presently Black: Contemporary African American Art",
+        "course_number": "ARTH362",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Beyond Race: Human Biological Diversity",
+        "course_number": "BSCI151",
+        "geneds": [
+            "DSNS",
+            "DSSP",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Race, Crime and Criminal Justice",
+        "course_number": "CCJS370",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Disability: From Stigma and Sideshow to Mainstream and Main Street",
+        "course_number": "CHSE205",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Film Art in a Global Society",
+        "course_number": "CINE280",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Roman Freedpersons",
+        "course_number": "CLAS322",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Black Diaspora Literature and Culture",
+        "course_number": "CMLT235",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Diversify and Multiply: Jewish Culture and the Production of an Identity",
+        "course_number": "CMLT242",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Global Literature and Social Change",
+        "course_number": "CMLT270",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "World Literature by Women",
+        "course_number": "CMLT275",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Literatures of the Americas",
+        "course_number": "CMLT277",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Film Art in a Global Society",
+        "course_number": "CMLT280",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Communication and Gender",
+        "course_number": "COMM324",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Field Experiences in Counseling and Personnel Services",
+        "course_number": "EDCP489",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Human Development and Societal Institutions",
+        "course_number": "EDHD230",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Foundations of Special Education: Inclusive Practices",
+        "course_number": "EDSP210",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Special Education",
+        "course_number": "EDSP211",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Peer Mentor Training and Certification",
+        "course_number": "EDSP311",
+        "geneds": [
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Special Education",
+        "course_number": "EDSP470",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "The Rites of Discovery: Science, Law, and Literature, 1492-1992",
+        "course_number": "ENGL134",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "African-American Literature and Culture",
+        "course_number": "ENGL234",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "U.S. Latinx Literature and Culture",
+        "course_number": "ENGL235",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Reading Women Writing",
+        "course_number": "ENGL250",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "LGBTQ+ Literatures and Media",
+        "course_number": "ENGL265",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Reading and Writing Disability",
+        "course_number": "ENGL296",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Family Health:  Health Happens in Families",
+        "course_number": "FMSC330",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Family Inequality",
+        "course_number": "FMSC381",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Violence in Families",
+        "course_number": "FMSC460",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "As the World Turns: Society and Sustainability in a Time of Great Change",
+        "course_number": "GEOG330",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "International Political Relations",
+        "course_number": "GVPT200",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian American Politics",
+        "course_number": "GVPT368C",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Business and Deliberation:  Innovation and Equity in Conditions of Uncertainty and Diversity",
+        "course_number": "HBUS200",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Design Cultures and Creativity I",
+        "course_number": "HDCC105",
+        "geneds": [
+            "DSSP",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Second Year Seminar in Honors Humanities",
+        "course_number": "HHUM205",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "The Everyday and the American Environment",
+        "course_number": "HISP200",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "American Jewish Experience",
+        "course_number": "HIST106",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Medieval World",
+        "course_number": "HIST111",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "African Civilization to 1800",
+        "course_number": "HIST122",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Civil Discourse or Urban Riot: Why Cities Don't (Often) Explode",
+        "course_number": "HIST135",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Interpreting American History: From 1865 to the Present",
+        "course_number": "HIST201",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Women in Western Europe to 1750",
+        "course_number": "HIST215",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Asian American History",
+        "course_number": "HIST221",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "History of Colonial Latin America",
+        "course_number": "HIST250",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "African-American History to 1865",
+        "course_number": "HIST254",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Medicine in an Age of Empires, 1500-1800",
+        "course_number": "HIST261",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "East Asian Civilization I",
+        "course_number": "HIST284",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Urban Dreams and Nightmares: The Jewish Experience of Cities",
+        "course_number": "HIST286",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Politics of Sexuality in America: A Historical Approach",
+        "course_number": "HIST289N",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Geopolitics of Finance: Innovation & Cross-Cultural Globalization",
+        "course_number": "HNUH239T",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Troubling Gender and Sex in Japan",
+        "course_number": "JAPN335",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Media Literacy",
+        "course_number": "JOUR175",
+        "geneds": [
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Women in the Media",
+        "course_number": "JOUR452",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Media Coverage of Diversity",
+        "course_number": "JOUR453",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "American Jewish Experience",
+        "course_number": "JWST141",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Is Judaism a Religion?",
+        "course_number": "JWST171",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Diversify and Multiply: Jewish Culture and the Production of an Identity",
+        "course_number": "JWST272",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Jerusalem in Antiquity: The History of Sacred Space in a Holy City",
+        "course_number": "JWST274",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Urban Dreams and Nightmares: The Jewish Experience of Cities",
+        "course_number": "JWST275",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Civil Discourse or Urban Riot: Why Cities Don't (Often) Explode",
+        "course_number": "JWST289E",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "History of Physical Culture, Sport, & Science in America",
+        "course_number": "KNES285",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Sport and American Society",
+        "course_number": "KNES287",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Sport and Globalization",
+        "course_number": "KNES485",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "LACS234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "LACS234H",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "History of Colonial Latin America",
+        "course_number": "LACS250",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Lesbian, Gay, Bisexual, and Transgender Studies",
+        "course_number": "LGBT200",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "LGBTQ+ Literatures and Media",
+        "course_number": "LGBT265",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Special Topics in Lesbian, Gay, Bisexual, and Transgender Studies; Dickinson, Erotics, Poetics, Biopics: Some (Queer) Ways We Read Poetry",
+        "course_number": "LGBT448Y",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Popular Music in Black America",
+        "course_number": "MUSC204",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "History of Popular Music, 1950-Present",
+        "course_number": "MUSC205",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "The Impact of Music on Life",
+        "course_number": "MUSC210",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "World Popular Musics and Identity",
+        "course_number": "MUSC215",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Music as Global Culture",
+        "course_number": "MUSC260",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Philosophy of Race",
+        "course_number": "PHIL344",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Public Health in the City: Perspectives on Health in the Urban Environment",
+        "course_number": "PHSC430",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Addressing Social and Structural Inequities Through Public Health",
+        "course_number": "PHSC450",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "PORT234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Is Judaism a Religion?",
+        "course_number": "RELS171",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Jerusalem in Antiquity: The History of Sacred Space in a Holy City",
+        "course_number": "RELS274",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Inequality in American Society",
+        "course_number": "SOCY241",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Family in Contemporary American Society",
+        "course_number": "SOCY245",
+        "geneds": [
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "SPAN234",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Issues in Latin American and Caribbean Studies I",
+        "course_number": "SPAN234H",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Latin American Literatures and Cultures I: From Pre-Columbian to Colonial Times",
+        "course_number": "SPAN361",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Latin American Literatures and Cultures III: From Modernism  to Neo-Liberalism",
+        "course_number": "SPAN363",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Black Theatre and Performance I",
+        "course_number": "THET293",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to Disability Studies",
+        "course_number": "WGSS105",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Introduction to WGSS: Gender, Power, and Society",
+        "course_number": "WGSS200",
+        "geneds": [
+            "DVUP",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Introduction to WGSS: Art and Culture",
+        "course_number": "WGSS250",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Reading Women Writing",
+        "course_number": "WGSS255",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "World Literature by Women",
+        "course_number": "WGSS275",
+        "geneds": [
+            "DSHU",
+            "DVUP"
+        ]
+    },
+    {
+        "course_name": "Bodies in Contention",
+        "course_number": "WGSS290",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Politics of Sexuality in America: A Historical Approach",
+        "course_number": "WGSS298N",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Academic Writing",
+        "course_number": "ENGL101",
+        "geneds": [
+            "FSAW"
+        ]
+    },
+    {
+        "course_name": "Elementary Statistics and Probability",
+        "course_number": "DATA100",
+        "geneds": [
+            "FSMA",
+            "FSAR"
+        ]
+    },
+    {
+        "course_name": "Elementary Calculus I",
+        "course_number": "MATH120",
+        "geneds": [
+            "FSMA",
+            "FSAR"
+        ]
+    },
+    {
+        "course_name": "Discrete Mathematics for Life Sciences",
+        "course_number": "MATH135",
+        "geneds": [
+            "FSMA",
+            "FSAR"
+        ]
+    },
+    {
+        "course_name": "Calculus I",
+        "course_number": "MATH140",
+        "geneds": [
+            "FSMA",
+            "FSAR"
+        ]
+    },
+    {
+        "course_name": "Calculus I",
+        "course_number": "MATH140H",
+        "geneds": [
+            "FSMA",
+            "FSAR"
+        ]
+    },
+    {
+        "course_name": "Elementary Statistics and Probability",
+        "course_number": "STAT100",
+        "geneds": [
+            "FSMA",
+            "FSAR"
+        ]
+    },
+    {
+        "course_name": "Architecture Design Studio IV",
+        "course_number": "ARCH403",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Oral Communication for National Security Careers",
+        "course_number": "BSST340",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Oral Communication: Principles and Practices",
+        "course_number": "COMM107",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Oral Communication: Principles and Practices",
+        "course_number": "COMM107B",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Oral Communication: Principles and Practices",
+        "course_number": "COMM107C",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Critical Thinking and Speaking",
+        "course_number": "COMM200",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Enterprise Communications",
+        "course_number": "CPBE225",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Effective Strategies for Public Health Practice",
+        "course_number": "HLTH420",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Oral Communication",
+        "course_number": "INAG110",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Oral Communication",
+        "course_number": "INAG110S",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "Self-Presentation in the Age of YouTube",
+        "course_number": "JOUR130",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "The Art of Communication and Presentation",
+        "course_number": "THET285",
+        "geneds": [
+            "FSOC"
+        ]
+    },
+    {
+        "course_name": "MGA Legislative Seminar",
+        "course_number": "ENGL381",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Science Writing",
+        "course_number": "ENGL390",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Science Writing",
+        "course_number": "ENGL390H",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Advanced Composition",
+        "course_number": "ENGL391",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Advanced Composition",
+        "course_number": "ENGL391H",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Legal Writing",
+        "course_number": "ENGL392",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Technical Writing",
+        "course_number": "ENGL393",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Technical Writing",
+        "course_number": "ENGL393H",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Technical Writing",
+        "course_number": "ENGL393Q",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Technical Writing",
+        "course_number": "ENGL393X",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Business Writing",
+        "course_number": "ENGL394",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Writing for Health Professions",
+        "course_number": "ENGL395",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Writing for the Arts",
+        "course_number": "ENGL398A",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Writing for Social Entrepreneurship",
+        "course_number": "ENGL398B",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Writing Case Studies and Investigative Reports",
+        "course_number": "ENGL398C",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Writing About Economics",
+        "course_number": "ENGL398E",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Scholarly Writing in the Humanities",
+        "course_number": "ENGL398L",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Writing for Non-Profit Organizations",
+        "course_number": "ENGL398N",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Writing Non-Fictional Narratives",
+        "course_number": "ENGL398R",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Writing About the Environment",
+        "course_number": "ENGL398V",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "MGA Legislative Seminar",
+        "course_number": "HONR368A",
+        "geneds": [
+            "FSPW"
+        ]
+    },
+    {
+        "course_name": "Social (In)Justice and African-American Health and Well-Being",
+        "course_number": "AASP230",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Did Yeast Create Civilization?",
+        "course_number": "AGST130",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Houses, Schools, and Prisons in American Life",
+        "course_number": "AMST262",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Eating with Eyes Wide Open",
+        "course_number": "ANSC227",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Anthropology of Global Health",
+        "course_number": "ANTH265",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Changing Climate, Changing Cultures",
+        "course_number": "ANTH266",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Plagues, Pathogens and Public Policy",
+        "course_number": "ANTH323",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Causes and Consequences of Global Change",
+        "course_number": "AOSC123",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Weather and Climate",
+        "course_number": "AOSC200",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with AOSC201)",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Weather and Climate",
+        "course_number": "AOSC200C",
+        "geneds": [
+            "DSNS",
+            "DSNL (if taken with AOSC201)",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Design in Practice",
+        "course_number": "ARCH270",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Chesapeake Bay Ecosystem: Intersection of Science, Economics, and Policy",
+        "course_number": "AREC200",
+        "geneds": [
+            "DSNS",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Environment, Economics and Policy",
+        "course_number": "AREC241",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Art and Activism",
+        "course_number": "ARTH260C",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Monuments, Monumentality, and the Art of Memorial",
+        "course_number": "ARTH261",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Science and Fiction of Planetary Systems",
+        "course_number": "ASTR230",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Creative Problem Solving",
+        "course_number": "BMGT161",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Technology, Society and the Future of Humanity",
+        "course_number": "BMGT207",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Enterprising Leader",
+        "course_number": "BMGT262",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "How Do Innovators Think?",
+        "course_number": "BMGT289B",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Frauds, Scams, and Thefts: What, How and Why?",
+        "course_number": "BMGT289D",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Entrepreneurial Thinking for Non-Business Majors: How Not to Miss Great Opportunities Your Life Throws at You",
+        "course_number": "BMGT289E",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Why Good Managers Make Bad Decisions",
+        "course_number": "BMGT289I",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Pollinators in Crisis",
+        "course_number": "BSCI126",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Amazing Green: Plants that Transformed the World",
+        "course_number": "BSCI135",
+        "geneds": [
+            "SCIS",
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Beyond Race: Human Biological Diversity",
+        "course_number": "BSCI151",
+        "geneds": [
+            "DSNS",
+            "DSSP",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "General Microbiology",
+        "course_number": "BSCI223",
+        "geneds": [
+            "SCIS",
+            "DSNL"
+        ]
+    },
+    {
+        "course_name": "Ensuring your Financial Future Through Stock Investing",
+        "course_number": "BSOS201",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "States of Emergency",
+        "course_number": "BSST334",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Responses to Violence",
+        "course_number": "CCJS225",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Slavery in the Twenty First Century: Combating Human Trafficking",
+        "course_number": "CCJS325",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Disability: From Stigma and Sideshow to Mainstream and Main Street",
+        "course_number": "CHSE205",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Ancient Myths and Modern Lives",
+        "course_number": "CLAS170",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "What is Romance?",
+        "course_number": "CLAS274",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Analyzing Media Practice through Theory",
+        "course_number": "CPMS225",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "College Park Scholars Capstone: Science, Technology, and Society",
+        "course_number": "CPSS225",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "College Park Scholars: Science, Technology & Society - Service-Learning Practicum",
+        "course_number": "CPSS240",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Thinking Like an Economist",
+        "course_number": "ECON111",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Are Two Languages Better than One:  The Science and Controversy of Bilingualism",
+        "course_number": "EDHD241",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Technology and Consequences: Engineering, Ethics, and Humanity",
+        "course_number": "ENEE200",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Technology and Consequences: Engineering, Ethics and Humanity",
+        "course_number": "ENES200",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Entrepreneurial Opportunity Analysis and Decision-Making in 21st Century Technology Ventures",
+        "course_number": "ENES210",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Ethical, Policy and Social Implications of Science and Technology",
+        "course_number": "ENES240",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Acting Human: Shakespeare and the Drama of Identity",
+        "course_number": "ENGL120",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Why Fiction Matters",
+        "course_number": "ENGL126",
+        "geneds": [
+            "DSHU",
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Rites of Discovery: Science, Law, and Literature, 1492-1992",
+        "course_number": "ENGL134",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Bats in Society: Human-Wildlife Relationships, Conflicts, & Solutions",
+        "course_number": "ENST215",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Modern Families",
+        "course_number": "FMSC170",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Man Up! Where Are The Fathers?",
+        "course_number": "FMSC190",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Natural Disasters: Earthquakes, Floods, and Fires",
+        "course_number": "GEOG140",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Earth From Space",
+        "course_number": "GEOG172",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "As the World Turns: Society and Sustainability in a Time of Great Change",
+        "course_number": "GEOG330",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Causes and Consequences of Global Change",
+        "course_number": "GEOL123",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Evolution of Life and Environment on Planet Earth",
+        "course_number": "GEOL124",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Earth's Fury: Earthquakes, Volcanoes, and Tsunami",
+        "course_number": "GEOL200",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Law or Politics? The U.S. Supreme Court and Individual Rights",
+        "course_number": "GVPT202",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Appetite for Change: Politics and the Globalization of Food",
+        "course_number": "GVPT206",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Beyond Technology, the Policy Implications of Cyberspace",
+        "course_number": "HACS208P",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Future of Work: Interdisciplinary Foundations and Horizons of Business",
+        "course_number": "HBUS100",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Introduction to Design Cultures and Creativity I",
+        "course_number": "HDCC105",
+        "geneds": [
+            "DSSP",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Research Behind Headlines on Words, Thought, and Behavior",
+        "course_number": "HESP214",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Saving the World With Data",
+        "course_number": "HGLO101",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Everyday and the American Environment",
+        "course_number": "HISP200",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Fighting Slavery",
+        "course_number": "HIST132",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "God Wills It! The Crusades in Medieval and Modern Perspectives",
+        "course_number": "HIST133",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Spies, Assassins, Martyrs, and Witches: Famous Trials in American History",
+        "course_number": "HIST134",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Spies, Assassins, Martyrs, and Witches: Famous Trials in American History",
+        "course_number": "HIST134S",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Civil Discourse or Urban Riot: Why Cities Don't (Often) Explode",
+        "course_number": "HIST135",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Moneyland: Business in American Culture",
+        "course_number": "HIST136",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Politics of Sexuality in America: A Historical Approach",
+        "course_number": "HIST289N",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Lawlessness: From Pirates to Body-snatchers, Exploring the Legitimacy of Illicit Activity",
+        "course_number": "HIST289O",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Global Health Messages: Understanding Exposure & Impact",
+        "course_number": "HLTH234",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Global Health Messages: Understanding Exposure & Impact",
+        "course_number": "HLTH234H",
+        "geneds": [
+            "DVCC",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Tweets & Likes: Digital Health & Social Media",
+        "course_number": "HLTH264",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Tweets & Likes: Digital Health & Social Media",
+        "course_number": "HLTH264H",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Globalizing the American Revolution",
+        "course_number": "HNUH218C",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Surveillant Society, Surveillant Selves",
+        "course_number": "HNUH238C",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Ecology of Childhood Poverty",
+        "course_number": "HNUH258B",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Global Heritage",
+        "course_number": "HNUH268B",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Democratic Habits",
+        "course_number": "HNUH278B",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Race, Reproduction and Rights",
+        "course_number": "HNUH288B",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "People, Planet, and Profit: Digging Into Sustainable Agriculture",
+        "course_number": "INAG123",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Design Across Campus",
+        "course_number": "INST104",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Records Scandals & Data Vandals: Public & Private Sector Controversies Ripped From The Headlines",
+        "course_number": "INST153",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Designing Fair Systems",
+        "course_number": "INST204",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Designing Fair Systems",
+        "course_number": "INST204S",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Health Justice: Investigating the Roles of Information in Preventing & Addressing Health Disparities",
+        "course_number": "INST232C",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Media Law and Ethics in the Digital Age",
+        "course_number": "JOUR281",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Beyond Facebook: How Social Media are Transforming Society, Culture, Business and Politics",
+        "course_number": "JOUR282",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Probing War: Investigative Narratives and American Conflicts",
+        "course_number": "JOUR283",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Information 3.0: Exploring Technological Tools",
+        "course_number": "JOUR289I",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Is Judaism a Religion?",
+        "course_number": "JWST171",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Jerusalem in Antiquity: The History of Sacred Space in a Holy City",
+        "course_number": "JWST274",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Civil Discourse or Urban Riot: Why Cities Don't (Often) Explode",
+        "course_number": "JWST289E",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Hoop Dreams: Black Masculinity and Sport",
+        "course_number": "KNES225",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Cybernetic Human",
+        "course_number": "KNES226",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Urban Agriculture: Designing and Assessing Edible Landscapes",
+        "course_number": "LARC151",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "HERITAGE LANGUAGES AND THEIR SPEAKERS",
+        "course_number": "LING262",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Leadership and Management",
+        "course_number": "NAVY200",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Diet: Is it a cause or a solution",
+        "course_number": "NFSC220",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Know Thyself: Wisdom Through Cognitive Science",
+        "course_number": "PHIL202",
+        "geneds": [
+            "DSHU",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Rights and Wrongs of Killing People",
+        "course_number": "PHIL203",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Public Health in the City: Perspectives on Health in the Urban Environment",
+        "course_number": "PHSC430",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "A Global Challenge: Energy and Climate Change",
+        "course_number": "PHYS105",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "The Manhattan Project",
+        "course_number": "PHYS235",
+        "geneds": [
+            "DSNS",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Great Thinkers on Public Policy",
+        "course_number": "PLCY101",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Public Leaders and Active Citizens",
+        "course_number": "PLCY201",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Public Leaders and Active Citizens",
+        "course_number": "PLCY201S",
+        "geneds": [
+            "DSSP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Leading and Investing in Social Change: Re-defining and Experimenting with Philanthropy",
+        "course_number": "PLCY214",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Ethical, Policy and Social Implications of Science and Technology",
+        "course_number": "PLCY240",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Innovation and Social Change: Do Good Now",
+        "course_number": "PLCY380",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "How Safe is Your Salad? The Microbiological Safety of Fresh produce",
+        "course_number": "PLSC115",
+        "geneds": [
+            "DSNS",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Living the Good Life: The Psychology of Happiness",
+        "course_number": "PSYC234",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "God Wills It! The Crusades in Medieval and Modern Perspectives",
+        "course_number": "RELS133",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Ancient Myths and Modern Lives",
+        "course_number": "RELS170",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Is Judaism a Religion?",
+        "course_number": "RELS171",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Jerusalem in Antiquity: The History of Sacred Space in a Holy City",
+        "course_number": "RELS274",
+        "geneds": [
+            "DSHU",
+            "DVUP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Mythology of the Oppressed",
+        "course_number": "SLLC280",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Living the Good Life: Chinese Philosophy in the Modern World",
+        "course_number": "SLLC286",
+        "geneds": [
+            "DSHU",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Innovation, Exploration and the Evolution of Human Societies",
+        "course_number": "SOCY200",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Why are We Still Talking About Race?",
+        "course_number": "SOCY224",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Intersectionality and Illness: How do Overarching Social Inequalities Affect Health Outcomes?",
+        "course_number": "SOCY277",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Globalization's Winners and Losers",
+        "course_number": "SOCY340",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Subversive Cultures and Performance",
+        "course_number": "THET287",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Forbidden Books: Censorship of Children's and Young Adult Literature",
+        "course_number": "TLPL206",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "Language Rights and Repression in Education",
+        "course_number": "TLPL253",
+        "geneds": [
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Sustainable City: Exploring Opportunities and Challanges",
+        "course_number": "URSP250",
+        "geneds": [
+            "DSSP",
+            "SCIS"
+        ]
+    },
+    {
+        "course_name": "Bodies in Contention",
+        "course_number": "WGSS290",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    },
+    {
+        "course_name": "The Politics of Sexuality in America: A Historical Approach",
+        "course_number": "WGSS298N",
+        "geneds": [
+            "DVUP",
+            "SCIS",
+            "DSHS"
+        ]
+    }
+]
