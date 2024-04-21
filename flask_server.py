@@ -38,23 +38,10 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route("/getresponse", methods=["POST"])
-def get_probable():
+def get_response():
     data = request.json.get("message")
-    print(type(data))
-    print(data)
     response = fc.parse_query(data)
-    print(type(response))
-    
-    return jsonify({"response": response})
-
-@app.route("/getresponse", methods=["POST"])
-def get_probable_get():
-    data = request.args.get("data")
-    assert type(data) == list
-    
-    # get list of sections from database
-    # format it
-    # return
-    pass
+    print(response)     
+    return jsonify({"message": response})
 
 app.run(debug=True)

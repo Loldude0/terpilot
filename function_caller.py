@@ -11,7 +11,7 @@ load_dotenv()
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
         
-model = genai.GenerativeModel("gemini-1.5-pro-latest")
+model = genai.GenerativeModel("gemini-pro")
 
 function_list = {
     "generate_schedule": {"description": """this function generates a schedule based on the input list of classes.
@@ -24,8 +24,10 @@ function_list = {
 }
 
 def clean_response(response):
-    response = re.search(r"(```(json)?\n)?(\{.+\})(\n```)?", response).group(3)
-    return response
+    parsed_response = re.search(r"(```(json)?\n)?(\{.+\})(\n```)?", response).group(3)
+    if parsed_response is None:
+        return response
+    return parsed_response
 
 
 class FunctionCaller:
@@ -46,10 +48,15 @@ class FunctionCaller:
 
             example:
             {{ "function": "generate_schedule", "args": [["CMSC330", "CMSC351", "ENGL101"]] }}
+            {{ "function": "general_chat", "args": ["hello, how are you doing?"] }}
 
+            
+            !! Some of the Chat history are stored just for the sake of the context. Only the last message is used to generate the response. 
             !!IMPORTANT!! MAKE SURE TO FOLLOW THE FORMAT EXACTLY AS SHOWN ABOVE
             !!YOU MUST USE THE RESPONSE FORMAT ABOVE TO CALL THE FUNCTION. DO NOT RESPOND WITH NATURAL LANGUAGE!
             !!IMPORTANT!! DO NOT RESPOND SAYING YOU CANNOT HELP. JUST RESPOND WITH THE FUNCTION CALL.
+            
+            Here are the digest of what was happening between user and you before this message:
         """
         self.systemprompt_response = "Certainly, I can help with calling functions"
         
@@ -57,12 +64,13 @@ class FunctionCaller:
         self.context_manager.add_context("model",self.systemprompt_response)
 
     def parse_query(self,input_text):
-        self.context_manager.swap_system_message(self.systemprompt,self.systemprompt_response)
+        flat_context = self.context_manager.get_flat_context()
+        self.context_manager.swap_system_message(self.systemprompt+ str(flat_context),self.systemprompt_response)
         #print(self.context_manager.get_context())
-        chat = model.start_chat(history=self.context_manager.get_context())
+        #print(self.context_manager.get_context())
+        chat = model.start_chat(history=self.context_manager.get_context()[:2])
         response = chat.send_message(input_text).text
         #print(response)
-        response = clean_response(response)
         response_dict = ast.literal_eval(response)
         #print(response_dict["args"])
         response,message = function_list[response_dict["function"]]["function"](*response_dict["args"],self.context_manager)
@@ -76,7 +84,10 @@ class FunctionCaller:
 if __name__ == "__main__":
     test_input = "hi, what can you do?"
     fc = FunctionCaller()
-    print(fc.parse_query("can you help me with making a ldcass schedule? I want to take CMSC330, CMSC420, and ENGL101 next semester"))
+    print(fc.parse_query("hello"))
+    print(fc.parse_query("what can you do?"))
+    print(fc.parse_query('can you help me build a schedule? I want to take CMSC420, CMSC330,. adn ENGL101'))
+    print(fc.parse_query("What did I ask you to do again?"))
     #print(fc.parse_query("how are you doing?"))
     
 
