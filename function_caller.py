@@ -17,6 +17,9 @@ function_list = {
     "generate_schedule": {"description": """this function generates a schedule based on the input list of classes.
                           How to call: generate_schedule([~list of classes~])""",
                           "function": generate_schedule},
+    "get_map_data": {"description": """this function gets the map data for the given class and section number.
+                    How to call: get_map_data([~list of classes~])""",
+                    "function": get_map_data},
     "general_chat": {"description": """this function is a general chat function that can be used to chat with the model.
                     This function will be called when the user request deos not match any of the available functions.
                     How to call: general_chat(~message~)""",
@@ -48,6 +51,7 @@ class FunctionCaller:
 
             example:
             {{ "function": "generate_schedule", "args": [["CMSC330", "CMSC351", "ENGL101"]] }}
+            {{ "function": "get_map_data", "args": [["CMSC330_0101", "CMSC351_0104", "ENGL101_0201"]] }}
             {{ "function": "general_chat", "args": ["hello, how are you doing?"] }}
 
             
@@ -64,30 +68,28 @@ class FunctionCaller:
         self.context_manager.add_context("model",self.systemprompt_response)
 
     def parse_query(self,input_text):
+        response_type = None
         flat_context = self.context_manager.get_flat_context()
         self.context_manager.swap_system_message(self.systemprompt+ str(flat_context),self.systemprompt_response)
         #print(self.context_manager.get_context())
         #print(self.context_manager.get_context())
         chat = model.start_chat(history=self.context_manager.get_context()[:2])
         response = chat.send_message(input_text).text
-        #print(response)
+        print(response)
         response_dict = ast.literal_eval(response)
         #print(response_dict["args"])
-        response,message = function_list[response_dict["function"]]["function"](*response_dict["args"],self.context_manager)
+        response,message, response_type = function_list[response_dict["function"]]["function"](*response_dict["args"],self.context_manager)
         
         self.context_manager.add_context("user",input_text)
         self.context_manager.add_context("model",message)
         
         
-        return response
+        return response, response_type
 
 if __name__ == "__main__":
     test_input = "hi, what can you do?"
     fc = FunctionCaller()
-    print(fc.parse_query("hello"))
-    print(fc.parse_query("what can you do?"))
-    print(fc.parse_query('can you help me build a schedule? I want to take CMSC420, CMSC330,. adn ENGL101'))
-    print(fc.parse_query("What did I ask you to do again?"))
+    print(fc.parse_query("where are the classes for CMSC330 section 0101 and , CMSC351 section 0104 and , and ENGL 401?"))
     #print(fc.parse_query("how are you doing?"))
     
 

@@ -40,8 +40,10 @@ CORS(app)
 @app.route("/getresponse", methods=["POST"])
 def get_response():
     data = request.json.get("message")
-    response = fc.parse_query(data)
-    print(response)     
-    return jsonify({"message": response})
+    response, response_type = fc.parse_query(data)
+    print(response)
+    return jsonify({"type":response_type,"message": response})
+
+
 
 app.run(debug=True)
