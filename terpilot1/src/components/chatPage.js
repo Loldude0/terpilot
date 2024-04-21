@@ -13,6 +13,7 @@ import '../App.css';
 import './ChatPage.css';
 import sendIcon from "../pages/sendIcon.png"; // Import the send icon
 import MapComponent from './MapComponents';
+import Calendar from './Calendar';
 
 
 function ChatPage() {
@@ -20,6 +21,7 @@ function ChatPage() {
   const [inputValue, setInputValue] = useState("");
   const [loading, setLoading] = useState(false); // Define the loading state
   const [mapLocations, setMapLocations] = useState([]);
+  const [scheduleData, setScheduleData] = useState([]);
   const {isLoaded, loadError} = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY
   });
@@ -56,6 +58,10 @@ function ChatPage() {
         setMessages([...new_messages, { content: "geo-data", direction: "incoming" }]);
         // data.message = [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
         setMapLocations(data.message);  
+      } else if (data.type === "schedule-data") {
+        setMessages([...new_messages, { content: "schedule-data", direction: "incoming" }]);
+        setScheduleData(data.message)
+
       } else {
         console.log("error");
       }
@@ -88,7 +94,8 @@ function ChatPage() {
         {messages.map((msg, index) => 
           msg.direction === "incoming" ? (
             <div key={index} className={`message-bubble incoming`}>
-              {msg.content === "geo-data" ? <MapComponent locations={mapLocations} /> : msg.content}
+              {msg.content === "geo-data" ? <MapComponent locations={mapLocations} /> :
+              msg.content === "schedule-data" ? <Calendar schedule={scheduleData} />: msg.content}
             </div>
           ) : (
             <div key={index} className={`message-bubble outgoing`}>
