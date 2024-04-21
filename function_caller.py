@@ -125,7 +125,7 @@ if __name__ == "__main__":
     fc = FunctionCaller()
     print(
         fc.parse_query(
-            "where are the classes for CMSC330 section 0101 and , CMSC351 section 0104 and , and ENGL 401?"
+            "what courses should I take next semester?"
         )
     )
     # print(fc.parse_query("how are you doing?"))

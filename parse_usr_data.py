@@ -4,7 +4,7 @@ import json
 
 possible_geneds = "FSAW|FSAR|FSMA|FSOC|FSPW|DSHS|DSHU|DSNS|DSNL|DSSP|DVCC|DVUP|SCIS"
 
-raw = parser.from_file("unofficial transcript.pdf")
+raw = parser.from_file("./unofficial transcript.pdf")
 
 start_index = raw['content'].find("Historic Course Information")
 end_index = raw['content'].find("Current Course Information")

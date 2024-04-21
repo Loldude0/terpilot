@@ -422,11 +422,9 @@ def get_course_location(course_id):
 
 def make_suggestions(context_manager):
     suggestions = get_suggestions()
-    response_string = f"""
+    response_string = """
     Based on your unofficial transcript, here are some courses that you should take:
-    {"\n".join([suggestion[0] + ': fullfills ' + ','.join(suggestion[1]) for suggestion in suggestions])}
-    
-    """
+    """ + "\n".join([suggestion[0] + ': fullfills ' + ','.join(suggestion[1]) for suggestion in suggestions])
     print(suggestions)
     return suggestions, "Here are some course suggestions: {suggestions}", "text-data"
 
