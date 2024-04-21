@@ -34,6 +34,7 @@ CREATE TABLE professor (
 
 CREATE TABLE section (
     section_id serial primary key,
+    section_name varchar(256) NOT NULL,
     course_name varchar(256) NOT NULL,
     course_id int REFERENCES course(course_id),
     professor_name varchar(256) NOT NULL,
