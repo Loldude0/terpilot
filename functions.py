@@ -428,5 +428,30 @@ def make_suggestions(context_manager):
     print(suggestions)
     return suggestions, "Here are some course suggestions: {suggestions}", "text-data"
 
+def split_days(s):
+    return re.findall('M|Tu|W|Th|F', s)
+
+def convert_to_schedule(course_list):
+    course_list = course_list[0]
+    days = {"M": "Monday", "Tu": "Tuesday", "W": "Wednesday", "Th": "Thursday", "F": "Friday"}
+    res = []
+    for course in course_list:
+        classe = course.split('-')[0]
+        sectione = course.split('-')[1]
+        sections = get_sections_time_from_course(classe)
+        for section in sections:
+            if section[1] == sectione:
+                course_times = section[0].split(' | ')
+                for course_time in course_times:
+                    day, time = course_time.split(' ')
+                    start_time, end_time = time.split('-')
+                    start_time = datetime.strptime(start_time, "%I:%M%p").strftime("%H:%M")
+                    end_time = datetime.strptime(end_time, "%I:%M%p").strftime("%H:%M")
+                    dayss = split_days(day)
+                    for dayy in dayss:
+                        res.append({"start": days[dayy], "start_time": start_time, "end_time": end_time, "text": course})
+
+    return res
+
 if __name__ == "__main__":
     print(generate_schedule(["CMSC330", "CMSC351", "ENGL101"], None))
