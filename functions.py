@@ -209,7 +209,6 @@ def get_map_data(class_lst, context_manager):
         "geo-data",
     )
 
-
 def get_average_professor_rating(professor_name):
     cur.execute(
         """
