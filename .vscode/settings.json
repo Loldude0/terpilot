@@ -9,6 +9,16 @@
             "database": "postgres",
             "username": "postgres",
             "name": "localpostgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "database": "postgres",
+            "username": "postgres",
+            "name": "terpilot"
         }
     ]
 }
