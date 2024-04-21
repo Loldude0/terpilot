@@ -18,7 +18,6 @@ const MapComponent = ({ locations }) => {
   // I will add the center of UMD later
   // 38.987886156592246, -76.94299360133668
   const center = { lat: 38.987886156592246, lng: -76.94299360133668 };
-  console.log(center);
   return (
     <GoogleMap
       mapContainerStyle={mapContainerStyle}
@@ -27,6 +26,7 @@ const MapComponent = ({ locations }) => {
       options = {options}
     >
       {locations.map((loc, index) => (
+        console.log(loc),
         <Marker
           key={index}
           position={{ lat: parseFloat(loc.lat), lng: parseFloat(loc.lng) }}
