@@ -8,6 +8,10 @@ import os
 from dotenv import load_dotenv
 from flask_cors import CORS
 
+#fuck cors we allow every single thing, EVERY SINGLE THING SO EVERYTHING WORKS
+
+
+
 from function_caller import *
 
 load_dotenv()
