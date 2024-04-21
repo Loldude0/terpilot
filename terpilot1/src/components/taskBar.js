@@ -13,7 +13,6 @@ function TaskBar() {
         <img src={turtleLogo} alt="Turtle Logo" style={{ marginLeft: '10px', width: '45px', height: '45px' }} />
       </div>
       <div>
-        <button className="task-bar-button" onClick={() => navigate("/schedulebuilding")}>View Schedules</button>
         <span>Welcome Pranav</span>
         <button className="task-bar-button"><i className="icon-settings"></i></button>
       </div>

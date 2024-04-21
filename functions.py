@@ -425,7 +425,7 @@ def make_suggestions(context_manager):
     Based on your unofficial transcript, here are some courses that you should take:
     """ + "\n".join([suggestion[0] + ': fullfills ' + ','.join(suggestion[1]) for suggestion in suggestions])
     print(suggestions)
-    return suggestions, "Here are some course suggestions: {suggestions}", "text-data"
+    return response_string, "Here are some course suggestions: {suggestions}", "text-data"
 
 def split_days(s):
     return re.findall('M|Tu|W|Th|F', s)

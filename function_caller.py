@@ -39,10 +39,10 @@ function_list = {
                     How to call: get_sections_for_course("~course name~")""",
         "function": get_sections_for_course,
     },
-    "get_suggestions":{
+    "make_suggestions":{
         "description": """this function gets the suggestions for the user based on the courses taken and the geneds fulfilled.
                     How to call: get_suggestions()""",
-        "function": get_suggestions,
+        "function": make_suggestions,
     },
     "general_chat": {
         "description": """this function is a general chat function that can be used to chat with the model.
