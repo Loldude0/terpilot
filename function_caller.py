@@ -20,6 +20,9 @@ function_list = {
     "get_map_data": {"description": """this function gets the map data for the given class and section number.
                     How to call: get_map_data([~list of classes~])""",
                     "function": get_map_data},
+    "generate_professor_summary": { "description": """this function generates a summary of the professor based on the input professor name.
+                                   How to call: generate_professor_summary("~name of the professor~")""",
+                                   "function": generate_professor_summary},
     "general_chat": {"description": """this function is a general chat function that can be used to chat with the model.
                     This function will be called when the user request deos not match any of the available functions.
                     How to call: general_chat(~message~)""",
@@ -53,6 +56,7 @@ class FunctionCaller:
             {{ "function": "generate_schedule", "args": [["CMSC330", "CMSC351", "ENGL101"]] }}
             {{ "function": "get_map_data", "args": [["CMSC330_0101", "CMSC351_0104", "ENGL101_0201"]] }}
             {{ "function": "general_chat", "args": ["hello, how are you doing?"] }}
+            {{ "function": "generate_professor_summary", "args": ["Maksym Morawski"] }}
 
             
             !! Some of the Chat history are stored just for the sake of the context. Only the last message is used to generate the response. 

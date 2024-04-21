@@ -104,6 +104,23 @@ def general_chat(input_text, context_manager):
     
     return response, response, "text-data"
 
+def generate_summary(string, context_manager):
+    context_manager.swap_system_message(f"""
+        [SYSTEM PRPMPT]
+        You are a summary generator that generates a summary of a given text.
+        You should summarize the text in a short, consise manner.
+    """, "Sure, I can help with summarizing the text.")
+
+def generate_professor_summary(professor_name, context_manager):
+    professor_name = "Maksym Morawski"
+    average_rating = 4.5
+    summary = generate_summary("", context_manager)
+    full_summary = f"""
+                Here is a summary of Professor {professor_name}.
+                Average Rating: {average_rating}
+                {summary}"""
+    return full_summary, full_summary, "text-data"
+
 def search_location(class_name, section):
     return {"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}
 
