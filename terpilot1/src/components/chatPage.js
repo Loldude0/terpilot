@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef} from 'react';
 import {useLoadScript} from '@react-google-maps/api'; // Import the useLoadScript hook
 import { 
   MainContainer, 
@@ -23,6 +23,14 @@ function ChatPage() {
   const {isLoaded, loadError} = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY
   });
+  const messagesEndRef = useRef(null);
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
 
   const sendMessageToBackend = async (messageContent) => {
     // Uncomment the following lines and replace with your backend endpoint
@@ -88,6 +96,7 @@ function ChatPage() {
             </div>
           )
         )}
+        <div className="bottom-ref" ref={messagesEndRef} />
       </div>
       <div className="input-container">
         <textarea

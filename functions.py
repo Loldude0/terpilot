@@ -104,7 +104,11 @@ def general_chat(input_text, context_manager):
     
     return response, response, "text-data"
 
+def search_location(class_name, section):
+    return {"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}
+
 def get_map_data(class_lst, context_manager):
+    #locations_lst = search_location(class_lst)
     location_lst = [{"name":"251 North", "lng": -76.9496090325357, "lat": 38.99274005}, {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702}]
     return location_lst, "Here are the location of the classes: {location_lst}", "geo-data"
 

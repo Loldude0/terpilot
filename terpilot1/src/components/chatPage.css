@@ -10,10 +10,14 @@
   z-index: 10;
 }
 
+.bottom-ref {
+  height: 0px;
+}
+
 .messages {
   flex-grow: 1;
   overflow-y: auto;
-  padding-top: 0; /* Remove any padding that could create white space at the top */
+  padding-top: 70px; /* Remove any padding that could create white space at the top */
   padding-left: 20vw; /* Left padding for visual spacing */
   padding-right: 20vw; /* Right padding for visual spacing */
   margin-top: 70;
@@ -25,7 +29,7 @@
 .messages::after {
   content: '';
   display: block;
-  height: 70px; /* Adjust as needed to prevent the input from covering the last message */
+  height: 0px; /* Adjust as needed to prevent the input from covering the last message */
 }
 
 .message-bubble {
