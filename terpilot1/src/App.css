@@ -1,130 +1,72 @@
-/* Import a fancy font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
-:root {
-  --cs-font-family: 'Lobster', cursive; /* Change font family globally for chat components */
-  --cs-primary-color: #000; /* Black primary color */
-  --cs-primary-alt-color: #fff; /* White alternate color */
-  --cs-message-list-bg-color: #fff; /* Background of message list */
-  --cs-message-list-message-bg-color: #f1f1f1; /* Background of messages */
-  --cs-message-list-message-border-radius: 50px; /* Rounded corners for messages */
+html, body {
+  height:100%;
+  overflow: hidden;
 }
 
-/* Within your CSS file where you style the chat UI components */
-
-/* Adjusting the ConversationHeader component styles */
-.cs-conversation-header {
-  background-color: #000; /* Assuming you want a black header */
-  color: #fff;
-}
-
-/* MessageInput should span the width of the screen */
-.cs-message-input__input {
-  background-color: #fff; /* Change background color to white */
-  border: 2px solid #ccc;
-  flex-grow: 1; /* Adjust if necessary for padding or margins */
-  padding: 12px 20px 12px 15px;
-}
-
-/* Adjusting the send button color */
-.cs-message-input__button {
-  color: #989898;
-}
-
-/* Style overrides for MessageList to remove blue and apply black and white theme */
-.cs-message--outgoing .cs-message__content {
-  background-color: #6a6a6a;
-  color: #fff;
-}
-
-.cs-message--incoming .cs-message__content {
-  background-color: #fff;
-  color: #000;
-}
-.cs-message-list {
-  padding-top: 96px; /* Adjust this value based on your toolbar height */
-  overflow-y: auto;
-  /* other styles */
-}
-.cs-message--outgoing:first-child .cs-message__bubble,
-.cs-message--incoming:first-child .cs-message__bubble {
-  margin-top: 70px; /* Same as the height of the toolbar to push the first message down */
-}
-/* Full-height MainContainer to make the chat UI take up the whole screen */
-.cs-main-container {
-  height: calc(100vh - 20px); /* Height minus taskbar height */
-  border: none; /* Remove if there's any default border */
-}
-.cs-message--outgoing .cs-message__content,
-.cs-message--incoming .cs-message__content {
-  font-size: 20px; /* Increase text size */
-  padding-right: 30px; /* Add padding to the right to move text to the left */
-}
-
-/* Specific selector for the text input */
-.cs-message-input__input input {
-  color: #fff !important;  /* Change background color to with !important */
-  border: 2px solid #b4b2b2 !important;
-}
-
-/* Preserve layout for MessageInput */
- .cs-message-input.cs-input__input {
+.task-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--taskbar-color);
   display: flex;
-  flex-direction: row;
-  position: relative;
-  background-color: #fff;
-  border-top: none !important; /* Add !important to override conflicting styles */
-  border-right: none !important;
-  border-bottom: none !important;
-  border-left: none !important;
-  box-sizing: border-box;
-  padding: 0;
-  overflow: visible;
-  flex-shrink: 0;
-} 
-/* ... other styles ... */
-
-/* Specific selector for the text input within the Chat UI Kit */
-.cs-message-input .cs-message-input__input {
-  background-color: #fff !important; /* White background */
-  color: #ccc !important; /* Greyish text */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  height: 70px;
 }
 
-/* Placeholder color */
-.cs-message-input .cs-message-input__input::placeholder {
-  color: #aaa !important; /* Greyish placeholder text */
+.task-bar .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif; /* Fancy font for the logo */
+  margin-left: 10px; /* Maintain alignment */
 }
 
-/* Ensure the send button and text input are aligned correctly */
-.cs-message-input__button {
-  align-self: center !important;
+.task-bar-button {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Update the send button color if needed */
-.cs-message-input__button {
-  background-color: #4CAF50 !important; /* Green background */
-  color: #fff !important; /* White text */
+.task-bar-button:hover {
+  background-color: var(--button-hover-color);
+  color: var(--background-color);
+}
+.task-bar-button {
+  background-color: transparent; /* Ensures no background color changes */
+  color: black; /* Default text color */
+  transition: color 0.3s; /* Smooth transition for text color */
 }
 
-.my-chat-container .cs-message-input__input {
-  background-color: #fff !important; /* Change background color to white */
-  color: #ccc !important; /* Change text color to grey */
+.task-bar-button:hover {
+  color: #dca92a; /* Soft blue for hover */
 }
 
-.my-chat-container .cs-message-input__input::placeholder {
-  color: #aaa !important; /* Change placeholder text color to light grey */
+
+.icon-settings {
+  font-style: normal; /* Placeholder for the settings icon */
+  padding-left: 10px;
 }
 
-/* Specific styling for the send button */
-.my-chat-container .cs-message-input__button {
-  background-color: #4CAF50 !important; /* Example: change background color to green */
-  color: #fff !important; /* Example: change text color to white */
-}
+@media (max-width: 500px) {
+  .task-bar {
+    flex-direction: column;
+    height: auto;
+  }
 
-.cs-message-input__content-editor{
-  background-color: #ffffff;
-}
-
-.cs-message-input__content-editor-wrapper{
-  background-color: #ffffff;
+  .task-bar .logo,
+  .task-bar .task-bar-button {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
 }

@@ -1,0 +1,219 @@
+{
+    "course_name": "Introduction to Computer Systems",
+    "course_number": "CMSC216",
+    "credits": "4",
+    "grading_method": "Reg",
+    "prereq": "CMSC132, MATH141",
+    "restriction": "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permission of CMSC - Computer Science department",
+    "description": "Introduction to the interaction between user programs and the operating system/hardware. Major topics include C programming, introductory systems programming, and assembly language. Other concepts covered include UNIX, machine data representation, thread management, optimization, and virtual memory. Programming is done in the Linux Environment.",
+    "sections": [
+        {
+            "section_id": "0101",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 9:30am-10:45am | MW 8:00am-8:50am"
+        },
+        {
+            "section_id": "0102",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 9:30am-10:45am | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0103",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "TuTh 9:30am-10:45am | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0104",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "TuTh 9:30am-10:45am | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0105",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "33",
+            "waitlist": "0",
+            "times": "TuTh 9:30am-10:45am | MW 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0106",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 9:30am-10:45am | MW 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0107",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "TuTh 9:30am-10:45am | MW 1:00pm-1:50pm"
+        },
+        {
+            "section_id": "0201",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 11:00am-12:15pm | MW 8:00am-8:50am"
+        },
+        {
+            "section_id": "0202",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "TuTh 11:00am-12:15pm | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0203",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 11:00am-12:15pm | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0204",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "31",
+            "waitlist": "0",
+            "times": "TuTh 11:00am-12:15pm | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0205",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "27",
+            "waitlist": "0",
+            "times": "TuTh 11:00am-12:15pm | MW 11:00am-11:50am"
+        },
+        {
+            "section_id": "0206",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "TuTh 11:00am-12:15pm | MW 12:00pm-12:50pm"
+        },
+        {
+            "section_id": "0207",
+            "professor": "Christopher Kauffman",
+            "total_seats": "36",
+            "open_seats": "32",
+            "waitlist": "0",
+            "times": "TuTh 11:00am-12:15pm | MW 1:00pm-1:50pm"
+        },
+        {
+            "section_id": "0301",
+            "professor": "Ilchul Yoon",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 12:30pm-1:45pm | MW 8:00am-8:50am"
+        },
+        {
+            "section_id": "0302",
+            "professor": "Ilchul Yoon",
+            "total_seats": "36",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "TuTh 12:30pm-1:45pm | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0303",
+            "professor": "Ilchul Yoon",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 12:30pm-1:45pm | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0304",
+            "professor": "Ilchul Yoon",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 12:30pm-1:45pm | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0305",
+            "professor": "Ilchul Yoon",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 12:30pm-1:45pm | MW 11:00am-11:50am"
+        },
+        {
+            "section_id": "0306",
+            "professor": "Ilchul Yoon",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 12:30pm-1:45pm | MW 11:00am-11:50am"
+        },
+        {
+            "section_id": "0307",
+            "professor": "Ilchul Yoon",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 12:30pm-1:45pm | MW 12:00pm-12:50pm"
+        },
+        {
+            "section_id": "0401",
+            "professor": "Nelson Padua-Perez",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | TuTh 8:00am-8:50am"
+        },
+        {
+            "section_id": "0402",
+            "professor": "Nelson Padua-Perez",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | TuTh 8:00am-8:50am"
+        },
+        {
+            "section_id": "0403",
+            "professor": "Nelson Padua-Perez",
+            "total_seats": "36",
+            "open_seats": "33",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | TuTh 9:30am-10:20am"
+        },
+        {
+            "section_id": "0404",
+            "professor": "Nelson Padua-Perez",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | TuTh 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0405",
+            "professor": "Nelson Padua-Perez",
+            "total_seats": "36",
+            "open_seats": "33",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | TuTh 2:00pm-2:50pm"
+        }
+    ]
+}

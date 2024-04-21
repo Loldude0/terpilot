@@ -16,4 +16,8 @@ class GeminiContextManager:
     def get_context(self):
         return self._context
     
+    def swap_system_message(self,systemprompt, modelresponse):
+        self._context[0] = glm.Content(role="user", parts=[glm.Part(text=systemprompt,)])
+        self._context[1] = glm.Content(role="model", parts=[glm.Part(text=modelresponse,)])
+    
     

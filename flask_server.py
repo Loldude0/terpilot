@@ -17,9 +17,13 @@ import os
 from dotenv import load_dotenv
 import json
 
+from function_caller import FunctionCaller
+
 
 load_dotenv()
 connection_string = os.getenv("CONNECTION_STRING")
+
+fc = FunctionCaller()
 
 from flask import current_app, g
 
@@ -38,7 +42,7 @@ def get_probable():
     data = request.json.get("message")
     print(type(data))
     print(data)
-    response = parse_query(data)
+    response = fc.parse_query(data)
     print(type(response))
     
     return jsonify({"response": response})

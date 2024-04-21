@@ -1,0 +1,219 @@
+{
+    "course_name": "Discrete Structures",
+    "course_number": "CMSC250",
+    "credits": "4",
+    "grading_method": "Reg",
+    "prereq": "MATH141, CMSC131",
+    "restriction": "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permissions of CMSC - Computer Science department",
+    "description": "Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science. Introduction to permutations, combinations, graphs, and trees with selected applications.",
+    "sections": [
+        {
+            "section_id": "0101",
+            "professor": "Mohammad Nayeem Teli",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 2:00pm-3:15pm | MW 8:00am-8:50am"
+        },
+        {
+            "section_id": "0102",
+            "professor": "Mohammad Nayeem Teli",
+            "total_seats": "36",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "TuTh 2:00pm-3:15pm | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0103",
+            "professor": "Mohammad Nayeem Teli",
+            "total_seats": "36",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "TuTh 2:00pm-3:15pm | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0104",
+            "professor": "Mohammad Nayeem Teli",
+            "total_seats": "38",
+            "open_seats": "38",
+            "waitlist": "0",
+            "times": "TuTh 2:00pm-3:15pm | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0105",
+            "professor": "Mohammad Nayeem Teli",
+            "total_seats": "38",
+            "open_seats": "37",
+            "waitlist": "0",
+            "times": "TuTh 2:00pm-3:15pm | MW 3:00pm-3:50pm"
+        },
+        {
+            "section_id": "0106",
+            "professor": "Mohammad Nayeem Teli",
+            "total_seats": "38",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "TuTh 2:00pm-3:15pm | MW 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0107",
+            "professor": "Mohammad Nayeem Teli",
+            "total_seats": "38",
+            "open_seats": "38",
+            "waitlist": "0",
+            "times": "TuTh 2:00pm-3:15pm | MW 3:00pm-3:50pm"
+        },
+        {
+            "section_id": "0201",
+            "professor": "Paul Kline",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | MW 8:00am-8:50am"
+        },
+        {
+            "section_id": "0202",
+            "professor": "Paul Kline",
+            "total_seats": "36",
+            "open_seats": "36",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | MW 9:00am-9:50am"
+        },
+        {
+            "section_id": "0203",
+            "professor": "Paul Kline",
+            "total_seats": "38",
+            "open_seats": "38",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | MW 12:00pm-12:50pm"
+        },
+        {
+            "section_id": "0204",
+            "professor": "Paul Kline",
+            "total_seats": "38",
+            "open_seats": "38",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | MW 1:00pm-1:50pm"
+        },
+        {
+            "section_id": "0205",
+            "professor": "Paul Kline",
+            "total_seats": "38",
+            "open_seats": "37",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | MW 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0206",
+            "professor": "Paul Kline",
+            "total_seats": "38",
+            "open_seats": "38",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | MW 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0208",
+            "professor": "Paul Kline",
+            "total_seats": "38",
+            "open_seats": "38",
+            "waitlist": "0",
+            "times": "TuTh 3:30pm-4:45pm | MW 10:00am-10:50am"
+        },
+        {
+            "section_id": "0301",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MWF 12:00pm-12:50pm | TuTh 8:00am-8:50am"
+        },
+        {
+            "section_id": "0302",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MWF 12:00pm-12:50pm | TuTh 9:30am-10:20am"
+        },
+        {
+            "section_id": "0303",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "31",
+            "waitlist": "0",
+            "times": "MWF 12:00pm-12:50pm | TuTh 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0304",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MWF 12:00pm-12:50pm | TuTh 3:30pm-4:20pm"
+        },
+        {
+            "section_id": "0305",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "34",
+            "waitlist": "0",
+            "times": "MWF 12:00pm-12:50pm | TuTh 3:30pm-4:20pm"
+        },
+        {
+            "section_id": "0306",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "33",
+            "waitlist": "0",
+            "times": "MWF 12:00pm-12:50pm | TuTh 5:00pm-5:50pm"
+        },
+        {
+            "section_id": "0401",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | TuTh 8:00am-8:50am"
+        },
+        {
+            "section_id": "0402",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "33",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | TuTh 9:30am-10:20am"
+        },
+        {
+            "section_id": "0403",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "33",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | TuTh 2:00pm-2:50pm"
+        },
+        {
+            "section_id": "0404",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | TuTh 3:30pm-4:20pm"
+        },
+        {
+            "section_id": "0405",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "35",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | TuTh 3:30pm-4:20pm"
+        },
+        {
+            "section_id": "0406",
+            "professor": "Fawzi Emad",
+            "total_seats": "35",
+            "open_seats": "33",
+            "waitlist": "0",
+            "times": "MWF 1:00pm-1:50pm | TuTh 5:00pm-5:50pm"
+        }
+    ]
+}
