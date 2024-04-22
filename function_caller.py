@@ -20,7 +20,7 @@ function_list = {
         "function": generate_schedule,
     },
     "get_map_data": {
-        "description": """this function gets the map data for the given class.
+        "description": """this function gets the map data for the given class. It takes in a LIST of classes as input.
                     How to call: get_map_data([~list of classes~])""",
         "function": get_map_data,
     },
@@ -78,13 +78,13 @@ class FunctionCaller:
 
             example:
             {{ "function": "generate_schedule", "args": [["CMSC330", "CMSC351", "ENGL101"]] }}
-            {{ "function": "get_map_data", "args": [["CMSC330_0101", "CMSC351_0104", "ENGL101_0201"]] }}
+            {{ "function": "get_map_data", "args": [["CMSC330-0101", "CMSC351-0104", "ENGL101-0201"]] }}
             {{ "function": "general_chat", "args": ["hello, how are you doing?"] }}
             {{ "function": "get_course_information", "args": ["CMSC330"] }}
             {{ "function": "get_sections_for_course", "args": ["CMSC330"] }}
+            {{ "function": "make_suggestions", "args": [] }}
             {{ "function": "generate_professor_summary", "args": ["Maksym Morawski"] }}
 
-            
             !! Some of the Chat history are stored just for the sake of the context. Only the last message is used to generate the response. 
             !!IMPORTANT!! MAKE SURE TO FOLLOW THE FORMAT EXACTLY AS SHOWN ABOVE
             !!YOU MUST USE THE RESPONSE FORMAT ABOVE TO CALL THE FUNCTION. DO NOT RESPOND WITH NATURAL LANGUAGE!
@@ -108,6 +108,7 @@ class FunctionCaller:
         chat = model.start_chat(history=self.context_manager.get_context()[:2])
         response = chat.send_message(input_text).text
         print(response)
+        clean_response(response)
         response_dict = ast.literal_eval(response)
         # print(response_dict["args"])
         response, message, response_type = function_list[response_dict["function"]][

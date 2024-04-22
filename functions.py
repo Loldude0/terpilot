@@ -109,27 +109,6 @@ def generate_schedule(lst, context_manager):
     generate_schedule_aux(class_lst, time_table, 0, [], res)
     print(res)
     res = convert_to_schedule(res)
-    res = [
-        {"start": "Monday", "start_time": "09:00", "end_time": "10:00", "text": "Math"},
-        {
-            "start": "Monday",
-            "start_time": "10:00",
-            "end_time": "11:00",
-            "text": "English",
-        },
-        {
-            "start": "Tuesday",
-            "start_time": "09:00",
-            "end_time": "10:00",
-            "text": "Science",
-        },
-        {
-            "start": "Tuesday",
-            "start_time": "10:00",
-            "end_time": "11:00",
-            "text": "History",
-        },
-    ]
     message = "Here is a schedule for the classes: {res}"
     return res, message, "schedule-data"
 
@@ -145,7 +124,7 @@ def general_chat(input_text, context_manager):
     context_manager.swap_system_message(
         f"""s
         [SYSTEM PROMPT]
-        You are a friendly copilot that helps students in the University of Maryland perform various tasks regarding our ELMS.
+        You are a friendly copilot that helps students in the University of Maryland perform various tasks.
         You should refer to yourself as "Terpilot" when talking to the user.
         Always respond with concise and short messages.
         
@@ -161,11 +140,14 @@ def general_chat(input_text, context_manager):
 def generate_summary(input_text, context_manager):
     summary_context_manager = GeminiContextManager()
     summary_context_manager.add_context(
-        "user"
+        "user",
         f"""
         [SYSTEM PROMPT]
         You are a summary generator that generates a summary of a given text.
-        You should summarize the text in a short, consise manner within 128 words.
+        You should summarize the text in a short, consise manner within 100 words.
+        DO NOT USE MARKDOWN OR ANYTHING. Summarize in just plain text. MAKE SURE TO NOT GO ABOVE THE LIMIT.
+        DO NOT USE SPECIAL CHARACTERS SUCH AS \\N OR #. ONLY USE NORMAL ALPHABETS.
+        DO NOT TALK ABOUT A PARTICULAR CLASS REVIEWS BUT TALK ABOUT REVIEWS IN GENERAL.
     """
     )
     summary_context_manager.add_context(
@@ -186,23 +168,20 @@ def generate_professor_summary(professor_name, context_manager):
         summary = generate_summary(fetched_summary, context_manager)
 
     average_rating = get_average_professor_rating(professor_name)
-    full_summary = f"""
-                Here is a summary of Professor {professor_name}.
-                Average Rating: {average_rating}
-                {summary}"""
+    full_summary = f"""Here is a summary of Professor {professor_name}.\nAverage Rating: {average_rating}\n{summary[0]}"""
     return full_summary, full_summary, "text-data"
 
 
-def search_location(class_name, section):
-    return {"name": "251 North", "lng": -76.9496090325357, "lat": 38.99274005}
-
-
 def get_map_data(class_lst, context_manager):
-    # locations_lst = search_location(class_lst)
-    location_lst = [
-        {"name": "251 North", "lng": -76.9496090325357, "lat": 38.99274005},
-        {"name": "94th Aero Squadron", "lng": -76.9210122711411, "lat": 38.9781702},
-    ]
+    location_lst = []
+    for course in class_lst:
+        print(course)
+        course_name = course.split("-")[0]
+        section = course.split("-")[1]
+        location = get_course_location(course_name, section)
+        to_add = {"lat": location[0].split(", ")[0], "lng": location[0].split(", ")[1]}
+        location_lst.append(to_add)
+        print(to_add)
     return (
         location_lst,
         "Here are the location of the classes: {location_lst}",
@@ -216,7 +195,7 @@ def get_average_professor_rating(professor_name):
         FROM professor
         WHERE professor_name = %s
     """,
-        (professor_name),
+        (professor_name,),
     )
     rating = cur.fetchone()
     if rating is None:
@@ -254,14 +233,14 @@ def get_course_name_from_course_id(course_id):
     return course_name[0]
 
 
-def get_sections_time_from_course(course_name):
+def get_sections_time_from_course(course_name, context_manager):
     cur.execute(
         """
         SELECT course_time, section_name
         FROM section
         WHERE course_name = %s
     """,
-        (get_course_name_from_course_id(course_name),),
+        (get_course_name_from_course_id(course_name),)
     )
     time = cur.fetchall()
     return time
@@ -291,7 +270,7 @@ def parse_time_for_section(time):
 def process_timetable(classes):
     timetable = {}
     for course_id in classes:
-        sections_time = get_sections_time_from_course(course_id)
+        sections_time = get_sections_time_from_course(course_id, None)
         for time, section_name in sections_time:
             if course_id not in timetable:
                 timetable[course_id] = {}
@@ -300,7 +279,7 @@ def process_timetable(classes):
     return timetable
 
 
-def get_course_information(course_id):
+def get_course_information(course_id, context_manager):
     cur.execute(
         """
         SELECT course_name, course_description, course_credits, course_prerequisites, course_corequisites, course_grading, course_restriction, course_average_grade
@@ -310,37 +289,41 @@ def get_course_information(course_id):
         (course_id,),
     )
     course_info = cur.fetchone()
+    formattted_Str = f"Course Name: {course_info[0]}\nCourse Description: {course_info[1]}\nCourse Credits: {course_info[2]}\nCourse Prerequisites: {course_info[3]}\nCourse Corequisites: {course_info[4]}\nCourse Grading: {course_info[5]}\nCourse Restriction: {course_info[6]}\nCourse Average Grade: {course_info[7]}"
     if course_info is None:
         return None
-    return course_info
+    return formattted_Str, "Here is the course information for the course: {formattted_Str}", "text-data"
 
 
-def get_sections_for_course(course_id):
+def get_sections_for_course(course_id, context_manager):
     cur.execute(
         """
         SELECT section_name, professor_name, professor_rating, course_time, course_total_seats, course_open_seats, course_waitlist, course_rating, course_location
         FROM section
         WHERE course_name = %s
     """,
-        (get_course_name_from_course_id(course_id),),
+        (get_course_name_from_course_id(course_id),)
     )
     sections = cur.fetchall()
-    return sections
+    final_string = ""
+    for section in sections:
+        final_string += f"Section: {section[0]}\nProfessor: {section[1]}\nProfessor Rating: {section[2]}\nCourse Time: {section[3]}\nTotal Seats: {section[4]}\nOpen Seats: {section[5]}\nWaitlist: {section[6]}\nCourse Rating: {section[7]}\nCourse Location: {section[8]}\n\n"
+    return final_string, "Here are the sections for the course: {final_string}", "text-data"
 
 
-def get_section_location(section_name):
+def get_section_location(course_id, section_name):
     cur.execute(
         """
         SELECT course_location
         FROM section
-        WHERE section_name = %s
+        WHERE section_name = %s AND course_name = %s
     """,
-        (section_name,),
+        (section_name, get_course_name_from_course_id(course_id),),
     )
-    location = cur.fetchone()
-    if location is None:
+    location0 = cur.fetchone()
+    if location0 is None:
         return None
-    return location[0]
+    return location0[0]
 
 
 hardcoded_lat_long_bldg = {
@@ -404,14 +387,12 @@ def get_lat_long_bldg(bldg):
     return hardcoded_lat_long_bldg[bldg]
 
 
-def get_course_location(course_id):
-    sections = get_sections_for_course(course_id)
-    location = []
-    for section in sections:
-        location.append(get_section_location(section[0]))
-
+def get_course_location(course_id, section):
+    locationyy = []
+    locationyy.append(get_section_location(course_id, section))
+    print(locationyy)
     latlonglist = []
-    for loc in location:
+    for loc in locationyy:
         locs = loc.split(" | ")
         print(locs)
         for l in locs:
@@ -421,9 +402,7 @@ def get_course_location(course_id):
 
 def make_suggestions(context_manager):
     suggestions = get_suggestions()
-    response_string = """
-    Based on your unofficial transcript, here are some courses that you should take:
-    """ + "\n".join([suggestion[0] + ': fullfills ' + ','.join(suggestion[1]) for suggestion in suggestions])
+    response_string ="Based on your unofficial transcript, here are some courses that you should take:\n" + "\n".join([suggestion[0] + ': ' + ','.join(suggestion[1]) for suggestion in suggestions])
     print(suggestions)
     return response_string, "Here are some course suggestions: {suggestions}", "text-data"
 
@@ -437,7 +416,7 @@ def convert_to_schedule(course_list):
     for course in course_list:
         classe = course.split('-')[0]
         sectione = course.split('-')[1]
-        sections = get_sections_time_from_course(classe)
+        sections = get_sections_time_from_course(classe, None)
         for section in sections:
             if section[1] == sectione:
                 course_times = section[0].split(' | ')
