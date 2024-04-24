@@ -19,7 +19,7 @@ import Calendar from './Calendar';
 function ChatPage() {
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState("");
-  const [loading, setLoading] = useState(false); // Define the loading state
+  const [loading, setLoading] = useState(false); 
   const [mapLocations, setMapLocations] = useState([]);
   const [scheduleData, setScheduleData] = useState([]);
   const {isLoaded, loadError} = useLoadScript({
@@ -35,7 +35,7 @@ function ChatPage() {
   }, [messages]);
 
   const sendMessageToBackend = async (messageContent) => {
-    // Uncomment the following lines and replace with your backend endpoint
+    
     console.log("sending to backend")
     const response = await fetch('http://127.0.0.1:5000/getresponse', {
       method: 'POST',
@@ -65,25 +65,25 @@ function ChatPage() {
       } else {
         console.log("error");
       }
-      // Handle the response data as needed...
+      
     } else {
-      // Handle errors...
+    
       setMessages([...messages, { content: "Error sending message", direction: "incoming" }]);
     }
   };
   
   const sendMessage = () => {
     if (!inputValue.trim()) return;
-    setLoading(true); // You would turn this true when sending starts
+    setLoading(true); 
     
     setMessages(prevMessages => [...prevMessages, { content: inputValue, direction: "outgoing" }]);
-    setInputValue(""); // Clear the input after sending
+    setInputValue(""); 
     sendMessageToBackend(inputValue); // Call the function to send the message to the backend
-    setLoading(false); // You would turn this true when sending starts and then back to false when done
+    setLoading(false); 
   };
   const handleKeyDown = (e) => {
-    if (e.key === 'Enter' && !e.shiftKey) { // Added check for shiftKey
-      e.preventDefault(); // Prevents the default action of Enter key (new line)
+    if (e.key === 'Enter' && !e.shiftKey) { 
+      e.preventDefault(); 
       sendMessage();
     }
   };
@@ -109,7 +109,7 @@ function ChatPage() {
         <textarea
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          onKeyDown={handleKeyDown} // Added onKeyDown event handler
+          onKeyDown={handleKeyDown} 
           placeholder="Type something..."
           className="message-input"
           rows={1}
